@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn_android/QUIZ/!svn/ver/1323/trunk/projects/INSTA002/proj.android/jni/facebook
+END
+STFacebookHelper_JNI_Helper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn_android/QUIZ/!svn/ver/1323/trunk/projects/INSTA002/proj.android/jni/facebook/STFacebookHelper_JNI_Helper.cpp
+END
+STFacebook_JNI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn_android/QUIZ/!svn/ver/1323/trunk/projects/INSTA002/proj.android/jni/facebook/STFacebook_JNI.cpp
+END
+STFacebookHelper_JNI_Helper.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn_android/QUIZ/!svn/ver/1323/trunk/projects/INSTA002/proj.android/jni/facebook/STFacebookHelper_JNI_Helper.h
+END
+com_common_android_facebook_FacebookBridge.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn_android/QUIZ/!svn/ver/1323/trunk/projects/INSTA002/proj.android/jni/facebook/com_common_android_facebook_FacebookBridge.cpp
+END
+com_common_android_facebook_FacebookBridge.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn_android/QUIZ/!svn/ver/1323/trunk/projects/INSTA002/proj.android/jni/facebook/com_common_android_facebook_FacebookBridge.h
+END
+STFacebook_Internal.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn_android/QUIZ/!svn/ver/1323/trunk/projects/INSTA002/proj.android/jni/facebook/STFacebook_Internal.cpp
+END

@@ -1,0 +1,7 @@
+ID,ImageName,GalleryName,IsLock,IsNewImage,IsUsedNewImage
+1,animal.png,Animals,TRUE,FALSE,
+2,flower.png,Flowers,TRUE,FALSE,
+3,ladies.png,Ladies,TRUE,FALSE,
+4,mandala.png,Mandalas,TRUE,FALSE,
+5,mysterious.png,Mysteries,TRUE,FALSE,
+6,ocean.png,Ocean,TRUE,FALSE,

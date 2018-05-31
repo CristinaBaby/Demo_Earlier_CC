@@ -1,0 +1,27 @@
+[submodule "Classes/crossplatformapi"]
+	path = Classes/crossplatformapi
+	url = ssh://git@stash.stm.com:7999/cmc/crossplatformapi.git
+[submodule "proj.ios_mac/ios/Depends/adsdk"]
+	path = proj.ios_mac/ios/Depends/adsdk
+	url = ssh://git@stash.stm.com:7999/cmc/adssdk-ios.git
+[submodule "proj.ios_mac/ios/Depends/AnalyticsSDK"]
+	path = proj.ios_mac/ios/Depends/AnalyticsSDK
+	url = ssh://git@stash.stm.com:7999/cmc/analyticssdk-ios.git
+[submodule "proj.ios_mac/ios/Depends/newsblast"]
+	path = proj.ios_mac/ios/Depends/newsblast
+	url = ssh://git@stash.stm.com:7999/cmc/newsblast-ios.git
+[submodule "proj.ios_mac/ios/Depends/Component"]
+	path = proj.ios_mac/ios/Depends/Component
+	url = ssh://git@stash.stm.com:7999/cmc/component-ios.git
+[submodule "proj.as_google/app/libs/lib_component"]
+	path = proj.as_google/app/libs/lib_component
+	url = ssh://git@stash.stm.com:7999/cmc/component-android.git
+[submodule "proj.as_google/app/libs/lib_ads_production_Mopub"]
+	path = proj.as_google/app/libs/lib_ads_production_Mopub
+	url = ssh://git@stash.stm.com:7999/cmc/adssdk-android.git
+[submodule "proj.as_google/app/libs/lib_ananlytics"]
+	path = proj.as_google/app/libs/lib_ananlytics
+	url = ssh://git@stash.stm.com:7999/cmc/analyticssdk-android.git
+[submodule "proj.as_google/app/libs/lib_coco2dx"]
+	path = proj.as_google/app/libs/lib_coco2dx
+	url = ssh://git@stash.stm.com:7999/cmf/cocos2d-x-lib-android.git

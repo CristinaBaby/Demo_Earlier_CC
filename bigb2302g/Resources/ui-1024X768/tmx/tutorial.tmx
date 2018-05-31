@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+<tileset firstgid="2" name="tutorial_bg" tilewidth="1024" tileheight="768">
+<image source="tutorial_bg.png" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="3" name="tutorial_1" tilewidth="1024" tileheight="768">
+<image source="tutorial_1.png" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="4" name="tutorial_2" tilewidth="1024" tileheight="768">
+<image source="tutorial_2.png" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="5" name="tutorial_3" tilewidth="1024" tileheight="768">
+<image source="tutorial_3.png" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<objectgroup name="Object" width="1" height="1">
+<object name="tutorial_bg" gid="2" x="0" y="768">
+<properties>
+<property name="ID" value="tutorial_bg"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="tutorial_1" gid="3" x="0" y="768">
+<properties>
+<property name="ID" value="tutorial_1"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="tutorial_2" gid="4" x="0" y="768">
+<properties>
+<property name="ID" value="tutorial_2"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="tutorial_3" gid="5" x="0" y="768">
+<properties>
+<property name="ID" value="tutorial_3"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+</map>

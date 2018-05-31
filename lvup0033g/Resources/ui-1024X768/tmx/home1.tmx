@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+<tileset firstgid="1" name="ui01_menu_bg" tilewidth="1024" tileheight="768">
+<image source="ui01_menu_bg.jpg" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="2" name="ui01_btn_settings" tilewidth="297" tileheight="64">
+<image source="ui01_btn_settings.png" trans="ff00ff" width="297" height="64"/>
+</tileset>
+<tileset firstgid="3" name="ui01_btn_settings_h" tilewidth="308" tileheight="75">
+<image source="ui01_btn_settings_h.png" trans="ff00ff" width="308" height="75"/>
+</tileset>
+<tileset firstgid="4" name="ui01_btn_deluxe" tilewidth="297" tileheight="64">
+<image source="ui01_btn_deluxe.png" trans="ff00ff" width="297" height="64"/>
+</tileset>
+<tileset firstgid="5" name="ui01_btn_deluxe_h" tilewidth="308" tileheight="75">
+<image source="ui01_btn_deluxe_h.png" trans="ff00ff" width="308" height="75"/>
+</tileset>
+<tileset firstgid="6" name="ui01_btn_new_game" tilewidth="297" tileheight="64">
+<image source="ui01_btn_new_game.png" trans="ff00ff" width="297" height="64"/>
+</tileset>
+<tileset firstgid="7" name="ui01_btn_new_game_h" tilewidth="308" tileheight="75">
+<image source="ui01_btn_new_game_h.png" trans="ff00ff" width="308" height="75"/>
+</tileset>
+<tileset firstgid="8" name="ui01_btn_resume" tilewidth="404" tileheight="87">
+<image source="ui01_btn_resume.png" trans="ff00ff" width="404" height="87"/>
+</tileset>
+<tileset firstgid="9" name="ui01_btn_resume_h" tilewidth="416" tileheight="98">
+<image source="ui01_btn_resume_h.png" trans="ff00ff" width="416" height="98"/>
+</tileset>
+<tileset firstgid="10" name="ui01_logo" tilewidth="852" tileheight="307">
+<image source="ui01_logo.png" trans="ff00ff" width="852" height="307"/>
+</tileset>
+<tileset firstgid="11" name="ui01_btn_more" tilewidth="106" tileheight="74">
+<image source="ui01_btn_more.png" trans="ff00ff" width="106" height="74"/>
+</tileset>
+<tileset firstgid="12" name="ui01_btn_more_h" tilewidth="124" tileheight="90">
+<image source="ui01_btn_more_h.png" trans="ff00ff" width="124" height="90"/>
+</tileset>
+<objectgroup name="BGObject" width="1" height="1">
+<object name="ui01_menu_bg" gid="1" x="0" y="768">
+<properties>
+<property name="Name" value="ui01_menu_bg"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui01_btn_settings" gid="2" x="364" y="728">
+<properties>
+<property name="ID" value="ui01_btn_settings"/>
+<property name="ResWidth" value="297"/>
+<property name="ResHeight" value="64"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui01_btn_settings_h" gid="3" x="359" y="734">
+<properties>
+<property name="ID" value="ui01_btn_settings_h"/>
+<property name="ResWidth" value="308"/>
+<property name="ResHeight" value="75"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui01_btn_deluxe" gid="4" x="364" y="641">
+<properties>
+<property name="ID" value="ui01_btn_deluxe"/>
+<property name="ResWidth" value="297"/>
+<property name="ResHeight" value="64"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui01_btn_deluxe_h" gid="5" x="359" y="647">
+<properties>
+<property name="ID" value="ui01_btn_deluxe_h"/>
+<property name="ResWidth" value="308"/>
+<property name="ResHeight" value="75"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui01_btn_new_game" gid="6" x="364" y="550">
+<properties>
+<property name="ID" value="ui01_btn_new_game"/>
+<property name="ResWidth" value="297"/>
+<property name="ResHeight" value="64"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui01_btn_new_game_h" gid="7" x="359" y="556">
+<properties>
+<property name="ID" value="ui01_btn_new_game_h"/>
+<property name="ResWidth" value="308"/>
+<property name="ResHeight" value="75"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui01_btn_resume" gid="8" x="310" y="449">
+<properties>
+<property name="ID" value="ui01_btn_resume"/>
+<property name="ResWidth" value="404"/>
+<property name="ResHeight" value="87"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui01_btn_resume_h" gid="9" x="304" y="455">
+<properties>
+<property name="ID" value="ui01_btn_resume_h"/>
+<property name="ResWidth" value="416"/>
+<property name="ResHeight" value="98"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui01_logo" gid="10" x="95" y="363">
+<properties>
+<property name="ID" value="ui01_logo"/>
+<property name="ResWidth" value="852"/>
+<property name="ResHeight" value="307"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui01_btn_more" gid="11" x="900" y="755">
+<properties>
+<property name="ID" value="ui01_btn_more"/>
+<property name="ResWidth" value="106"/>
+<property name="ResHeight" value="74"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui01_btn_more_h" gid="12" x="891" y="764">
+<properties>
+<property name="ID" value="ui01_btn_more_h"/>
+<property name="ResWidth" value="124"/>
+<property name="ResHeight" value="90"/>
+</properties>
+</object>
+</objectgroup>
+</map>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+ <tileset firstgid="1" name="L20_bg" tilewidth="1024" tileheight="768">
+  <image source="L20_bg.jpg" trans="ff00ff" width="1024" height="768"/>
+ </tileset>
+ <tileset firstgid="2" name="L20_01_w" tilewidth="93" tileheight="44">
+  <image source="L20_01_w.png" trans="ff00ff" width="93" height="44"/>
+ </tileset>
+ <tileset firstgid="3" name="L20_02_w" tilewidth="131" tileheight="56">
+  <image source="L20_02_w.png" trans="ff00ff" width="131" height="56"/>
+ </tileset>
+ <tileset firstgid="4" name="L20_03_w" tilewidth="78" tileheight="143">
+  <image source="L20_03_w.png" trans="ff00ff" width="78" height="143"/>
+ </tileset>
+ <tileset firstgid="5" name="L20_04_w" tilewidth="56" tileheight="72">
+  <image source="L20_04_w.png" trans="ff00ff" width="56" height="72"/>
+ </tileset>
+ <tileset firstgid="6" name="L20_05_w" tilewidth="111" tileheight="151">
+  <image source="L20_05_w.png" trans="ff00ff" width="111" height="151"/>
+ </tileset>
+ <tileset firstgid="7" name="L20_06_w" tilewidth="81" tileheight="79">
+  <image source="L20_06_w.png" trans="ff00ff" width="81" height="79"/>
+ </tileset>
+ <tileset firstgid="8" name="L20_07_w" tilewidth="63" tileheight="64">
+  <image source="L20_07_w.png" trans="ff00ff" width="63" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="L20_09_w" tilewidth="44" tileheight="106">
+  <image source="L20_09_w.png" trans="ff00ff" width="44" height="106"/>
+ </tileset>
+ <tileset firstgid="10" name="L20_10_w" tilewidth="56" tileheight="49">
+  <image source="L20_10_w.png" trans="ff00ff" width="56" height="49"/>
+ </tileset>
+ <tileset firstgid="11" name="L20_11_w" tilewidth="72" tileheight="123">
+  <image source="L20_11_w.png" trans="ff00ff" width="72" height="123"/>
+ </tileset>
+ <tileset firstgid="12" name="L20_12_w" tilewidth="102" tileheight="70">
+  <image source="L20_12_w.png" trans="ff00ff" width="102" height="70"/>
+ </tileset>
+ <tileset firstgid="13" name="L20_13_w" tilewidth="67" tileheight="97">
+  <image source="L20_13_w.png" trans="ff00ff" width="67" height="97"/>
+ </tileset>
+ <tileset firstgid="14" name="L20_14_w" tilewidth="45" tileheight="103">
+  <image source="L20_14_w.png" trans="ff00ff" width="45" height="103"/>
+ </tileset>
+ <tileset firstgid="15" name="L20_15_w" tilewidth="179" tileheight="184">
+  <image source="L20_15_w.png" trans="ff00ff" width="179" height="184"/>
+ </tileset>
+ <tileset firstgid="16" name="L20_16_w" tilewidth="140" tileheight="164">
+  <image source="L20_16_w.png" trans="ff00ff" width="140" height="164"/>
+ </tileset>
+ <tileset firstgid="17" name="L20_17_w" tilewidth="44" tileheight="97">
+  <image source="L20_17_w.png" trans="ff00ff" width="44" height="97"/>
+ </tileset>
+ <tileset firstgid="18" name="L20_19_w" tilewidth="90" tileheight="90">
+  <image source="L20_19_w.png" trans="ff00ff" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="19" name="L20_20_w" tilewidth="49" tileheight="87">
+  <image source="L20_20_w.png" trans="ff00ff" width="49" height="87"/>
+ </tileset>
+ <tileset firstgid="20" name="L20_21_w" tilewidth="72" tileheight="125">
+  <image source="L20_21_w.png" trans="ff00ff" width="72" height="125"/>
+ </tileset>
+ <tileset firstgid="21" name="L20_22_w" tilewidth="105" tileheight="81">
+  <image source="L20_22_w.png" trans="ff00ff" width="105" height="81"/>
+ </tileset>
+ <tileset firstgid="22" name="L20_23_w" tilewidth="101" tileheight="64">
+  <image source="L20_23_w.png" trans="ff00ff" width="101" height="64"/>
+ </tileset>
+ <tileset firstgid="23" name="L20_24_w" tilewidth="144" tileheight="110">
+  <image source="L20_24_w.png" trans="ff00ff" width="144" height="110"/>
+ </tileset>
+ <tileset firstgid="24" name="L20_26_w" tilewidth="63" tileheight="101">
+  <image source="L20_26_w.png" trans="ff00ff" width="63" height="101"/>
+ </tileset>
+ <tileset firstgid="25" name="L20_27_w" tilewidth="126" tileheight="52">
+  <image source="L20_27_w.png" trans="ff00ff" width="126" height="52"/>
+ </tileset>
+ <tileset firstgid="26" name="L20_29_w" tilewidth="118" tileheight="111">
+  <image source="L20_29_w.png" trans="ff00ff" width="118" height="111"/>
+ </tileset>
+ <tileset firstgid="27" name="L20_30_w" tilewidth="125" tileheight="95">
+  <image source="L20_30_w.png" trans="ff00ff" width="125" height="95"/>
+ </tileset>
+ <tileset firstgid="28" name="L20_31_w" tilewidth="60" tileheight="96">
+  <image source="L20_31_w.png" trans="ff00ff" width="60" height="96"/>
+ </tileset>
+ <tileset firstgid="29" name="L20_32_w" tilewidth="46" tileheight="109">
+  <image source="L20_32_w.png" trans="ff00ff" width="46" height="109"/>
+ </tileset>
+ <objectgroup name="BGObject" width="1" height="1">
+  <object gid="1" x="0" y="768">
+   <properties>
+    <property name="Name" value="L20_bg"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Objects" width="1" height="1">
+  <object gid="2" x="248" y="374">
+   <properties>
+    <property name="ID" value="L20_01"/>
+   </properties>
+  </object>
+  <object gid="3" x="295" y="540">
+   <properties>
+    <property name="ID" value="L20_02"/>
+   </properties>
+  </object>
+  <object gid="4" x="609" y="213">
+   <properties>
+    <property name="ID" value="L20_03"/>
+   </properties>
+  </object>
+  <object gid="5" x="289" y="103">
+   <properties>
+    <property name="ID" value="L20_04"/>
+   </properties>
+  </object>
+  <object gid="6" x="913" y="151">
+   <properties>
+    <property name="ID" value="L20_05"/>
+   </properties>
+  </object>
+  <object gid="7" x="241" y="305">
+   <properties>
+    <property name="ID" value="L20_06"/>
+   </properties>
+  </object>
+  <object gid="8" x="864" y="347">
+   <properties>
+    <property name="ID" value="L20_07"/>
+   </properties>
+  </object>
+  <object gid="9" x="819" y="501">
+   <properties>
+    <property name="ID" value="L20_09"/>
+   </properties>
+  </object>
+  <object gid="10" x="165" y="146">
+   <properties>
+    <property name="ID" value="L20_10"/>
+   </properties>
+  </object>
+  <object gid="11" x="388" y="384">
+   <properties>
+    <property name="ID" value="L20_11"/>
+   </properties>
+  </object>
+  <object gid="12" x="117" y="458">
+   <properties>
+    <property name="ID" value="L20_12"/>
+   </properties>
+  </object>
+  <object gid="13" x="201" y="97">
+   <properties>
+    <property name="ID" value="L20_13"/>
+   </properties>
+  </object>
+  <object gid="14" x="499" y="257">
+   <properties>
+    <property name="ID" value="L20_14"/>
+   </properties>
+  </object>
+  <object gid="15" x="751" y="705">
+   <properties>
+    <property name="ID" value="L20_15"/>
+   </properties>
+  </object>
+  <object gid="16" x="141" y="628">
+   <properties>
+    <property name="ID" value="L20_16"/>
+   </properties>
+  </object>
+  <object gid="17" x="432" y="234">
+   <properties>
+    <property name="ID" value="L20_17"/>
+   </properties>
+  </object>
+  <object gid="18" x="934" y="373">
+   <properties>
+    <property name="ID" value="L20_19"/>
+   </properties>
+  </object>
+  <object gid="19" x="545" y="164">
+   <properties>
+    <property name="ID" value="L20_20"/>
+   </properties>
+  </object>
+  <object gid="20" x="785" y="327">
+   <properties>
+    <property name="ID" value="L20_21"/>
+   </properties>
+  </object>
+  <object gid="21" x="582" y="457">
+   <properties>
+    <property name="ID" value="L20_22"/>
+   </properties>
+  </object>
+  <object gid="22" x="0" y="518">
+   <properties>
+    <property name="ID" value="L20_23"/>
+   </properties>
+  </object>
+  <object gid="23" x="443" y="623">
+   <properties>
+    <property name="ID" value="L20_24"/>
+   </properties>
+  </object>
+  <object gid="24" x="961" y="550">
+   <properties>
+    <property name="ID" value="L20_26"/>
+   </properties>
+  </object>
+  <object gid="25" x="687" y="401">
+   <properties>
+    <property name="ID" value="L20_27"/>
+   </properties>
+  </object>
+  <object gid="26" x="8" y="655">
+   <properties>
+    <property name="ID" value="L20_29"/>
+   </properties>
+  </object>
+  <object gid="27" x="381" y="478">
+   <properties>
+    <property name="ID" value="L20_30"/>
+   </properties>
+  </object>
+  <object gid="28" x="152" y="388">
+   <properties>
+    <property name="ID" value="L20_31"/>
+   </properties>
+  </object>
+  <object gid="29" x="381" y="235">
+   <properties>
+    <property name="ID" value="L20_32"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

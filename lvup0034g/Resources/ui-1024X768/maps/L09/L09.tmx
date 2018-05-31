@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+ <tileset firstgid="1" name="L09_bg" tilewidth="1024" tileheight="768">
+  <image source="L09_bg.jpg" trans="ff00ff" width="1024" height="768"/>
+ </tileset>
+ <tileset firstgid="2" name="L09_02_w" tilewidth="90" tileheight="87">
+  <image source="L09_02_w.png" trans="ff00ff" width="90" height="87"/>
+ </tileset>
+ <tileset firstgid="3" name="L09_03_w" tilewidth="52" tileheight="63">
+  <image source="L09_03_w.png" trans="ff00ff" width="52" height="63"/>
+ </tileset>
+ <tileset firstgid="4" name="L09_04_w" tilewidth="78" tileheight="102">
+  <image source="L09_04_w.png" trans="ff00ff" width="78" height="102"/>
+ </tileset>
+ <tileset firstgid="5" name="L09_05_w" tilewidth="77" tileheight="66">
+  <image source="L09_05_w.png" trans="ff00ff" width="77" height="66"/>
+ </tileset>
+ <tileset firstgid="6" name="L09_06_w" tilewidth="44" tileheight="59">
+  <image source="L09_06_w.png" trans="ff00ff" width="44" height="59"/>
+ </tileset>
+ <tileset firstgid="7" name="L09_07_w" tilewidth="84" tileheight="81">
+  <image source="L09_07_w.png" trans="ff00ff" width="84" height="81"/>
+ </tileset>
+ <tileset firstgid="8" name="L09_08_w" tilewidth="87" tileheight="147">
+  <image source="L09_08_w.png" trans="ff00ff" width="87" height="147"/>
+ </tileset>
+ <tileset firstgid="9" name="L09_09_w" tilewidth="82" tileheight="95">
+  <image source="L09_09_w.png" trans="ff00ff" width="82" height="95"/>
+ </tileset>
+ <tileset firstgid="10" name="L09_10_w" tilewidth="71" tileheight="88">
+  <image source="L09_10_w.png" trans="ff00ff" width="71" height="88"/>
+ </tileset>
+ <tileset firstgid="11" name="L09_11_w" tilewidth="109" tileheight="44">
+  <image source="L09_11_w.png" trans="ff00ff" width="109" height="44"/>
+ </tileset>
+ <tileset firstgid="12" name="L09_12_w" tilewidth="44" tileheight="126">
+  <image source="L09_12_w.png" trans="ff00ff" width="44" height="126"/>
+ </tileset>
+ <tileset firstgid="13" name="L09_14_w" tilewidth="45" tileheight="72">
+  <image source="L09_14_w.png" trans="ff00ff" width="45" height="72"/>
+ </tileset>
+ <tileset firstgid="14" name="L09_15_w" tilewidth="78" tileheight="44">
+  <image source="L09_15_w.png" trans="ff00ff" width="78" height="44"/>
+ </tileset>
+ <tileset firstgid="15" name="L09_16_w" tilewidth="78" tileheight="64">
+  <image source="L09_16_w.png" trans="ff00ff" width="78" height="64"/>
+ </tileset>
+ <tileset firstgid="16" name="L09_17_w" tilewidth="104" tileheight="83">
+  <image source="L09_17_w.png" trans="ff00ff" width="104" height="83"/>
+ </tileset>
+ <tileset firstgid="17" name="L09_18_w" tilewidth="75" tileheight="58">
+  <image source="L09_18_w.png" trans="ff00ff" width="75" height="58"/>
+ </tileset>
+ <tileset firstgid="18" name="L09_19_w" tilewidth="85" tileheight="82">
+  <image source="L09_19_w.png" trans="ff00ff" width="85" height="82"/>
+ </tileset>
+ <tileset firstgid="19" name="L09_20_w" tilewidth="79" tileheight="115">
+  <image source="L09_20_w.png" trans="ff00ff" width="79" height="115"/>
+ </tileset>
+ <tileset firstgid="20" name="L09_21_w" tilewidth="62" tileheight="85">
+  <image source="L09_21_w.png" trans="ff00ff" width="62" height="85"/>
+ </tileset>
+ <tileset firstgid="21" name="L09_22_w" tilewidth="68" tileheight="180">
+  <image source="L09_22_w.png" trans="ff00ff" width="68" height="180"/>
+ </tileset>
+ <tileset firstgid="22" name="L09_23_w" tilewidth="87" tileheight="52">
+  <image source="L09_23_w.png" trans="ff00ff" width="87" height="52"/>
+ </tileset>
+ <tileset firstgid="23" name="L09_24_w" tilewidth="81" tileheight="79">
+  <image source="L09_24_w.png" trans="ff00ff" width="81" height="79"/>
+ </tileset>
+ <tileset firstgid="24" name="L09_25_w" tilewidth="44" tileheight="101">
+  <image source="L09_25_w.png" trans="ff00ff" width="44" height="101"/>
+ </tileset>
+ <tileset firstgid="25" name="L09_26_w" tilewidth="44" tileheight="65">
+  <image source="L09_26_w.png" trans="ff00ff" width="44" height="65"/>
+ </tileset>
+ <tileset firstgid="26" name="L09_27_w" tilewidth="86" tileheight="107">
+  <image source="L09_27_w.png" trans="ff00ff" width="86" height="107"/>
+ </tileset>
+ <tileset firstgid="27" name="L09_28_w" tilewidth="54" tileheight="77">
+  <image source="L09_28_w.png" trans="ff00ff" width="54" height="77"/>
+ </tileset>
+ <tileset firstgid="28" name="L09_30_w" tilewidth="80" tileheight="72">
+  <image source="L09_30_w.png" trans="ff00ff" width="80" height="72"/>
+ </tileset>
+ <tileset firstgid="29" name="L09_31_w" tilewidth="88" tileheight="81">
+  <image source="L09_31_w.png" trans="ff00ff" width="88" height="81"/>
+ </tileset>
+ <objectgroup name="BGObject" width="1" height="1">
+  <object gid="1" x="0" y="768">
+   <properties>
+    <property name="Name" value="L09_bg"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Objects" width="1" height="1">
+  <object gid="2" x="639" y="547">
+   <properties>
+    <property name="ID" value="L09_02"/>
+   </properties>
+  </object>
+  <object gid="3" x="168" y="532">
+   <properties>
+    <property name="ID" value="L09_03"/>
+   </properties>
+  </object>
+  <object gid="4" x="946" y="304">
+   <properties>
+    <property name="ID" value="L09_04"/>
+   </properties>
+  </object>
+  <object gid="5" x="16" y="216">
+   <properties>
+    <property name="ID" value="L09_05"/>
+   </properties>
+  </object>
+  <object gid="6" x="152" y="197">
+   <properties>
+    <property name="ID" value="L09_06"/>
+   </properties>
+  </object>
+  <object gid="7" x="45" y="535">
+   <properties>
+    <property name="ID" value="L09_07"/>
+   </properties>
+  </object>
+  <object gid="8" x="602" y="716">
+   <properties>
+    <property name="ID" value="L09_08"/>
+   </properties>
+  </object>
+  <object gid="9" x="321" y="329">
+   <properties>
+    <property name="ID" value="L09_09"/>
+   </properties>
+  </object>
+  <object gid="10" x="665" y="440">
+   <properties>
+    <property name="ID" value="L09_10"/>
+   </properties>
+  </object>
+  <object gid="11" x="298" y="609">
+   <properties>
+    <property name="ID" value="L09_11"/>
+   </properties>
+  </object>
+  <object gid="12" x="211" y="252">
+   <properties>
+    <property name="ID" value="L09_12"/>
+   </properties>
+  </object>
+  <object gid="13" x="967" y="565">
+   <properties>
+    <property name="ID" value="L09_14"/>
+   </properties>
+  </object>
+  <object gid="14" x="871" y="613">
+   <properties>
+    <property name="ID" value="L09_15"/>
+   </properties>
+  </object>
+  <object gid="15" x="435" y="538">
+   <properties>
+    <property name="ID" value="L09_16"/>
+   </properties>
+  </object>
+  <object gid="16" x="745" y="550">
+   <properties>
+    <property name="ID" value="L09_17"/>
+   </properties>
+  </object>
+  <object gid="17" x="734" y="171">
+   <properties>
+    <property name="ID" value="L09_18"/>
+   </properties>
+  </object>
+  <object gid="18" x="457" y="423">
+   <properties>
+    <property name="ID" value="L09_19"/>
+   </properties>
+  </object>
+  <object gid="19" x="552" y="467">
+   <properties>
+    <property name="ID" value="L09_20"/>
+   </properties>
+  </object>
+  <object gid="20" x="795" y="437">
+   <properties>
+    <property name="ID" value="L09_21"/>
+   </properties>
+  </object>
+  <object gid="21" x="856" y="503">
+   <properties>
+    <property name="ID" value="L09_22"/>
+   </properties>
+  </object>
+  <object gid="22" x="401" y="86">
+   <properties>
+    <property name="ID" value="L09_23"/>
+   </properties>
+  </object>
+  <object gid="23" x="574" y="340">
+   <properties>
+    <property name="ID" value="L09_24"/>
+   </properties>
+  </object>
+  <object gid="24" x="676" y="285">
+   <properties>
+    <property name="ID" value="L09_25"/>
+   </properties>
+  </object>
+  <object gid="25" x="241" y="354">
+   <properties>
+    <property name="ID" value="L09_26"/>
+   </properties>
+  </object>
+  <object gid="26" x="906" y="151">
+   <properties>
+    <property name="ID" value="L09_27"/>
+   </properties>
+  </object>
+  <object gid="27" x="210" y="431">
+   <properties>
+    <property name="ID" value="L09_28"/>
+   </properties>
+  </object>
+  <object gid="28" x="437" y="330">
+   <properties>
+    <property name="ID" value="L09_30"/>
+   </properties>
+  </object>
+  <object gid="29" x="295" y="495">
+   <properties>
+    <property name="ID" value="L09_31"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

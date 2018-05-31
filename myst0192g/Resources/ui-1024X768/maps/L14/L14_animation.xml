@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>L14_animation.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>greenlight</name>
+            <delay>0.094</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>L14_greenlight_00002.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00003.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00004.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00005.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00006.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00007.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00008.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00009.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00010.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00011.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00012.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00013.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00014.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00015.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00016.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00017.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00018.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00019.png</spriteFrame>
+            <spriteFrame>L14_greenlight_00020.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

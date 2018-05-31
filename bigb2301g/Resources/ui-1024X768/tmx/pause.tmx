@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+<tileset firstgid="1" name="in game" tilewidth="1024" tileheight="768">
+<image source="in game.jpg" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="2" name="ui06_pause_bg" tilewidth="206" tileheight="768">
+<image source="ui06_pause_bg.png" trans="ff00ff" width="206" height="768"/>
+</tileset>
+<tileset firstgid="3" name="ui06_settings" tilewidth="85" tileheight="85">
+<image source="ui06_settings.png" trans="ff00ff" width="85" height="85"/>
+</tileset>
+<tileset firstgid="4" name="ui06_settings_h" tilewidth="104" tileheight="104">
+<image source="ui06_settings_h.png" trans="ff00ff" width="104" height="104"/>
+</tileset>
+<tileset firstgid="5" name="ui06_menu" tilewidth="94" tileheight="76">
+<image source="ui06_menu.png" trans="ff00ff" width="94" height="76"/>
+</tileset>
+<tileset firstgid="6" name="ui06_menu_h" tilewidth="108" tileheight="89">
+<image source="ui06_menu_h.png" trans="ff00ff" width="108" height="89"/>
+</tileset>
+<tileset firstgid="7" name="ui06_replay" tilewidth="97" tileheight="84">
+<image source="ui06_replay.png" trans="ff00ff" width="97" height="84"/>
+</tileset>
+<tileset firstgid="8" name="ui06_replay_h" tilewidth="118" tileheight="105">
+<image source="ui06_replay_h.png" trans="ff00ff" width="118" height="105"/>
+</tileset>
+<tileset firstgid="9" name="ui06_play" tilewidth="107" tileheight="122">
+<image source="ui06_play.png" trans="ff00ff" width="107" height="122"/>
+</tileset>
+<tileset firstgid="10" name="ui06_play_h" tilewidth="107" tileheight="122">
+<image source="ui06_play_h.png" trans="ff00ff" width="107" height="122"/>
+</tileset>
+<tileset firstgid="11" name="ui06_levelbg" tilewidth="485" tileheight="485">
+<image source="ui06_levelbg.png" trans="ff00ff" width="485" height="485"/>
+</tileset>
+<tileset firstgid="12" name="ui06_Jigsaw_frame" tilewidth="518" tileheight="528">
+<image source="ui06_Jigsaw_frame.png" trans="ff00ff" width="518" height="528"/>
+</tileset>
+<tileset firstgid="13" name="ui06_ads" tilewidth="1024" tileheight="94">
+<image source="ui06_ads.png" trans="ff00ff" width="1024" height="94"/>
+</tileset>
+<objectgroup name="BGObject" width="1" height="1">
+<object name="in game" gid="1" x="0" y="768">
+<properties>
+<property name="Name" value="in game"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_pause_bg" gid="2" x="0" y="768">
+<properties>
+<property name="ID" value="ui06_pause_bg"/>
+<property name="ResWidth" value="206"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_settings" gid="3" x="36" y="212">
+<properties>
+<property name="ID" value="ui06_settings"/>
+<property name="ResWidth" value="85"/>
+<property name="ResHeight" value="85"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_settings_h" gid="4" x="26" y="221">
+<properties>
+<property name="ID" value="ui06_settings_h"/>
+<property name="ResWidth" value="104"/>
+<property name="ResHeight" value="104"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_menu" gid="5" x="31" y="514">
+<properties>
+<property name="ID" value="ui06_menu"/>
+<property name="ResWidth" value="94"/>
+<property name="ResHeight" value="76"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_menu_h" gid="6" x="24" y="520">
+<properties>
+<property name="ID" value="ui06_menu_h"/>
+<property name="ResWidth" value="108"/>
+<property name="ResHeight" value="89"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_replay" gid="7" x="30" y="365">
+<properties>
+<property name="ID" value="ui06_replay"/>
+<property name="ResWidth" value="97"/>
+<property name="ResHeight" value="84"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_replay_h" gid="8" x="19" y="375">
+<properties>
+<property name="ID" value="ui06_replay_h"/>
+<property name="ResWidth" value="118"/>
+<property name="ResHeight" value="105"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_play" gid="9" x="25" y="691">
+<properties>
+<property name="ID" value="ui06_play"/>
+<property name="ResWidth" value="107"/>
+<property name="ResHeight" value="122"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_play_h" gid="10" x="25" y="691">
+<properties>
+<property name="ID" value="ui06_play_h"/>
+<property name="ResWidth" value="107"/>
+<property name="ResHeight" value="122"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_levelbg" gid="11" x="342" y="637">
+<properties>
+<property name="ID" value="ui06_levelbg"/>
+<property name="ResWidth" value="485"/>
+<property name="ResHeight" value="485"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_Jigsaw_frame" gid="12" x="325" y="659">
+<properties>
+<property name="ID" value="ui06_Jigsaw_frame"/>
+<property name="ResWidth" value="518"/>
+<property name="ResHeight" value="528"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_ads" gid="13" x="0" y="94">
+<properties>
+<property name="ID" value="ui06_ads"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="94"/>
+</properties>
+</object>
+</objectgroup>
+</map>

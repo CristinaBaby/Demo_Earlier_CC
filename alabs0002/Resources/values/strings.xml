@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BTN_setting</key>
+	<string>SETTING</string>
+	<key>BTN_my_arts</key>
+	<string>MY ARTS</string>
+    <key>BTN_back</key>
+    <string>BACK</string>
+    <key>BTN_cancel</key>
+    <string>Cancel</string>
+    <key>BTN_reset</key>
+    <string>Reset</string>
+    <key>BTN_watch_ad</key>
+    <string>WATCH AD!</string>
+    <key>BTN_try_later</key>
+    <string>Try later!</string>
+    <key>BTN_tryAgain</key>
+    <string>Try Again</string>
+    <key>BTN_ok</key>
+    <string>OK</string>
+    <key>BTN_post</key>
+    <string>Post</string>
+    <key>BTN_delete</key>
+    <string>Delete</string>
+    <key>BTN_later</key>
+    <string>Later</string>
+    <key>BTN_go_ins</key>
+    <string>Inspiration</string>
+    <key>BTN_new</key>
+    <string>New</string>
+    <key>BTN_continue</key>
+    <string>Continue</string>
+    <key>TXT_gallery</key>
+    <string>Gallery</string>
+    <key>TXT_my_artwork</key>
+    <string>My Artwork</string>
+    <key>TXT_inspiration</key>
+    <string>Inspiration</string>
+    <key>TXT_post_inspiration</key>
+    <string>Post to Inspiration</string>
+    <key>TXT_music</key>
+    <string>MUSIC</string>
+    <key>TXT_unlock_all</key>
+    <string>PREMIUM SUBSCRIPTION</string>
+    <key>TXT_restore_purchase</key>
+    <string>RESTORE PURCHASE</string>
+    <key>TXT_share</key>
+    <string>SHARE</string>
+	<key>TXT_Chapter 1</key>
+	<string>Chapter 1</string>
+	<key>TXT_Chapter 2</key>
+	<string>Chapter 2</string>
+	<key>TXT_Chapter 3</key>
+	<string>Chapter 3</string>
+    <key>MSG_quit</key>
+    <string>Are you sure you want to exit the game?</string>
+    <key>MSG_reset</key>
+    <string>Are you sure to reset your current coloring page?</string>
+    <key>MSG_watch_ad</key>
+    <string>Watch an video ad to unlock this artwork?</string>
+    <key>MSG_watch_ad_pallette</key>
+    <string>Watch an video ad to unlock this pallette?</string>
+    <key>MSG_try_later</key>
+    <string>Video ad loads failed! You can try later!</string>
+    <key>MSG_undo</key>
+    <string>Undo limitation reached!</string>
+    <key>MSG_delete_myart</key>
+    <string>Are you sure to delete? It can't be recovered.</string>
+    <key>MSG_download</key>
+    <string>Downloading finished!</string>
+    <key>MSG_find_new</key>
+    <string>New content avaliable, do you want to download them now?</string>
+    <key>MSG_post to insprision</key>
+    <string>Your artwork has been posted to Inspiration!</string>
+    <key>MSG_continue</key>
+    <string>Do you want to continue your painting?</string>
+    <key>MSG_shared</key>
+    <string>You've shared this to inspiration, do you want to start a new one?</string>
+    <key>MSG_post fail</key>
+    <string>Sorry, something went wrong. Please try again later.</string>
+</dict>
+</plist>

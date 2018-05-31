@@ -1,0 +1,9 @@
+[submodule "cocos2d"]
+	path = cocos2d
+	url = ssh://git@stash.stm.com:7999/cmfpg/hidd-cocos2dx-src.git
+[submodule "proj.ios_mac/ios/depends"]
+	path = proj.ios_mac/ios/depends
+	url = ssh://git@stash.stm.com:7999/cmfpg/hidd-depends.git
+[submodule "Classes/hidd"]
+	path = Classes/hidd
+	url = ssh://git@stash.stm.com:7999/cmfpg/hidd-classes.git

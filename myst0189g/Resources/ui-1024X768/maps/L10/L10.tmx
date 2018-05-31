@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+ <tileset firstgid="1" name="L10_bg" tilewidth="1024" tileheight="768">
+  <image source="../L10_bg.jpg" trans="ffffff" width="1024" height="768"/>
+ </tileset>
+ <tileset firstgid="2" name="L10_02_w" tilewidth="76" tileheight="66">
+  <image source="L10_02_w.png" trans="ffffff" width="76" height="66"/>
+ </tileset>
+ <tileset firstgid="3" name="L10_03_w" tilewidth="83" tileheight="67">
+  <image source="L10_03_w.png" trans="ffffff" width="83" height="67"/>
+ </tileset>
+ <tileset firstgid="4" name="L10_04_w" tilewidth="121" tileheight="74">
+  <image source="L10_04_w.png" trans="ffffff" width="121" height="74"/>
+ </tileset>
+ <tileset firstgid="5" name="L10_05_w" tilewidth="100" tileheight="99">
+  <image source="L10_05_w.png" trans="ffffff" width="100" height="99"/>
+ </tileset>
+ <tileset firstgid="6" name="L10_06_w" tilewidth="34" tileheight="70">
+  <image source="L10_06_w.png" trans="ffffff" width="34" height="70"/>
+ </tileset>
+ <tileset firstgid="7" name="L10_07_w" tilewidth="41" tileheight="47">
+  <image source="L10_07_w.png" trans="ffffff" width="41" height="47"/>
+ </tileset>
+ <tileset firstgid="8" name="L10_08_w" tilewidth="45" tileheight="39">
+  <image source="L10_08_w.png" trans="ffffff" width="45" height="39"/>
+ </tileset>
+ <tileset firstgid="9" name="L10_09_w" tilewidth="53" tileheight="47">
+  <image source="L10_09_w.png" trans="ffffff" width="53" height="47"/>
+ </tileset>
+ <tileset firstgid="10" name="L10_10_w" tilewidth="49" tileheight="109">
+  <image source="L10_10_w.png" trans="ffffff" width="49" height="109"/>
+ </tileset>
+ <tileset firstgid="11" name="L10_11_w" tilewidth="68" tileheight="91">
+  <image source="L10_11_w.png" trans="ffffff" width="68" height="91"/>
+ </tileset>
+ <tileset firstgid="12" name="L10_12_w" tilewidth="55" tileheight="66">
+  <image source="L10_12_w.png" trans="ffffff" width="55" height="66"/>
+ </tileset>
+ <tileset firstgid="13" name="L10_13_w" tilewidth="74" tileheight="76">
+  <image source="L10_13_w.png" trans="ffffff" width="74" height="76"/>
+ </tileset>
+ <tileset firstgid="14" name="L10_14_w" tilewidth="62" tileheight="55">
+  <image source="L10_14_w.png" trans="ffffff" width="62" height="55"/>
+ </tileset>
+ <tileset firstgid="15" name="L10_15_w" tilewidth="52" tileheight="105">
+  <image source="L10_15_w.png" trans="ffffff" width="52" height="105"/>
+ </tileset>
+ <tileset firstgid="16" name="L10_19_w" tilewidth="34" tileheight="33">
+  <image source="L10_19_w.png" trans="ffffff" width="34" height="33"/>
+ </tileset>
+ <tileset firstgid="17" name="L10_20_w" tilewidth="54" tileheight="191">
+  <image source="L10_20_w.png" trans="ffffff" width="54" height="191"/>
+ </tileset>
+ <tileset firstgid="18" name="L10_22_w" tilewidth="129" tileheight="180">
+  <image source="L10_22_w.png" trans="ffffff" width="129" height="180"/>
+ </tileset>
+ <tileset firstgid="19" name="L10_24_w" tilewidth="62" tileheight="60">
+  <image source="L10_24_w.png" trans="ffffff" width="62" height="60"/>
+ </tileset>
+ <tileset firstgid="20" name="L10_25_w" tilewidth="58" tileheight="297">
+  <image source="L10_25_w.png" trans="ffffff" width="58" height="297"/>
+ </tileset>
+ <tileset firstgid="21" name="L10_26_w" tilewidth="50" tileheight="66">
+  <image source="L10_26_w.png" trans="ffffff" width="50" height="66"/>
+ </tileset>
+ <tileset firstgid="22" name="L10_27_w" tilewidth="81" tileheight="60">
+  <image source="L10_27_w.png" trans="ffffff" width="81" height="60"/>
+ </tileset>
+ <tileset firstgid="23" name="L10_28_w" tilewidth="39" tileheight="38">
+  <image source="L10_28_w.png" trans="ffffff" width="39" height="38"/>
+ </tileset>
+ <tileset firstgid="24" name="L10_29_w" tilewidth="57" tileheight="63">
+  <image source="L10_29_w.png" trans="ffffff" width="57" height="63"/>
+ </tileset>
+ <tileset firstgid="25" name="L10_30_w" tilewidth="42" tileheight="71">
+  <image source="L10_30_w.png" trans="ffffff" width="42" height="71"/>
+ </tileset>
+ <tileset firstgid="26" name="L10_31_w" tilewidth="103" tileheight="45">
+  <image source="L10_31_w.png" trans="ffffff" width="103" height="45"/>
+ </tileset>
+ <tileset firstgid="27" name="L10_32_w" tilewidth="53" tileheight="31">
+  <image source="L10_32_w.png" trans="ffffff" width="53" height="31"/>
+ </tileset>
+ <tileset firstgid="28" name="L10_coin_star_01" tilewidth="210" tileheight="128">
+  <image source="../L10_animation/Coin Star/L10_coin_star_01.png" trans="ffffff" width="210" height="128"/>
+ </tileset>
+ <objectgroup name="BGObject" width="1" height="1">
+  <object gid="1" x="0" y="768">
+   <properties>
+    <property name="Name" value="L10_bg"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Objects" width="1" height="1">
+  <object gid="2" x="449" y="618">
+   <properties>
+    <property name="ID" value="L10_02"/>
+   </properties>
+  </object>
+  <object gid="3" x="511" y="433">
+   <properties>
+    <property name="ID" value="L10_03"/>
+   </properties>
+  </object>
+  <object gid="4" x="232" y="98">
+   <properties>
+    <property name="ID" value="L10_04"/>
+   </properties>
+  </object>
+  <object gid="5" x="575" y="627">
+   <properties>
+    <property name="ID" value="L10_05"/>
+   </properties>
+  </object>
+  <object gid="6" x="61" y="504">
+   <properties>
+    <property name="ID" value="L10_06"/>
+   </properties>
+  </object>
+  <object gid="7" x="607" y="105">
+   <properties>
+    <property name="ID" value="L10_07"/>
+   </properties>
+  </object>
+  <object gid="8" x="672" y="192">
+   <properties>
+    <property name="ID" value="L10_08"/>
+   </properties>
+  </object>
+  <object gid="9" x="357" y="611">
+   <properties>
+    <property name="ID" value="L10_09"/>
+   </properties>
+  </object>
+  <object gid="10" x="786" y="138">
+   <properties>
+    <property name="ID" value="L10_10"/>
+   </properties>
+  </object>
+  <object gid="11" x="354" y="189">
+   <properties>
+    <property name="ID" value="L10_11"/>
+   </properties>
+  </object>
+  <object gid="12" x="259" y="315">
+   <properties>
+    <property name="ID" value="L10_12"/>
+   </properties>
+  </object>
+  <object gid="13" x="332" y="538">
+   <properties>
+    <property name="ID" value="L10_13"/>
+   </properties>
+  </object>
+    <object gid="14" x="404" y="487">
+   <properties>
+    <property name="ID" value="L10_14"/>
+   </properties>
+  </object>
+  <object gid="15" x="180" y="484">
+   <properties>
+    <property name="ID" value="L10_15"/>
+   </properties>
+  </object>
+  <object gid="16" x="401" y="384">
+   <properties>
+    <property name="ID" value="L10_19"/>
+   </properties>
+  </object>
+  <object gid="17" x="608" y="484">
+   <properties>
+    <property name="ID" value="L10_20"/>
+   </properties>
+  </object>
+  <object gid="18" x="820" y="336">
+   <properties>
+    <property name="ID" value="L10_22"/>
+   </properties>
+  </object>
+  <object gid="19" x="765" y="513">
+   <properties>
+    <property name="ID" value="L10_24"/>
+   </properties>
+  </object>
+  <object gid="20" x="271" y="649">
+   <properties>
+    <property name="ID" value="L10_25"/>
+   </properties>
+  </object>
+  <object gid="21" x="544" y="339">
+   <properties>
+    <property name="ID" value="L10_26"/>
+   </properties>
+  </object>
+  <object gid="22" x="81" y="271">
+   <properties>
+    <property name="ID" value="L10_27"/>
+   </properties>
+  </object>
+  <object gid="23" x="411" y="624">
+   <properties>
+    <property name="ID" value="L10_28"/>
+   </properties>
+  </object>
+  <object gid="24" x="442" y="437">
+   <properties>
+    <property name="ID" value="L10_29"/>
+   </properties>
+  </object>
+  <object gid="25" x="561" y="222">
+   <properties>
+    <property name="ID" value="L10_30"/>
+   </properties>
+  </object>
+  <object gid="26" x="499" y="493">
+   <properties>
+    <property name="ID" value="L10_31"/>
+   </properties>
+  </object>
+  <object gid="27" x="763" y="308">
+   <properties>
+    <property name="ID" value="L10_32"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Animation" width="1" height="1">
+  <object gid="28" x="330" y="625">
+   <properties>
+    <property name="FirstFrame" value="L10_coin_star_01.png"/>
+    <property name="Name" value="coin star"/>
+    <property name="TargetFile" value="L10_animation.xml"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

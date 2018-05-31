@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+<tileset firstgid="1" name="bg" tilewidth="1024" tileheight="768">
+<image source="bg.jpg" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="2" name="ui10_popup" tilewidth="686" tileheight="236">
+<image source="ui10_popup.png" trans="ff00ff" width="686" height="236"/>
+</tileset>
+<tileset firstgid="3" name="ui10_popup_button_h" tilewidth="156" tileheight="70">
+<image source="ui10_popup_button_h.png" trans="ff00ff" width="156" height="70"/>
+</tileset>
+<tileset firstgid="4" name="ui10_popup_button" tilewidth="148" tileheight="64">
+<image source="ui10_popup_button.png" trans="ff00ff" width="148" height="64"/>
+</tileset>
+<objectgroup name="BGObject" width="1" height="1">
+<object name="bg" gid="1" x="0" y="768">
+<properties>
+<property name="Name" value="bg"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui10_popup" gid="2" x="169" y="502">
+<properties>
+<property name="ID" value="ui10_popup"/>
+<property name="ResWidth" value="686"/>
+<property name="ResHeight" value="236"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui10_popup_button_h" gid="3" x="311" y="456">
+<properties>
+<property name="ID" value="ui10_popup_button_h"/>
+<property name="ResWidth" value="156"/>
+<property name="ResHeight" value="70"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui10_popup_button" gid="4" x="566" y="455">
+<properties>
+<property name="ID" value="ui10_popup_button"/>
+<property name="ResWidth" value="148"/>
+<property name="ResHeight" value="64"/>
+</properties>
+</object>
+</objectgroup>
+</map>

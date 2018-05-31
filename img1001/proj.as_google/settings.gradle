@@ -1,0 +1,2 @@
+include ':IMG1001'
+project(':IMG1001').projectDir = new File(settingsDir, 'app')

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+<tileset firstgid="1" name="L07" tilewidth="1024" tileheight="768">
+<image source="L07.jpg" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="2" name="ui04_bar" tilewidth="1024" tileheight="162">
+<image source="ui04_bar.png" trans="ff00ff" width="1024" height="162"/>
+</tileset>
+<tileset firstgid="3" name="ui04_previous" tilewidth="26" tileheight="53">
+<image source="ui04_previous.png" trans="ff00ff" width="26" height="53"/>
+</tileset>
+<tileset firstgid="4" name="ui04_previous_h" tilewidth="44" tileheight="69">
+<image source="ui04_previous_h.png" trans="ff00ff" width="44" height="69"/>
+</tileset>
+<tileset firstgid="5" name="ui04_next" tilewidth="27" tileheight="53">
+<image source="ui04_next.png" trans="ff00ff" width="27" height="53"/>
+</tileset>
+<tileset firstgid="6" name="ui04_next_h" tilewidth="43" tileheight="69">
+<image source="ui04_next_h.png" trans="ff00ff" width="43" height="69"/>
+</tileset>
+<tileset firstgid="7" name="ui04_hint" tilewidth="100" tileheight="89">
+<image source="ui04_hint.png" trans="ff00ff" width="100" height="89"/>
+</tileset>
+<tileset firstgid="8" name="ui04_hint_u" tilewidth="100" tileheight="89">
+<image source="ui04_hint_u.png" trans="ff00ff" width="100" height="89"/>
+</tileset>
+<tileset firstgid="9" name="ui04_number" tilewidth="36" tileheight="38">
+<image source="ui04_number.png" trans="ff00ff" width="36" height="38"/>
+</tileset>
+<tileset firstgid="10" name="ui04_plus" tilewidth="31" tileheight="31">
+<image source="ui04_plus.png" trans="ff00ff" width="31" height="31"/>
+</tileset>
+<tileset firstgid="11" name="ui04_pause" tilewidth="65" tileheight="65">
+<image source="ui04_pause.png" trans="ff00ff" width="65" height="65"/>
+</tileset>
+<tileset firstgid="12" name="ui04_font" tilewidth="44" tileheight="12">
+<image source="ui04_font.png" trans="ff00ff" width="44" height="12"/>
+</tileset>
+<tileset firstgid="13" name="ui04_frame_h" tilewidth="79" tileheight="75">
+<image source="ui04_frame_h.png" trans="ff00ff" width="79" height="75"/>
+</tileset>
+<tileset firstgid="14" name="ui04_frame" tilewidth="79" tileheight="74">
+<image source="ui04_frame.png" trans="ff00ff" width="79" height="74"/>
+</tileset>
+<tileset firstgid="15" name="ui04_wrong" tilewidth="63" tileheight="64">
+<image source="ui04_wrong.png" trans="ff00ff" width="63" height="64"/>
+</tileset>
+<objectgroup name="BGObject" width="1" height="1">
+<object name="L07" gid="1" x="0" y="768">
+<properties>
+<property name="Name" value="L07"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui04_bar" gid="2" x="0" y="768">
+<properties>
+<property name="ID" value="ui04_bar"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="162"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui04_previous" gid="3" x="154" y="745">
+<properties>
+<property name="ID" value="ui04_previous"/>
+<property name="ResWidth" value="26"/>
+<property name="ResHeight" value="53"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui04_previous_h" gid="4" x="145" y="753">
+<properties>
+<property name="ID" value="ui04_previous_h"/>
+<property name="ResWidth" value="44"/>
+<property name="ResHeight" value="69"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui04_next" gid="5" x="845" y="745">
+<properties>
+<property name="ID" value="ui04_next"/>
+<property name="ResWidth" value="27"/>
+<property name="ResHeight" value="53"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui04_next_h" gid="6" x="837" y="753">
+<properties>
+<property name="ID" value="ui04_next_h"/>
+<property name="ResWidth" value="43"/>
+<property name="ResHeight" value="69"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui04_hint" gid="7" x="912" y="758">
+<properties>
+<property name="ID" value="ui04_hint"/>
+<property name="ResWidth" value="100"/>
+<property name="ResHeight" value="89"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui04_hint_u" gid="8" x="912" y="758">
+<properties>
+<property name="ID" value="ui04_hint_u"/>
+<property name="ResWidth" value="100"/>
+<property name="ResHeight" value="89"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui04_number" gid="9" x="963" y="703">
+<properties>
+<property name="ID" value="ui04_number"/>
+<property name="ResWidth" value="36"/>
+<property name="ResHeight" value="38"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui04_plus" gid="10" x="966" y="698">
+<properties>
+<property name="ID" value="ui04_plus"/>
+<property name="ResWidth" value="31"/>
+<property name="ResHeight" value="31"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui04_pause" gid="11" x="31" y="745">
+<properties>
+<property name="ID" value="ui04_pause"/>
+<property name="ResWidth" value="65"/>
+<property name="ResHeight" value="65"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui04_font" gid="12" x="495" y="666">
+<properties>
+<property name="ID" value="ui04_font"/>
+<property name="ResWidth" value="44"/>
+<property name="ResHeight" value="12"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui04_frame_h" gid="13" x="207" y="759">
+<properties>
+<property name="ID" value="ui04_frame_h"/>
+<property name="ResWidth" value="79"/>
+<property name="ResHeight" value="75"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui04_frame" gid="14" x="313" y="758">
+<properties>
+<property name="ID" value="ui04_frame"/>
+<property name="ResWidth" value="79"/>
+<property name="ResHeight" value="74"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui04_wrong" gid="15" x="288" y="349">
+<properties>
+<property name="ID" value="ui04_wrong"/>
+<property name="ResWidth" value="63"/>
+<property name="ResHeight" value="64"/>
+</properties>
+</object>
+</objectgroup>
+</map>

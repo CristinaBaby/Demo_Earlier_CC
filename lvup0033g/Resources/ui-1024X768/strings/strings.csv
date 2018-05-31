@@ -1,0 +1,18 @@
+id,Name
+button_yes,Yes
+button_no,No
+button_ok,OK
+tips_not_play_pre,Please play the previous levels to gain access!
+delete_content,Are you sure you want to delete game progress?
+restart_content,Are you sure you want to restart?
+exit_content,Are you sure you want to exit the game?
+quit_content,Are you sure you want to quit the game?
+restore_no_transaction,Sorry\, you have no transaction!
+restore_successfully,Restore successfully!
+restore_failed,Restore failed.
+billing_not_supported_message,The Market billing service is not available at this time.  You can continue to use this app but you won't be able to make purchases.
+already_purchased,You've already purchased this.
+rate_us1,If you like this app
+rate_us2,please rate our game!
+email_subject,Look at This Awesome Hidden Object App!
+email_body,Hey!

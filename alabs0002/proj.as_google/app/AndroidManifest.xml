@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.applabsinc.android_enchantedforest"
+    android:installLocation="auto">
+
+    <uses-feature android:glEsVersion="0x00020000" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <!-- IAP for GP only -->
+    <!-- <uses-permission android:name="com.android.vending.BILLING" /> -->
+
+    <application
+        android:name="net.applabsinc.android_enchantedforest.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name">
+
+        <!-- Tell Cocos2dxActivity the name of our .so -->
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="cocos2dcpp" />
+
+        <activity
+            android:name="net.applabsinc.android_enchantedforest.AppActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- More game -->
+        <activity
+            android:name="com.common.android.jni.MoreGamesActivityForJNI"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+
+        <!--********************************Ads begin********************************-->
+        <!--********Android Studio工程的所有广告Activity配置全部在arr包里，此处不用配*******-->
+        <!--*********************************Ads end********************************-->
+
+        <!--&lt;!&ndash; IAP_Amazon &ndash;&gt;-->
+        <!--<receiver android:name="com.amazon.device.iap.ResponseReceiver" >-->
+        <!--<intent-filter>-->
+        <!--<action-->
+        <!--android:name="com.amazon.inapp.purchasing.NOTIFY"-->
+        <!--android:permission="com.amazon.inapp.purchasing.Permission.NOTIFY" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!-- IAP_Amazon end-->
+
+        <!-- Google Analytics -->
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+
+        <meta-data
+            android:name="GoogleAnalytics_trackerID"
+            android:value="UA-67475747-7" />
+        <!-- Google Analytics end -->
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="Flurry_Key"
+            android:value="966MNPVVZP28XQ92SBPF" />
+
+
+        <!-- 根据自己项目使用的广告类型选择一种ID格式填写，不用的可删除 -->
+
+        <!-- ********MoPub ads ID begin ********-->
+        <meta-data
+            android:name="MoPub_phone_banner"
+            android:value="efffd1f51fb94f63b8862a8314b933a4" />
+        <meta-data
+            android:name="MoPub_phone_fullscreen"
+            android:value="67dd110fed124453b5637dc49e85d48d" />
+        <meta-data
+            android:name="MoPub_phone_reward"
+            android:value="" />
+        <meta-data
+            android:name="MoPub_tablet_banner"
+            android:value="a614e841033a485ab15ce5946d6107b4" />
+        <meta-data
+            android:name="MoPub_tablet_fullscreen"
+            android:value="06b67c1ea3684b9abd29254092eaf494" />
+        <meta-data
+            android:name="MoPub_tablet_reward"
+            android:value="" />
+
+        <meta-data
+            android:name="AppSignature"
+            android:value="3f467eddf5f14367d06f9502ead653e8aa442293" />
+
+        <meta-data
+            android:name="AppID"
+            android:value="571067acf6cd45419f878e42" />
+
+        <meta-data
+            android:name="Reward_APPID"
+            android:value="45158" />
+        <meta-data
+            android:name="Reward_SecurityToken"
+            android:value="17cb6b7ccec3f68daa609d1a02493c79" />
+
+        <meta-data
+            android:name="Quantcast_API_Key"
+            android:value="08m9d6gbojhf5xd2-aptwck0g9wd0pqfh" />
+        <!-- ********MoPub ads ID end******** -->
+
+        <!-- Facebook SDK -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="Your facebook APP ID" />
+
+        <meta-data
+            android:name="studioService"
+            android:value="https://services.applabsinc.net" />
+
+        <meta-data
+            android:name="isNeedSupportOrientation"
+            android:value="yes" />
+
+    </application>
+</manifest>

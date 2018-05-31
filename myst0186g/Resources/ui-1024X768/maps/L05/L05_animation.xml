@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>L05_animation.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>candle_left</name>
+            <delay>0.06</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>L05_candle_left_00001.png</spriteFrame>
+            <spriteFrame>L05_candle_left_00002.png</spriteFrame>
+            <spriteFrame>L05_candle_left_00003.png</spriteFrame>
+            <spriteFrame>L05_candle_left_00004.png</spriteFrame>
+        </animation>
+        <animation>
+            <name>candle_mid</name>
+            <delay>0.07</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>L05_candle_mid_00001.png</spriteFrame>
+            <spriteFrame>L05_candle_mid_00002.png</spriteFrame>
+            <spriteFrame>L05_candle_mid_00003.png</spriteFrame>
+            <spriteFrame>L05_candle_mid_00004.png</spriteFrame>
+        </animation>
+        <animation>
+            <name>candle_right</name>
+            <delay>0.07</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>L05_candle_right_00001.png</spriteFrame>
+            <spriteFrame>L05_candle_right_00002.png</spriteFrame>
+            <spriteFrame>L05_candle_right_00003.png</spriteFrame>
+            <spriteFrame>L05_candle_right_00004.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

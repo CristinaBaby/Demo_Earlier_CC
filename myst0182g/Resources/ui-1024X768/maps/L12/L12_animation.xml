@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>L12_animation.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>ball</name>
+            <delay>0.2</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>L12_ball_00001.png</spriteFrame>
+            <spriteFrame>L12_ball_00002.png</spriteFrame>
+            <spriteFrame>L12_ball_00003.png</spriteFrame>
+            <spriteFrame>L12_ball_00004.png</spriteFrame>
+            <spriteFrame>L12_ball_00005.png</spriteFrame>
+            <spriteFrame>L12_ball_00006.png</spriteFrame>
+            <spriteFrame>L12_ball_00007.png</spriteFrame>
+            <spriteFrame>L12_ball_00008.png</spriteFrame>
+            <spriteFrame>L12_ball_00009.png</spriteFrame>
+            <spriteFrame>L12_ball_00010.png</spriteFrame>
+            <spriteFrame>L12_ball_00011.png</spriteFrame>
+            <spriteFrame>L12_ball_00012.png</spriteFrame>
+            <spriteFrame>L12_ball_00013.png</spriteFrame>
+            <spriteFrame>L12_ball_00014.png</spriteFrame>
+            <spriteFrame>L12_ball_00015.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

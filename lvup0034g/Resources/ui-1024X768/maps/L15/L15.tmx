@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+ <tileset firstgid="1" name="L15_bg" tilewidth="1024" tileheight="768">
+  <image source="L15_bg.jpg" trans="ff00ff" width="1024" height="768"/>
+ </tileset>
+ <tileset firstgid="2" name="L15_01_w" tilewidth="84" tileheight="54">
+  <image source="L15_01_w.png" trans="ff00ff" width="84" height="54"/>
+ </tileset>
+ <tileset firstgid="3" name="L15_02_w" tilewidth="93" tileheight="140">
+  <image source="L15_02_w.png" trans="ff00ff" width="93" height="140"/>
+ </tileset>
+ <tileset firstgid="4" name="L15_03_w" tilewidth="55" tileheight="60">
+  <image source="L15_03_w.png" trans="ff00ff" width="55" height="60"/>
+ </tileset>
+ <tileset firstgid="5" name="L15_04_w" tilewidth="74" tileheight="56">
+  <image source="L15_04_w.png" trans="ff00ff" width="74" height="56"/>
+ </tileset>
+ <tileset firstgid="6" name="L15_05_w" tilewidth="58" tileheight="70">
+  <image source="L15_05_w.png" trans="ff00ff" width="58" height="70"/>
+ </tileset>
+ <tileset firstgid="7" name="L15_06_w" tilewidth="69" tileheight="102">
+  <image source="L15_06_w.png" trans="ff00ff" width="69" height="102"/>
+ </tileset>
+ <tileset firstgid="8" name="L15_07_w" tilewidth="81" tileheight="58">
+  <image source="L15_07_w.png" trans="ff00ff" width="81" height="58"/>
+ </tileset>
+ <tileset firstgid="9" name="L15_08_w" tilewidth="116" tileheight="69">
+  <image source="L15_08_w.png" trans="ff00ff" width="116" height="69"/>
+ </tileset>
+ <tileset firstgid="10" name="L15_09_w" tilewidth="116" tileheight="98">
+  <image source="L15_09_w.png" trans="ff00ff" width="116" height="98"/>
+ </tileset>
+ <tileset firstgid="11" name="L15_10_w" tilewidth="94" tileheight="82">
+  <image source="L15_10_w.png" trans="ff00ff" width="94" height="82"/>
+ </tileset>
+ <tileset firstgid="12" name="L15_11_w" tilewidth="152" tileheight="89">
+  <image source="L15_11_w.png" trans="ff00ff" width="152" height="89"/>
+ </tileset>
+ <tileset firstgid="13" name="L15_12_w" tilewidth="80" tileheight="95">
+  <image source="L15_12_w.png" trans="ff00ff" width="80" height="95"/>
+ </tileset>
+ <tileset firstgid="14" name="L15_13_w" tilewidth="79" tileheight="53">
+  <image source="L15_13_w.png" trans="ff00ff" width="79" height="53"/>
+ </tileset>
+ <tileset firstgid="15" name="L15_14_w" tilewidth="97" tileheight="76">
+  <image source="L15_14_w.png" trans="ff00ff" width="97" height="76"/>
+ </tileset>
+ <tileset firstgid="16" name="L15_15_w" tilewidth="60" tileheight="58">
+  <image source="L15_15_w.png" trans="ff00ff" width="60" height="58"/>
+ </tileset>
+ <tileset firstgid="17" name="L15_16_w" tilewidth="44" tileheight="96">
+  <image source="L15_16_w.png" trans="ff00ff" width="44" height="96"/>
+ </tileset>
+ <tileset firstgid="18" name="L15_17_w" tilewidth="44" tileheight="127">
+  <image source="L15_17_w.png" trans="ff00ff" width="44" height="127"/>
+ </tileset>
+ <tileset firstgid="19" name="L15_19_w" tilewidth="84" tileheight="110">
+  <image source="L15_19_w.png" trans="ff00ff" width="84" height="110"/>
+ </tileset>
+ <tileset firstgid="20" name="L15_20_w" tilewidth="71" tileheight="90">
+  <image source="L15_20_w.png" trans="ff00ff" width="71" height="90"/>
+ </tileset>
+ <tileset firstgid="21" name="L15_21_w" tilewidth="98" tileheight="52">
+  <image source="L15_21_w.png" trans="ff00ff" width="98" height="52"/>
+ </tileset>
+ <tileset firstgid="22" name="L15_22_w" tilewidth="50" tileheight="86">
+  <image source="L15_22_w.png" trans="ff00ff" width="50" height="86"/>
+ </tileset>
+ <tileset firstgid="23" name="L15_23_w" tilewidth="65" tileheight="126">
+  <image source="L15_23_w.png" trans="ff00ff" width="65" height="126"/>
+ </tileset>
+ <tileset firstgid="24" name="L15_24_w" tilewidth="121" tileheight="204">
+  <image source="L15_24_w.png" trans="ff00ff" width="121" height="204"/>
+ </tileset>
+ <tileset firstgid="25" name="L15_25_w" tilewidth="85" tileheight="51">
+  <image source="L15_25_w.png" trans="ff00ff" width="85" height="51"/>
+ </tileset>
+ <tileset firstgid="26" name="L15_26_w" tilewidth="59" tileheight="77">
+  <image source="L15_26_w.png" trans="ff00ff" width="59" height="77"/>
+ </tileset>
+ <tileset firstgid="27" name="L15_27_w" tilewidth="60" tileheight="44">
+  <image source="L15_27_w.png" trans="ff00ff" width="60" height="44"/>
+ </tileset>
+ <tileset firstgid="28" name="L15_28_w" tilewidth="91" tileheight="175">
+  <image source="L15_28_w.png" trans="ff00ff" width="91" height="175"/>
+ </tileset>
+ <tileset firstgid="29" name="L15_29_w" tilewidth="57" tileheight="51">
+  <image source="L15_29_w.png" trans="ff00ff" width="57" height="51"/>
+ </tileset>
+ <tileset firstgid="30" name="L15_30_w" tilewidth="51" tileheight="84">
+  <image source="L15_30_w.png" trans="ff00ff" width="51" height="84"/>
+ </tileset>
+ <tileset firstgid="31" name="L15_31_w" tilewidth="76" tileheight="77">
+  <image source="L15_31_w.png" trans="ff00ff" width="76" height="77"/>
+ </tileset>
+ <tileset firstgid="32" name="L15_32_w" tilewidth="101" tileheight="150">
+  <image source="L15_32_w.png" trans="ff00ff" width="101" height="150"/>
+ </tileset>
+ <objectgroup name="BGObject" width="1" height="1">
+  <object gid="1" x="0" y="768">
+   <properties>
+    <property name="Name" value="L15_bg"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Objects" width="1" height="1">
+  <object gid="2" x="444" y="636">
+   <properties>
+    <property name="ID" value="L15_01"/>
+   </properties>
+  </object>
+  <object gid="3" x="681" y="236">
+   <properties>
+    <property name="ID" value="L15_02"/>
+   </properties>
+  </object>
+  <object gid="4" x="698" y="60">
+   <properties>
+    <property name="ID" value="L15_03"/>
+   </properties>
+  </object>
+  <object gid="5" x="154" y="573">
+   <properties>
+    <property name="ID" value="L15_04"/>
+   </properties>
+  </object>
+  <object gid="6" x="467" y="416">
+   <properties>
+    <property name="ID" value="L15_05"/>
+   </properties>
+  </object>
+  <object gid="7" x="0" y="263">
+   <properties>
+    <property name="ID" value="L15_06"/>
+   </properties>
+  </object>
+  <object gid="8" x="847" y="640">
+   <properties>
+    <property name="ID" value="L15_07"/>
+   </properties>
+  </object>
+  <object gid="9" x="347" y="468">
+   <properties>
+    <property name="ID" value="L15_08"/>
+   </properties>
+  </object>
+  <object gid="10" x="231" y="562">
+   <properties>
+    <property name="ID" value="L15_09"/>
+   </properties>
+  </object>
+  <object gid="11" x="98" y="229">
+   <properties>
+    <property name="ID" value="L15_10"/>
+   </properties>
+  </object>
+  <object gid="12" x="784" y="265">
+   <properties>
+    <property name="ID" value="L15_11"/>
+   </properties>
+  </object>
+  <object gid="13" x="939" y="318">
+   <properties>
+    <property name="ID" value="L15_12"/>
+   </properties>
+  </object>
+  <object gid="14" x="350" y="526">
+   <properties>
+    <property name="ID" value="L15_13"/>
+   </properties>
+  </object>
+  <object gid="15" x="495" y="540">
+   <properties>
+    <property name="ID" value="L15_14"/>
+   </properties>
+  </object>
+  <object gid="16" x="604" y="183">
+   <properties>
+    <property name="ID" value="L15_15"/>
+   </properties>
+  </object>
+  <object gid="17" x="728" y="419">
+   <properties>
+    <property name="ID" value="L15_16"/>
+   </properties>
+  </object>
+  <object gid="18" x="777" y="440">
+   <properties>
+    <property name="ID" value="L15_17"/>
+   </properties>
+  </object>
+  <object gid="19" x="606" y="573">
+   <properties>
+    <property name="ID" value="L15_19"/>
+   </properties>
+  </object>
+  <object gid="20" x="183" y="336">
+   <properties>
+    <property name="ID" value="L15_20"/>
+   </properties>
+  </object>
+  <object gid="21" x="892" y="537">
+   <properties>
+    <property name="ID" value="L15_21"/>
+   </properties>
+  </object>
+  <object gid="22" x="818" y="563">
+   <properties>
+    <property name="ID" value="L15_22"/>
+   </properties>
+  </object>
+  <object gid="23" x="389" y="315">
+   <properties>
+    <property name="ID" value="L15_23"/>
+   </properties>
+  </object>
+  <object gid="24" x="458" y="248">
+   <properties>
+    <property name="ID" value="L15_24"/>
+   </properties>
+  </object>
+  <object gid="25" x="538" y="452">
+   <properties>
+    <property name="ID" value="L15_25"/>
+   </properties>
+  </object>
+  <object gid="26" x="223" y="203">
+   <properties>
+    <property name="ID" value="L15_26"/>
+   </properties>
+  </object>
+  <object gid="27" x="322" y="193">
+   <properties>
+    <property name="ID" value="L15_27"/>
+   </properties>
+  </object>
+  <object gid="28" x="38" y="696">
+   <properties>
+    <property name="ID" value="L15_28"/>
+   </properties>
+  </object>
+  <object gid="29" x="687" y="310">
+   <properties>
+    <property name="ID" value="L15_29"/>
+   </properties>
+  </object>
+  <object gid="30" x="495" y="344">
+   <properties>
+    <property name="ID" value="L15_30"/>
+   </properties>
+  </object>
+  <object gid="31" x="917" y="437">
+   <properties>
+    <property name="ID" value="L15_31"/>
+   </properties>
+  </object>
+  <object gid="32" x="582" y="384">
+   <properties>
+    <property name="ID" value="L15_32"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

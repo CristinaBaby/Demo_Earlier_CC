@@ -1,0 +1,2 @@
+include ':ColorGarden'
+project(':ColorGarden').projectDir = new File(settingsDir, 'app')

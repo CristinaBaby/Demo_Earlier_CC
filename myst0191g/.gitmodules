@@ -1,0 +1,3 @@
+[submodule "proj.ios/Depends"]
+	path = proj.ios/Depends
+	url = ssh://git@stash.stm.com:7999/cmfpg/hidd-depends.git

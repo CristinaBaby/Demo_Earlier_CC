@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+ <tileset firstgid="1" name="L02_bg" tilewidth="1024" tileheight="768">
+  <image source="L02_bg.jpg" trans="ff00ff" width="1024" height="768"/>
+ </tileset>
+ <tileset firstgid="2" name="L02_01_w" tilewidth="74" tileheight="77">
+  <image source="L02_01_w.png" trans="ff00ff" width="74" height="77"/>
+ </tileset>
+ <tileset firstgid="3" name="L02_02_w" tilewidth="63" tileheight="163">
+  <image source="L02_02_w.png" trans="ff00ff" width="63" height="163"/>
+ </tileset>
+ <tileset firstgid="4" name="L02_03_w" tilewidth="55" tileheight="54">
+  <image source="L02_03_w.png" trans="ff00ff" width="55" height="54"/>
+ </tileset>
+ <tileset firstgid="5" name="L02_04_w" tilewidth="44" tileheight="55">
+  <image source="L02_04_w.png" trans="ff00ff" width="44" height="55"/>
+ </tileset>
+ <tileset firstgid="6" name="L02_05_w" tilewidth="72" tileheight="56">
+  <image source="L02_05_w.png" trans="ff00ff" width="72" height="56"/>
+ </tileset>
+ <tileset firstgid="7" name="L02_06_w" tilewidth="61" tileheight="97">
+  <image source="L02_06_w.png" trans="ff00ff" width="61" height="97"/>
+ </tileset>
+ <tileset firstgid="8" name="L02_07_w" tilewidth="44" tileheight="60">
+  <image source="L02_07_w.png" trans="ff00ff" width="44" height="60"/>
+ </tileset>
+ <tileset firstgid="9" name="L02_08_w" tilewidth="68" tileheight="62">
+  <image source="L02_08_w.png" trans="ff00ff" width="68" height="62"/>
+ </tileset>
+ <tileset firstgid="10" name="L02_09_w" tilewidth="64" tileheight="53">
+  <image source="L02_09_w.png" trans="ff00ff" width="64" height="53"/>
+ </tileset>
+ <tileset firstgid="11" name="L02_10_w" tilewidth="48" tileheight="82">
+  <image source="L02_10_w.png" trans="ff00ff" width="48" height="82"/>
+ </tileset>
+ <tileset firstgid="12" name="L02_11_w" tilewidth="51" tileheight="72">
+  <image source="L02_11_w.png" trans="ff00ff" width="51" height="72"/>
+ </tileset>
+ <tileset firstgid="13" name="L02_12_w" tilewidth="44" tileheight="56">
+  <image source="L02_12_w.png" trans="ff00ff" width="44" height="56"/>
+ </tileset>
+ <tileset firstgid="14" name="L02_13_w" tilewidth="84" tileheight="100">
+  <image source="L02_13_w.png" trans="ff00ff" width="84" height="100"/>
+ </tileset>
+ <tileset firstgid="15" name="L02_14_w" tilewidth="44" tileheight="100">
+  <image source="L02_14_w.png" trans="ff00ff" width="44" height="100"/>
+ </tileset>
+ <tileset firstgid="16" name="L02_15_w" tilewidth="72" tileheight="45">
+  <image source="L02_15_w.png" trans="ff00ff" width="72" height="45"/>
+ </tileset>
+ <tileset firstgid="17" name="L02_16_w" tilewidth="44" tileheight="58">
+  <image source="L02_16_w.png" trans="ff00ff" width="44" height="58"/>
+ </tileset>
+ <tileset firstgid="18" name="L02_18_w" tilewidth="64" tileheight="66">
+  <image source="L02_18_w.png" trans="ff00ff" width="64" height="66"/>
+ </tileset>
+ <tileset firstgid="19" name="L02_19_w" tilewidth="53" tileheight="62">
+  <image source="L02_19_w.png" trans="ff00ff" width="53" height="62"/>
+ </tileset>
+ <tileset firstgid="20" name="L02_20_w" tilewidth="44" tileheight="90">
+  <image source="L02_20_w.png" trans="ff00ff" width="44" height="90"/>
+ </tileset>
+ <tileset firstgid="21" name="L02_21_w" tilewidth="82" tileheight="92">
+  <image source="L02_21_w.png" trans="ff00ff" width="82" height="92"/>
+ </tileset>
+ <tileset firstgid="22" name="L02_23_w" tilewidth="48" tileheight="70">
+  <image source="L02_23_w.png" trans="ff00ff" width="48" height="70"/>
+ </tileset>
+ <tileset firstgid="23" name="L02_24_w" tilewidth="37" tileheight="61">
+  <image source="L02_24_w.png" trans="ffffff" width="37" height="61"/>
+ </tileset>
+ <tileset firstgid="24" name="L02_25_w" tilewidth="65" tileheight="48">
+  <image source="L02_25_w.png" trans="ff00ff" width="65" height="48"/>
+ </tileset>
+ <tileset firstgid="25" name="L02_26_w" tilewidth="68" tileheight="53">
+  <image source="L02_26_w.png" trans="ff00ff" width="68" height="53"/>
+ </tileset>
+ <tileset firstgid="26" name="L02_27_w" tilewidth="60" tileheight="44">
+  <image source="L02_27_w.png" trans="ff00ff" width="60" height="44"/>
+ </tileset>
+ <tileset firstgid="27" name="L02_28_w" tilewidth="68" tileheight="44">
+  <image source="L02_28_w.png" trans="ff00ff" width="68" height="44"/>
+ </tileset>
+ <tileset firstgid="28" name="L02_29_w" tilewidth="54" tileheight="89">
+  <image source="L02_29_w.png" trans="ffffff" width="54" height="89"/>
+ </tileset>
+ <tileset firstgid="29" name="L02_30_w" tilewidth="66" tileheight="60">
+  <image source="L02_30_w.png" trans="ff00ff" width="66" height="60"/>
+ </tileset>
+ <tileset firstgid="30" name="L02_31_w" tilewidth="59" tileheight="79">
+  <image source="L02_31_w.png" trans="ffffff" width="59" height="79"/>
+ </tileset>
+ <tileset firstgid="31" name="L02_32_w" tilewidth="44" tileheight="44">
+  <image source="L02_32_w.png" trans="ff00ff" width="44" height="44"/>
+ </tileset>
+ <objectgroup name="BGObject" width="1" height="1">
+  <object gid="1" x="0" y="768">
+   <properties>
+    <property name="Name" value="L02_bg"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Objects" width="1" height="1">
+  <object gid="2" x="0" y="569">
+   <properties>
+    <property name="ID" value="L02_01"/>
+   </properties>
+  </object>
+  <object gid="3" x="800" y="695">
+   <properties>
+    <property name="ID" value="L02_02"/>
+   </properties>
+  </object>
+  <object gid="4" x="131" y="347">
+   <properties>
+    <property name="ID" value="L02_03"/>
+   </properties>
+  </object>
+  <object gid="5" x="221" y="280">
+   <properties>
+    <property name="ID" value="L02_04"/>
+   </properties>
+  </object>
+  <object gid="6" x="263" y="376">
+   <properties>
+    <property name="ID" value="L02_05"/>
+   </properties>
+  </object>
+  <object gid="7" x="362" y="180">
+   <properties>
+    <property name="ID" value="L02_06"/>
+   </properties>
+  </object>
+  <object gid="8" x="83" y="176">
+   <properties>
+    <property name="ID" value="L02_07"/>
+   </properties>
+  </object>
+  <object gid="9" x="522" y="213">
+   <properties>
+    <property name="ID" value="L02_08"/>
+   </properties>
+  </object>
+  <object gid="10" x="589" y="285">
+   <properties>
+    <property name="ID" value="L02_09"/>
+   </properties>
+  </object>
+  <object gid="11" x="611" y="443">
+   <properties>
+    <property name="ID" value="L02_10"/>
+   </properties>
+  </object>
+  <object gid="12" x="756" y="330">
+   <properties>
+    <property name="ID" value="L02_11"/>
+   </properties>
+  </object>
+  <object gid="13" x="832" y="140">
+   <properties>
+    <property name="ID" value="L02_12"/>
+   </properties>
+  </object>
+  <object gid="14" x="448" y="379">
+   <properties>
+    <property name="ID" value="L02_13"/>
+   </properties>
+  </object>
+  <object gid="15" x="964" y="212">
+   <properties>
+    <property name="ID" value="L02_14"/>
+   </properties>
+  </object>
+  <object gid="16" x="71" y="481">
+   <properties>
+    <property name="ID" value="L02_15"/>
+   </properties>
+  </object>
+  <object gid="17" x="745" y="507">
+   <properties>
+    <property name="ID" value="L02_16"/>
+   </properties>
+  </object>
+  <object gid="18" x="584" y="546">
+   <properties>
+    <property name="ID" value="L02_18"/>
+   </properties>
+  </object>
+  <object gid="19" x="878" y="419">
+   <properties>
+    <property name="ID" value="L02_19"/>
+   </properties>
+  </object>
+  <object gid="20" x="917" y="643">
+   <properties>
+    <property name="ID" value="L02_20"/>
+   </properties>
+  </object>
+  <object gid="21" x="165" y="510">
+   <properties>
+    <property name="ID" value="L02_21"/>
+   </properties>
+  </object>
+  <object gid="22" x="388" y="549">
+   <properties>
+    <property name="ID" value="L02_23"/>
+   </properties>
+  </object>
+  <object gid="24" x="681" y="545">
+   <properties>
+    <property name="ID" value="L02_25"/>
+   </properties>
+  </object>
+  <object gid="25" x="434" y="502">
+   <properties>
+    <property name="ID" value="L02_26"/>
+   </properties>
+  </object>
+  <object gid="26" x="951" y="477">
+   <properties>
+    <property name="ID" value="L02_27"/>
+   </properties>
+  </object>
+  <object gid="27" x="94" y="596">
+   <properties>
+    <property name="ID" value="L02_28"/>
+   </properties>
+  </object>
+  <object gid="29" x="258" y="616">
+   <properties>
+    <property name="ID" value="L02_30"/>
+   </properties>
+  </object>
+  <object gid="31" x="36" y="601">
+   <properties>
+    <property name="ID" value="L02_32"/>
+   </properties>
+  </object>
+  <object gid="28" x="115" y="566">
+   <properties>
+    <property name="ID" value="L02_29"/>
+   </properties>
+  </object>
+  <object gid="30" x="310" y="554">
+   <properties>
+    <property name="ID" value="L02_31"/>
+   </properties>
+  </object>
+  <object gid="23" x="259" y="555">
+   <properties>
+    <property name="ID" value="L02_24"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

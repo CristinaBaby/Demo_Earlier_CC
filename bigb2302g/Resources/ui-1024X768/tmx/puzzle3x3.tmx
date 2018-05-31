@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+<tileset firstgid="1" name="l03_Jigsaw_bg" tilewidth="1024" tileheight="768">
+<image source="l03_Jigsaw_bg.jpg" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="2" name="l03_Jigsaw_back" tilewidth="624" tileheight="624">
+<image source="l03_Jigsaw_back.png" trans="ff00ff" width="624" height="624"/>
+</tileset>
+<tileset firstgid="3" name="l03_Jigsaw_frame" tilewidth="610" tileheight="636">
+<image source="l03_Jigsaw_frame.png" trans="ff00ff" width="610" height="636"/>
+</tileset>
+<tileset firstgid="4" name="l03_Jigsaw_bar" tilewidth="297" tileheight="27">
+<image source="l03_Jigsaw_bar.png" trans="ff00ff" width="297" height="27"/>
+</tileset>
+<tileset firstgid="5" name="3x3_09_shade" tilewidth="229" tileheight="327">
+<image source="3x3_09_shade.png" trans="ff00ff" width="229" height="327"/>
+</tileset>
+<tileset firstgid="6" name="3x3_08_shade" tilewidth="314" tileheight="247">
+<image source="3x3_08_shade.png" trans="ff00ff" width="314" height="247"/>
+</tileset>
+<tileset firstgid="7" name="3x3_07_shade" tilewidth="274" tileheight="254">
+<image source="3x3_07_shade.png" trans="ff00ff" width="274" height="254"/>
+</tileset>
+<tileset firstgid="8" name="3x3_06_shade" tilewidth="296" tileheight="229">
+<image source="3x3_06_shade.png" trans="ff00ff" width="296" height="229"/>
+</tileset>
+<tileset firstgid="9" name="3x3_05_shade" tilewidth="262" tileheight="224">
+<image source="3x3_05_shade.png" trans="ff00ff" width="262" height="224"/>
+</tileset>
+<tileset firstgid="10" name="3x3_04_shade" tilewidth="208" tileheight="361">
+<image source="3x3_04_shade.png" trans="ff00ff" width="208" height="361"/>
+</tileset>
+<tileset firstgid="11" name="3x3_03_shade" tilewidth="194" tileheight="217">
+<image source="3x3_03_shade.png" trans="ff00ff" width="194" height="217"/>
+</tileset>
+<tileset firstgid="12" name="3x3_02_shade" tilewidth="357" tileheight="205">
+<image source="3x3_02_shade.png" trans="ff00ff" width="357" height="205"/>
+</tileset>
+<tileset firstgid="13" name="3x3_01_shade" tilewidth="211" tileheight="197">
+<image source="3x3_01_shade.png" trans="ff00ff" width="211" height="197"/>
+</tileset>
+<tileset firstgid="14" name="3x3_09" tilewidth="212" tileheight="309">
+<image source="3x3_09.png" trans="ff00ff" width="212" height="309"/>
+</tileset>
+<tileset firstgid="15" name="3x3_08" tilewidth="296" tileheight="229">
+<image source="3x3_08.png" trans="ff00ff" width="296" height="229"/>
+</tileset>
+<tileset firstgid="16" name="3x3_07" tilewidth="256" tileheight="236">
+<image source="3x3_07.png" trans="ff00ff" width="256" height="236"/>
+</tileset>
+<tileset firstgid="17" name="3x3_06" tilewidth="278" tileheight="213">
+<image source="3x3_06.png" trans="ff00ff" width="278" height="213"/>
+</tileset>
+<tileset firstgid="18" name="3x3_05" tilewidth="245" tileheight="206">
+<image source="3x3_05.png" trans="ff00ff" width="245" height="206"/>
+</tileset>
+<tileset firstgid="19" name="3x3_04" tilewidth="190" tileheight="345">
+<image source="3x3_04.png" trans="ff00ff" width="190" height="345"/>
+</tileset>
+<tileset firstgid="20" name="3x3_03" tilewidth="176" tileheight="198">
+<image source="3x3_03.png" trans="ff00ff" width="176" height="198"/>
+</tileset>
+<tileset firstgid="21" name="3x3_02" tilewidth="339" tileheight="186">
+<image source="3x3_02.png" trans="ff00ff" width="339" height="186"/>
+</tileset>
+<tileset firstgid="22" name="3x3_01" tilewidth="192" tileheight="179">
+<image source="3x3_01.png" trans="ff00ff" width="192" height="179"/>
+</tileset>
+<tileset firstgid="23" name="pause" tilewidth="84" tileheight="86">
+<image source="pause.png" trans="ff00ff" width="84" height="86"/>
+</tileset>
+<tileset firstgid="24" name="ads" tilewidth="1024" tileheight="94">
+<image source="ads.png" trans="ff00ff" width="1024" height="94"/>
+</tileset>
+<objectgroup name="BGObject" width="1" height="1">
+<object name="l03_Jigsaw_bg" gid="1" x="0" y="768">
+<properties>
+<property name="Name" value="l03_Jigsaw_bg"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="l03_Jigsaw_back" gid="2" x="200" y="727">
+<properties>
+<property name="ID" value="l03_Jigsaw_back"/>
+<property name="ResWidth" value="624"/>
+<property name="ResHeight" value="624"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="l03_Jigsaw_frame" gid="3" x="207" y="749">
+<properties>
+<property name="ID" value="l03_Jigsaw_frame"/>
+<property name="ResWidth" value="610"/>
+<property name="ResHeight" value="636"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="l03_Jigsaw_bar" gid="4" x="364" y="737">
+<properties>
+<property name="ID" value="l03_Jigsaw_bar"/>
+<property name="ResWidth" value="297"/>
+<property name="ResHeight" value="27"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_09_shade" gid="5" x="578" y="715">
+<properties>
+<property name="ID" value="3x3_09_shade"/>
+<property name="ResWidth" value="229"/>
+<property name="ResHeight" value="327"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_08_shade" gid="6" x="379" y="715">
+<properties>
+<property name="ID" value="3x3_08_shade"/>
+<property name="ResWidth" value="314"/>
+<property name="ResHeight" value="247"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_07_shade" gid="7" x="216" y="715">
+<properties>
+<property name="ID" value="3x3_07_shade"/>
+<property name="ResWidth" value="274"/>
+<property name="ResHeight" value="254"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_06_shade" gid="8" x="512" y="462">
+<properties>
+<property name="ID" value="3x3_06_shade"/>
+<property name="ResWidth" value="296"/>
+<property name="ResHeight" value="229"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_05_shade" gid="9" x="378" y="517">
+<properties>
+<property name="ID" value="3x3_05_shade"/>
+<property name="ResWidth" value="262"/>
+<property name="ResHeight" value="224"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_04_shade" gid="10" x="216" y="589">
+<properties>
+<property name="ID" value="3x3_04_shade"/>
+<property name="ResWidth" value="208"/>
+<property name="ResHeight" value="361"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_03_shade" gid="11" x="613" y="340">
+<properties>
+<property name="ID" value="3x3_03_shade"/>
+<property name="ResWidth" value="194"/>
+<property name="ResHeight" value="217"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_02_shade" gid="12" x="351" y="328">
+<properties>
+<property name="ID" value="3x3_02_shade"/>
+<property name="ResWidth" value="357"/>
+<property name="ResHeight" value="205"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_01_shade" gid="13" x="216" y="320">
+<properties>
+<property name="ID" value="3x3_01_shade"/>
+<property name="ResWidth" value="211"/>
+<property name="ResHeight" value="197"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_09" gid="14" x="586" y="701">
+<properties>
+<property name="ID" value="3x3_09"/>
+<property name="ResWidth" value="212"/>
+<property name="ResHeight" value="309"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_08" gid="15" x="388" y="701">
+<properties>
+<property name="ID" value="3x3_08"/>
+<property name="ResWidth" value="296"/>
+<property name="ResHeight" value="229"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_07" gid="16" x="226" y="701">
+<properties>
+<property name="ID" value="3x3_07"/>
+<property name="ResWidth" value="256"/>
+<property name="ResHeight" value="236"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_06" gid="17" x="521" y="449">
+<properties>
+<property name="ID" value="3x3_06"/>
+<property name="ResWidth" value="278"/>
+<property name="ResHeight" value="213"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_05" gid="18" x="387" y="503">
+<properties>
+<property name="ID" value="3x3_05"/>
+<property name="ResWidth" value="245"/>
+<property name="ResHeight" value="206"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_04" gid="19" x="226" y="576">
+<properties>
+<property name="ID" value="3x3_04"/>
+<property name="ResWidth" value="190"/>
+<property name="ResHeight" value="345"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_03" gid="20" x="622" y="326">
+<properties>
+<property name="ID" value="3x3_03"/>
+<property name="ResWidth" value="176"/>
+<property name="ResHeight" value="198"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_02" gid="21" x="360" y="314">
+<properties>
+<property name="ID" value="3x3_02"/>
+<property name="ResWidth" value="339"/>
+<property name="ResHeight" value="186"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="3x3_01" gid="22" x="226" y="307">
+<properties>
+<property name="ID" value="3x3_01"/>
+<property name="ResWidth" value="192"/>
+<property name="ResHeight" value="179"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="pause" gid="23" x="27" y="745">
+<properties>
+<property name="ID" value="pause"/>
+<property name="ResWidth" value="84"/>
+<property name="ResHeight" value="86"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ads" gid="24" x="0" y="94">
+<properties>
+<property name="ID" value="ads"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="94"/>
+</properties>
+</object>
+</objectgroup>
+</map>

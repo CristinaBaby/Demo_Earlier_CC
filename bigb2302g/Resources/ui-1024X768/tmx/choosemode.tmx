@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+<tileset firstgid="1" name="L07" tilewidth="1024" tileheight="768">
+<image source="L07.jpg" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="2" name="ui02_button" tilewidth="244" tileheight="424">
+<image source="ui02_button.png" trans="ff00ff" width="244" height="424"/>
+</tileset>
+<tileset firstgid="3" name="ui02_button_h" tilewidth="247" tileheight="426">
+<image source="ui02_button_h.png" trans="ff00ff" width="247" height="426"/>
+</tileset>
+<tileset firstgid="4" name="ui02_button_2" tilewidth="244" tileheight="424">
+<image source="ui02_button_2.png" trans="ff00ff" width="244" height="424"/>
+</tileset>
+<tileset firstgid="5" name="ui02_picture" tilewidth="123" tileheight="291">
+<image source="ui02_picture.png" trans="ff00ff" width="123" height="291"/>
+</tileset>
+<tileset firstgid="6" name="ui02_choose_mode" tilewidth="432" tileheight="44">
+<image source="ui02_choose_mode.png" trans="ff00ff" width="432" height="44"/>
+</tileset>
+<tileset firstgid="7" name="ui02_word" tilewidth="144" tileheight="224">
+<image source="ui02_word.png" trans="ff00ff" width="144" height="224"/>
+</tileset>
+<tileset firstgid="8" name="ui03_back" tilewidth="75" tileheight="69">
+<image source="ui03_back.png" trans="ff00ff" width="75" height="69"/>
+</tileset>
+<tileset firstgid="9" name="ui03_back_h" tilewidth="77" tileheight="72">
+<image source="ui03_back_h.png" trans="ff00ff" width="77" height="72"/>
+</tileset>
+<objectgroup name="BGObject" width="1" height="1">
+<object name="L07" gid="1" x="0" y="768">
+<properties>
+<property name="Name" value="L07"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui02_button" gid="2" x="183" y="644">
+<properties>
+<property name="ID" value="ui02_button"/>
+<property name="ResWidth" value="244"/>
+<property name="ResHeight" value="424"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui02_button_h" gid="3" x="181" y="646">
+<properties>
+<property name="ID" value="ui02_button_h"/>
+<property name="ResWidth" value="247"/>
+<property name="ResHeight" value="426"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui02_button_3" gid="4" x="599" y="644">
+<properties>
+<property name="ID" value="ui02_button_2"/>
+<property name="ResWidth" value="244"/>
+<property name="ResHeight" value="424"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui02_picture" gid="5" x="243" y="555">
+<properties>
+<property name="ID" value="ui02_picture"/>
+<property name="ResWidth" value="123"/>
+<property name="ResHeight" value="291"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui02_choose_mode" gid="6" x="297" y="140">
+<properties>
+<property name="ID" value="ui02_choose_mode"/>
+<property name="ResWidth" value="432"/>
+<property name="ResHeight" value="44"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui02_word" gid="7" x="651" y="490">
+<properties>
+<property name="ID" value="ui02_word"/>
+<property name="ResWidth" value="144"/>
+<property name="ResHeight" value="224"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_back" gid="8" x="44" y="96">
+<properties>
+<property name="ID" value="ui03_back"/>
+<property name="ResWidth" value="75"/>
+<property name="ResHeight" value="69"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_back_h" gid="9" x="43" y="96">
+<properties>
+<property name="ID" value="ui03_back_h"/>
+<property name="ResWidth" value="77"/>
+<property name="ResHeight" value="72"/>
+</properties>
+</object>
+</objectgroup>
+</map>

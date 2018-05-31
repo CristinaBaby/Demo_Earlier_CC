@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+<tileset firstgid="1" name="l03_Jigsaw_bg" tilewidth="1024" tileheight="768">
+<image source="l03_Jigsaw_bg.jpg" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="2" name="l03_Jigsaw_back" tilewidth="631" tileheight="640">
+<image source="l03_Jigsaw_back.png" trans="ff00ff" width="631" height="640"/>
+</tileset>
+<tileset firstgid="3" name="l03_Jigsaw_frame" tilewidth="610" tileheight="644">
+<image source="l03_Jigsaw_frame.png" trans="ff00ff" width="610" height="644"/>
+</tileset>
+<tileset firstgid="4" name="l03_Jigsaw_bar" tilewidth="297" tileheight="27">
+<image source="l03_Jigsaw_bar.png" trans="ff00ff" width="297" height="27"/>
+</tileset>
+<tileset firstgid="5" name="4x4_01_shade" tilewidth="166" tileheight="303">
+<image source="4x4_01_shade.png" trans="ff00ff" width="166" height="303"/>
+</tileset>
+<tileset firstgid="6" name="4x4_02_shade" tilewidth="178" tileheight="217">
+<image source="4x4_02_shade.png" trans="ff00ff" width="178" height="217"/>
+</tileset>
+<tileset firstgid="7" name="4x4_03_shade" tilewidth="197" tileheight="220">
+<image source="4x4_03_shade.png" trans="ff00ff" width="197" height="220"/>
+</tileset>
+<tileset firstgid="8" name="4x4_04_shade" tilewidth="212" tileheight="187">
+<image source="4x4_04_shade.png" trans="ff00ff" width="212" height="187"/>
+</tileset>
+<tileset firstgid="9" name="4x4_05_shade" tilewidth="163" tileheight="235">
+<image source="4x4_05_shade.png" trans="ff00ff" width="163" height="235"/>
+</tileset>
+<tileset firstgid="10" name="4x4_06_shade" tilewidth="147" tileheight="179">
+<image source="4x4_06_shade.png" trans="ff00ff" width="147" height="179"/>
+</tileset>
+<tileset firstgid="11" name="4x4_07_shade" tilewidth="205" tileheight="247">
+<image source="4x4_07_shade.png" trans="ff00ff" width="205" height="247"/>
+</tileset>
+<tileset firstgid="12" name="4x4_08_shade" tilewidth="253" tileheight="185">
+<image source="4x4_08_shade.png" trans="ff00ff" width="253" height="185"/>
+</tileset>
+<tileset firstgid="13" name="4x4_09_shade" tilewidth="80" tileheight="249">
+<image source="4x4_09_shade.png" trans="ff00ff" width="80" height="249"/>
+</tileset>
+<tileset firstgid="14" name="4x4_10_shade" tilewidth="197" tileheight="311">
+<image source="4x4_10_shade.png" trans="ff00ff" width="197" height="311"/>
+</tileset>
+<tileset firstgid="15" name="4x4_11_shade" tilewidth="145" tileheight="227">
+<image source="4x4_11_shade.png" trans="ff00ff" width="145" height="227"/>
+</tileset>
+<tileset firstgid="16" name="4x4_12_shade" tilewidth="152" tileheight="178">
+<image source="4x4_12_shade.png" trans="ff00ff" width="152" height="178"/>
+</tileset>
+<tileset firstgid="17" name="4x4_13_shade" tilewidth="198" tileheight="349">
+<image source="4x4_13_shade.png" trans="ff00ff" width="198" height="349"/>
+</tileset>
+<tileset firstgid="18" name="4x4_14_shade" tilewidth="289" tileheight="130">
+<image source="4x4_14_shade.png" trans="ff00ff" width="289" height="130"/>
+</tileset>
+<tileset firstgid="19" name="4x4_15_shade" tilewidth="214" tileheight="220">
+<image source="4x4_15_shade.png" trans="ff00ff" width="214" height="220"/>
+</tileset>
+<tileset firstgid="20" name="4x4_16_shade" tilewidth="345" tileheight="189">
+<image source="4x4_16_shade.png" trans="ff00ff" width="345" height="189"/>
+</tileset>
+<tileset firstgid="21" name="4x4_01" tilewidth="147" tileheight="285">
+<image source="4x4_01.png" trans="ff00ff" width="147" height="285"/>
+</tileset>
+<tileset firstgid="22" name="4x4_02" tilewidth="160" tileheight="198">
+<image source="4x4_02.png" trans="ff00ff" width="160" height="198"/>
+</tileset>
+<tileset firstgid="23" name="4x4_03" tilewidth="179" tileheight="201">
+<image source="4x4_03.png" trans="ff00ff" width="179" height="201"/>
+</tileset>
+<tileset firstgid="24" name="4x4_04" tilewidth="194" tileheight="168">
+<image source="4x4_04.png" trans="ff00ff" width="194" height="168"/>
+</tileset>
+<tileset firstgid="25" name="4x4_05" tilewidth="144" tileheight="217">
+<image source="4x4_05.png" trans="ff00ff" width="144" height="217"/>
+</tileset>
+<tileset firstgid="26" name="4x4_06" tilewidth="129" tileheight="161">
+<image source="4x4_06.png" trans="ff00ff" width="129" height="161"/>
+</tileset>
+<tileset firstgid="27" name="4x4_07" tilewidth="187" tileheight="229">
+<image source="4x4_07.png" trans="ff00ff" width="187" height="229"/>
+</tileset>
+<tileset firstgid="28" name="4x4_08" tilewidth="235" tileheight="167">
+<image source="4x4_08.png" trans="ff00ff" width="235" height="167"/>
+</tileset>
+<tileset firstgid="29" name="4x4_09" tilewidth="62" tileheight="231">
+<image source="4x4_09.png" trans="ff00ff" width="62" height="231"/>
+</tileset>
+<tileset firstgid="30" name="4x4_10" tilewidth="178" tileheight="292">
+<image source="4x4_10.png" trans="ff00ff" width="178" height="292"/>
+</tileset>
+<tileset firstgid="31" name="4x4_11" tilewidth="128" tileheight="210">
+<image source="4x4_11.png" trans="ff00ff" width="128" height="210"/>
+</tileset>
+<tileset firstgid="32" name="4x4_12" tilewidth="134" tileheight="159">
+<image source="4x4_12.png" trans="ff00ff" width="134" height="159"/>
+</tileset>
+<tileset firstgid="33" name="4x4_13" tilewidth="180" tileheight="331">
+<image source="4x4_13.png" trans="ff00ff" width="180" height="331"/>
+</tileset>
+<tileset firstgid="34" name="4x4_14" tilewidth="271" tileheight="112">
+<image source="4x4_14.png" trans="ff00ff" width="271" height="112"/>
+</tileset>
+<tileset firstgid="35" name="4x4_15" tilewidth="196" tileheight="202">
+<image source="4x4_15.png" trans="ff00ff" width="196" height="202"/>
+</tileset>
+<tileset firstgid="36" name="4x4_16" tilewidth="327" tileheight="171">
+<image source="4x4_16.png" trans="ff00ff" width="327" height="171"/>
+</tileset>
+<tileset firstgid="37" name="pause" tilewidth="65" tileheight="65">
+<image source="pause.png" trans="ff00ff" width="65" height="65"/>
+</tileset>
+<tileset firstgid="38" name="ui04_ads" tilewidth="1024" tileheight="94">
+<image source="ui04_ads.png" trans="ff00ff" width="1024" height="94"/>
+</tileset>
+<objectgroup name="BGObject" width="1" height="1">
+<object name="l03_Jigsaw_bg" gid="1" x="0" y="768">
+<properties>
+<property name="Name" value="l03_Jigsaw_bg"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="l03_Jigsaw_back" gid="2" x="196" y="734">
+<properties>
+<property name="ID" value="l03_Jigsaw_back"/>
+<property name="ResWidth" value="631"/>
+<property name="ResHeight" value="640"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="l03_Jigsaw_frame" gid="3" x="207" y="749">
+<properties>
+<property name="ID" value="l03_Jigsaw_frame"/>
+<property name="ResWidth" value="610"/>
+<property name="ResHeight" value="644"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="l03_Jigsaw_bar" gid="4" x="364" y="737">
+<properties>
+<property name="ID" value="l03_Jigsaw_bar"/>
+<property name="ResWidth" value="297"/>
+<property name="ResHeight" value="27"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_01_shade" gid="5" x="216" y="427">
+<properties>
+<property name="ID" value="4x4_01_shade"/>
+<property name="ResWidth" value="166"/>
+<property name="ResHeight" value="303"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_02_shade" gid="6" x="356" y="341">
+<properties>
+<property name="ID" value="4x4_02_shade"/>
+<property name="ResWidth" value="178"/>
+<property name="ResHeight" value="217"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_03_shade" gid="7" x="479" y="344">
+<properties>
+<property name="ID" value="4x4_03_shade"/>
+<property name="ResWidth" value="197"/>
+<property name="ResHeight" value="220"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_04_shade" gid="8" x="595" y="311">
+<properties>
+<property name="ID" value="4x4_04_shade"/>
+<property name="ResWidth" value="212"/>
+<property name="ResHeight" value="187"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_05_shade" gid="9" x="223" y="519">
+<properties>
+<property name="ID" value="4x4_05_shade"/>
+<property name="ResWidth" value="163"/>
+<property name="ResHeight" value="235"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_06_shade" gid="10" x="350" y="443">
+<properties>
+<property name="ID" value="4x4_06_shade"/>
+<property name="ResWidth" value="147"/>
+<property name="ResHeight" value="179"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_07_shade" gid="11" x="339" y="509">
+<properties>
+<property name="ID" value="4x4_07_shade"/>
+<property name="ResWidth" value="205"/>
+<property name="ResHeight" value="247"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_08_shade" gid="12" x="512" y="396">
+<properties>
+<property name="ID" value="4x4_08_shade"/>
+<property name="ResWidth" value="253"/>
+<property name="ResHeight" value="185"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_09_shade" gid="13" x="727" y="480">
+<properties>
+<property name="ID" value="4x4_09_shade"/>
+<property name="ResWidth" value="80"/>
+<property name="ResHeight" value="249"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_10_shade" gid="14" x="216" y="715">
+<properties>
+<property name="ID" value="4x4_10_shade"/>
+<property name="ResWidth" value="197"/>
+<property name="ResHeight" value="311"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_11_shade" gid="15" x="366" y="697">
+<properties>
+<property name="ID" value="4x4_11_shade"/>
+<property name="ResWidth" value="145"/>
+<property name="ResHeight" value="227"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_12_shade" gid="16" x="501" y="525">
+<properties>
+<property name="ID" value="4x4_12_shade"/>
+<property name="ResWidth" value="152"/>
+<property name="ResHeight" value="178"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_13_shade" gid="17" x="609" y="691">
+<properties>
+<property name="ID" value="4x4_13_shade"/>
+<property name="ResWidth" value="198"/>
+<property name="ResHeight" value="349"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_14_shade" gid="18" x="221" y="715">
+<properties>
+<property name="ID" value="4x4_14_shade"/>
+<property name="ResWidth" value="289"/>
+<property name="ResHeight" value="130"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_15_shade" gid="19" x="475" y="685">
+<properties>
+<property name="ID" value="4x4_15_shade"/>
+<property name="ResWidth" value="214"/>
+<property name="ResHeight" value="220"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_16_shade" gid="20" x="462" y="715">
+<properties>
+<property name="ID" value="4x4_16_shade"/>
+<property name="ResWidth" value="345"/>
+<property name="ResHeight" value="189"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_01" gid="21" x="226" y="414">
+<properties>
+<property name="ID" value="4x4_01"/>
+<property name="ResWidth" value="147"/>
+<property name="ResHeight" value="285"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_02" gid="22" x="365" y="327">
+<properties>
+<property name="ID" value="4x4_02"/>
+<property name="ResWidth" value="160"/>
+<property name="ResHeight" value="198"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_03" gid="23" x="488" y="330">
+<properties>
+<property name="ID" value="4x4_03"/>
+<property name="ResWidth" value="179"/>
+<property name="ResHeight" value="201"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_04" gid="24" x="604" y="297">
+<properties>
+<property name="ID" value="4x4_04"/>
+<property name="ResWidth" value="194"/>
+<property name="ResHeight" value="168"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_05" gid="25" x="233" y="504">
+<properties>
+<property name="ID" value="4x4_05"/>
+<property name="ResWidth" value="144"/>
+<property name="ResHeight" value="217"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_06" gid="26" x="359" y="428">
+<properties>
+<property name="ID" value="4x4_06"/>
+<property name="ResWidth" value="129"/>
+<property name="ResHeight" value="161"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_07" gid="27" x="348" y="494">
+<properties>
+<property name="ID" value="4x4_07"/>
+<property name="ResWidth" value="187"/>
+<property name="ResHeight" value="229"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_08" gid="28" x="521" y="381">
+<properties>
+<property name="ID" value="4x4_08"/>
+<property name="ResWidth" value="235"/>
+<property name="ResHeight" value="167"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_09" gid="29" x="736" y="465">
+<properties>
+<property name="ID" value="4x4_09"/>
+<property name="ResWidth" value="62"/>
+<property name="ResHeight" value="231"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_10" gid="30" x="226" y="701">
+<properties>
+<property name="ID" value="4x4_10"/>
+<property name="ResWidth" value="178"/>
+<property name="ResHeight" value="292"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_11" gid="31" x="374" y="684">
+<properties>
+<property name="ID" value="4x4_11"/>
+<property name="ResWidth" value="128"/>
+<property name="ResHeight" value="210"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_12" gid="32" x="510" y="511">
+<properties>
+<property name="ID" value="4x4_12"/>
+<property name="ResWidth" value="134"/>
+<property name="ResHeight" value="159"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_13" gid="33" x="618" y="678">
+<properties>
+<property name="ID" value="4x4_13"/>
+<property name="ResWidth" value="180"/>
+<property name="ResHeight" value="331"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_14" gid="34" x="230" y="701">
+<properties>
+<property name="ID" value="4x4_14"/>
+<property name="ResWidth" value="271"/>
+<property name="ResHeight" value="112"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_15" gid="35" x="484" y="671">
+<properties>
+<property name="ID" value="4x4_15"/>
+<property name="ResWidth" value="196"/>
+<property name="ResHeight" value="202"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="4x4_16" gid="36" x="471" y="701">
+<properties>
+<property name="ID" value="4x4_16"/>
+<property name="ResWidth" value="327"/>
+<property name="ResHeight" value="171"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="pause" gid="37" x="33" y="727">
+<properties>
+<property name="ID" value="pause"/>
+<property name="ResWidth" value="65"/>
+<property name="ResHeight" value="65"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui04_ads" gid="38" x="0" y="94">
+<properties>
+<property name="ID" value="ui04_ads"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="94"/>
+</properties>
+</object>
+</objectgroup>
+</map>

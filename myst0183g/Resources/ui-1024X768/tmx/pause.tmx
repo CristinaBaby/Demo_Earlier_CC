@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+<tileset firstgid="1" name="in game" tilewidth="1024" tileheight="768">
+<image source="in game.jpg" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="2" name="ui06_pause_bg" tilewidth="312" tileheight="768">
+<image source="ui06_pause_bg.png" trans="ff00ff" width="312" height="768"/>
+</tileset>
+<tileset firstgid="3" name="ui06_settings" tilewidth="94" tileheight="94">
+<image source="ui06_settings.png" trans="ff00ff" width="94" height="94"/>
+</tileset>
+<tileset firstgid="4" name="ui06_settings_h" tilewidth="110" tileheight="110">
+<image source="ui06_settings_h.png" trans="ff00ff" width="110" height="110"/>
+</tileset>
+<tileset firstgid="5" name="ui06_play" tilewidth="97" tileheight="115">
+<image source="ui06_play.png" trans="ff00ff" width="97" height="115"/>
+</tileset>
+<tileset firstgid="6" name="ui06_play_h" tilewidth="111" tileheight="128">
+<image source="ui06_play_h.png" trans="ff00ff" width="111" height="128"/>
+</tileset>
+<tileset firstgid="7" name="ui06_menu" tilewidth="104" tileheight="83">
+<image source="ui06_menu.png" trans="ff00ff" width="104" height="83"/>
+</tileset>
+<tileset firstgid="8" name="ui06_menu_h" tilewidth="113" tileheight="93">
+<image source="ui06_menu_h.png" trans="ff00ff" width="113" height="93"/>
+</tileset>
+<tileset firstgid="9" name="ui06_replay" tilewidth="106" tileheight="96">
+<image source="ui06_replay.png" trans="ff00ff" width="106" height="96"/>
+</tileset>
+<tileset firstgid="10" name="ui06_replay_h" tilewidth="116" tileheight="106">
+<image source="ui06_replay_h.png" trans="ff00ff" width="116" height="106"/>
+</tileset>
+<objectgroup name="BGObject" width="1" height="1">
+<object name="in game" gid="1" x="0" y="768">
+<properties>
+<property name="Name" value="in game"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_pause_bg" gid="2" x="0" y="768">
+<properties>
+<property name="ID" value="ui06_pause_bg"/>
+<property name="ResWidth" value="312"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_settings" gid="3" x="84" y="176">
+<properties>
+<property name="ID" value="ui06_settings"/>
+<property name="ResWidth" value="94"/>
+<property name="ResHeight" value="94"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_settings_h" gid="4" x="76" y="184">
+<properties>
+<property name="ID" value="ui06_settings_h"/>
+<property name="ResWidth" value="110"/>
+<property name="ResHeight" value="110"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_play" gid="5" x="91" y="706">
+<properties>
+<property name="ID" value="ui06_play"/>
+<property name="ResWidth" value="97"/>
+<property name="ResHeight" value="115"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_play_h" gid="6" x="83" y="712">
+<properties>
+<property name="ID" value="ui06_play_h"/>
+<property name="ResWidth" value="111"/>
+<property name="ResHeight" value="128"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_menu" gid="7" x="77" y="515">
+<properties>
+<property name="ID" value="ui06_menu"/>
+<property name="ResWidth" value="104"/>
+<property name="ResHeight" value="83"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_menu_h" gid="8" x="73" y="520">
+<properties>
+<property name="ID" value="ui06_menu_h"/>
+<property name="ResWidth" value="113"/>
+<property name="ResHeight" value="93"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_replay" gid="9" x="83" y="347">
+<properties>
+<property name="ID" value="ui06_replay"/>
+<property name="ResWidth" value="106"/>
+<property name="ResHeight" value="96"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_replay_h" gid="10" x="78" y="352">
+<properties>
+<property name="ID" value="ui06_replay_h"/>
+<property name="ResWidth" value="116"/>
+<property name="ResHeight" value="106"/>
+</properties>
+</object>
+</objectgroup>
+</map>

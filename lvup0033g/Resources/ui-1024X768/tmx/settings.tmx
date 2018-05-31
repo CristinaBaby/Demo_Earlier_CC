@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+<tileset firstgid="1" name="L07" tilewidth="1024" tileheight="768">
+<image source="L07.jpg" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="2" name="ui05_box" tilewidth="850" tileheight="617">
+<image source="ui05_box.png" trans="ff00ff" width="850" height="617"/>
+</tileset>
+<tileset firstgid="3" name="ui07_delete" tilewidth="293" tileheight="75">
+<image source="ui07_delete.png" trans="ff00ff" width="293" height="75"/>
+</tileset>
+<tileset firstgid="4" name="ui07_delete_h" tilewidth="293" tileheight="77">
+<image source="ui07_delete_h.png" trans="ff00ff" width="293" height="77"/>
+</tileset>
+<tileset firstgid="5" name="ui07_tell_a_friend" tilewidth="293" tileheight="75">
+<image source="ui07_tell_a_friend.png" trans="ff00ff" width="293" height="75"/>
+</tileset>
+<tileset firstgid="6" name="ui07_tell_a_friend_h" tilewidth="293" tileheight="77">
+<image source="ui07_tell_a_friend_h.png" trans="ff00ff" width="293" height="77"/>
+</tileset>
+<tileset firstgid="7" name="ui07_sound" tilewidth="72" tileheight="70">
+<image source="ui07_sound.png" trans="ff00ff" width="72" height="70"/>
+</tileset>
+<tileset firstgid="8" name="ui07_music" tilewidth="57" tileheight="61">
+<image source="ui07_music.png" trans="ff00ff" width="57" height="61"/>
+</tileset>
+<tileset firstgid="9" name="ui07_bar_bg_2" tilewidth="467" tileheight="42">
+<image source="ui07_bar_bg_2.png" trans="ff00ff" width="467" height="42"/>
+</tileset>
+<tileset firstgid="10" name="ui07_bar_2" tilewidth="415" tileheight="7">
+<image source="ui07_bar_2.png" trans="ff00ff" width="415" height="7"/>
+</tileset>
+<tileset firstgid="11" name="ui07_bar_bg" tilewidth="467" tileheight="42">
+<image source="ui07_bar_bg.png" trans="ff00ff" width="467" height="42"/>
+</tileset>
+<tileset firstgid="12" name="ui07_bar" tilewidth="415" tileheight="7">
+<image source="ui07_bar.png" trans="ff00ff" width="415" height="7"/>
+</tileset>
+<tileset firstgid="13" name="ui07_button" tilewidth="57" tileheight="58">
+<image source="ui07_button.png" trans="ff00ff" width="57" height="58"/>
+</tileset>
+<tileset firstgid="14" name="ui07_button_2" tilewidth="57" tileheight="58">
+<image source="ui07_button_2.png" trans="ff00ff" width="57" height="58"/>
+</tileset>
+<tileset firstgid="15" name="ui07_settings" tilewidth="720" tileheight="124">
+<image source="ui07_settings.png" trans="ff00ff" width="720" height="124"/>
+</tileset>
+<tileset firstgid="16" name="ui07_close" tilewidth="62" tileheight="62">
+<image source="ui07_close.png" trans="ff00ff" width="62" height="62"/>
+</tileset>
+<tileset firstgid="17" name="ui07_close_h" tilewidth="74" tileheight="74">
+<image source="ui07_close_h.png" trans="ff00ff" width="74" height="74"/>
+</tileset>
+<objectgroup name="BGObject" width="1" height="1">
+<object name="L07" gid="1" x="0" y="768">
+<properties>
+<property name="Name" value="L07"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui05_box" gid="2" x="89" y="670">
+<properties>
+<property name="ID" value="ui05_box"/>
+<property name="ResWidth" value="850"/>
+<property name="ResHeight" value="617"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_delete" gid="3" x="186" y="617">
+<properties>
+<property name="ID" value="ui07_delete"/>
+<property name="ResWidth" value="293"/>
+<property name="ResHeight" value="75"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_delete_h" gid="4" x="186" y="617">
+<properties>
+<property name="ID" value="ui07_delete_h"/>
+<property name="ResWidth" value="293"/>
+<property name="ResHeight" value="77"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_tell_a_friend" gid="5" x="546" y="617">
+<properties>
+<property name="ID" value="ui07_tell_a_friend"/>
+<property name="ResWidth" value="293"/>
+<property name="ResHeight" value="75"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_tell_a_friend_h" gid="6" x="546" y="617">
+<properties>
+<property name="ID" value="ui07_tell_a_friend_h"/>
+<property name="ResWidth" value="293"/>
+<property name="ResHeight" value="77"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_sound" gid="7" x="204" y="448">
+<properties>
+<property name="ID" value="ui07_sound"/>
+<property name="ResWidth" value="72"/>
+<property name="ResHeight" value="70"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_music" gid="8" x="208" y="331">
+<properties>
+<property name="ID" value="ui07_music"/>
+<property name="ResWidth" value="57"/>
+<property name="ResHeight" value="61"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_bar_bg_2" gid="9" x="342" y="437">
+<properties>
+<property name="ID" value="ui07_bar_bg_2"/>
+<property name="ResWidth" value="467"/>
+<property name="ResHeight" value="42"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_bar_2" gid="10" x="366" y="419">
+<properties>
+<property name="ID" value="ui07_bar_2"/>
+<property name="ResWidth" value="415"/>
+<property name="ResHeight" value="7"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_bar_bg" gid="11" x="342" y="321">
+<properties>
+<property name="ID" value="ui07_bar_bg"/>
+<property name="ResWidth" value="467"/>
+<property name="ResHeight" value="42"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_bar" gid="12" x="366" y="303">
+<properties>
+<property name="ID" value="ui07_bar"/>
+<property name="ResWidth" value="415"/>
+<property name="ResHeight" value="7"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_button" gid="13" x="670" y="324">
+<properties>
+<property name="ID" value="ui07_button"/>
+<property name="ResWidth" value="57"/>
+<property name="ResHeight" value="58"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_button_2" gid="14" x="550" y="443">
+<properties>
+<property name="ID" value="ui07_button_2"/>
+<property name="ResWidth" value="57"/>
+<property name="ResHeight" value="58"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_settings" gid="15" x="154" y="171">
+<properties>
+<property name="ID" value="ui07_settings"/>
+<property name="ResWidth" value="720"/>
+<property name="ResHeight" value="124"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_close" gid="16" x="876" y="153">
+<properties>
+<property name="ID" value="ui07_close"/>
+<property name="ResWidth" value="62"/>
+<property name="ResHeight" value="62"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_close_h" gid="17" x="870" y="158">
+<properties>
+<property name="ID" value="ui07_close_h"/>
+<property name="ResWidth" value="74"/>
+<property name="ResHeight" value="74"/>
+</properties>
+</object>
+</objectgroup>
+</map>

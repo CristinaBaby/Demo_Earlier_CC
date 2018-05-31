@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+<tileset firstgid="1" name="ui09_loading_bg" tilewidth="1024" tileheight="768">
+<image source="ui09_loading_bg.jpg" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="2" name="ui09_bar_bg" tilewidth="724" tileheight="40">
+<image source="ui09_bar_bg.png" trans="ff00ff" width="724" height="40"/>
+</tileset>
+<tileset firstgid="3" name="ui09_bar" tilewidth="702" tileheight="40">
+<image source="ui09_bar.png" trans="ff00ff" width="702" height="40"/>
+</tileset>
+<tileset firstgid="4" name="ui09_loading" tilewidth="208" tileheight="45">
+<image source="ui09_loading.png" trans="ff00ff" width="208" height="45"/>
+</tileset>
+<objectgroup name="BGObject" width="1" height="1">
+<object name="ui09_loading_bg" gid="1" x="0" y="768">
+<properties>
+<property name="Name" value="ui09_loading_bg"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui09_bar_bg" gid="2" x="149" y="590">
+<properties>
+<property name="ID" value="ui09_bar_bg"/>
+<property name="ResWidth" value="724"/>
+<property name="ResHeight" value="40"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui09_bar" gid="3" x="160" y="594">
+<properties>
+<property name="ID" value="ui09_bar"/>
+<property name="ResWidth" value="702"/>
+<property name="ResHeight" value="40"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui09_loading" gid="4" x="438" y="653">
+<properties>
+<property name="ID" value="ui09_loading"/>
+<property name="ResWidth" value="208"/>
+<property name="ResHeight" value="45"/>
+</properties>
+</object>
+</objectgroup>
+</map>

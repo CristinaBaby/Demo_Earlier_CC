@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>L01_animation.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>blood</name>
+            <delay>0.1</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>L01_blood_00001.png</spriteFrame>
+            <spriteFrame>L01_blood_00002.png</spriteFrame>
+            <spriteFrame>L01_blood_00003.png</spriteFrame>
+            <spriteFrame>L01_blood_00004.png</spriteFrame>
+            <spriteFrame>L01_blood_00005.png</spriteFrame>
+            <spriteFrame>L01_blood_00006.png</spriteFrame>
+            <spriteFrame>L01_blood_00007.png</spriteFrame>
+            <spriteFrame>L01_blood_00008.png</spriteFrame>
+            <spriteFrame>L01_blood_00009.png</spriteFrame>
+            <spriteFrame>L01_blood_00010.png</spriteFrame>
+            <spriteFrame>L01_blood_00011.png</spriteFrame>
+            <spriteFrame>L01_blood_00012.png</spriteFrame>
+            <spriteFrame>L01_blood_00013.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

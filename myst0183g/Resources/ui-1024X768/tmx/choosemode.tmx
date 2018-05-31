@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+<tileset firstgid="1" name="L07" tilewidth="1024" tileheight="768">
+<image source="L07.jpg" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="2" name="ui02_button_h" tilewidth="250" tileheight="387">
+<image source="ui02_button_h.png" trans="ff00ff" width="250" height="387"/>
+</tileset>
+<tileset firstgid="3" name="ui02_button" tilewidth="250" tileheight="380">
+<image source="ui02_button.png" trans="ff00ff" width="250" height="380"/>
+</tileset>
+<tileset firstgid="4" name="ui02_button_2" tilewidth="250" tileheight="380">
+<image source="ui02_button_2.png" trans="ff00ff" width="250" height="380"/>
+</tileset>
+<tileset firstgid="5" name="ui02_button_3" tilewidth="250" tileheight="380">
+<image source="ui02_button_3.png" trans="ff00ff" width="250" height="380"/>
+</tileset>
+<tileset firstgid="6" name="ui02_choose_mode" tilewidth="552" tileheight="63">
+<image source="ui02_choose_mode.png" trans="ff00ff" width="552" height="63"/>
+</tileset>
+<tileset firstgid="7" name="ui02_picture" tilewidth="122" tileheight="231">
+<image source="ui02_picture.png" trans="ff00ff" width="122" height="231"/>
+</tileset>
+<tileset firstgid="8" name="ui02_silhouette" tilewidth="176" tileheight="231">
+<image source="ui02_silhouette.png" trans="ff00ff" width="176" height="231"/>
+</tileset>
+<tileset firstgid="9" name="ui02_word" tilewidth="142" tileheight="192">
+<image source="ui02_word.png" trans="ff00ff" width="142" height="192"/>
+</tileset>
+<tileset firstgid="10" name="ui03_back" tilewidth="86" tileheight="76">
+<image source="ui03_back.png" trans="ff00ff" width="86" height="76"/>
+</tileset>
+<tileset firstgid="11" name="ui03_back_h" tilewidth="96" tileheight="86">
+<image source="ui03_back_h.png" trans="ff00ff" width="96" height="86"/>
+</tileset>
+<objectgroup name="BGObject" width="1" height="1">
+<object name="L07" gid="1" x="0" y="768">
+<properties>
+<property name="Name" value="L07"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui02_button_h" gid="2" x="125" y="638">
+<properties>
+<property name="ID" value="ui02_button_h"/>
+<property name="ResWidth" value="250"/>
+<property name="ResHeight" value="387"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui02_button" gid="3" x="125" y="631">
+<properties>
+<property name="ID" value="ui02_button"/>
+<property name="ResWidth" value="250"/>
+<property name="ResHeight" value="380"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui02_button_2" gid="4" x="390" y="631">
+<properties>
+<property name="ID" value="ui02_button_2"/>
+<property name="ResWidth" value="250"/>
+<property name="ResHeight" value="380"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui02_button_3" gid="5" x="652" y="631">
+<properties>
+<property name="ID" value="ui02_button_3"/>
+<property name="ResWidth" value="250"/>
+<property name="ResHeight" value="380"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui02_choose_mode" gid="6" x="246" y="140">
+<properties>
+<property name="ID" value="ui02_choose_mode"/>
+<property name="ResWidth" value="552"/>
+<property name="ResHeight" value="63"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui02_picture" gid="7" x="189" y="506">
+<properties>
+<property name="ID" value="ui02_picture"/>
+<property name="ResWidth" value="122"/>
+<property name="ResHeight" value="231"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui02_silhouette" gid="8" x="427" y="506">
+<properties>
+<property name="ID" value="ui02_silhouette"/>
+<property name="ResWidth" value="176"/>
+<property name="ResHeight" value="231"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui02_word" gid="9" x="710" y="467">
+<properties>
+<property name="ID" value="ui02_word"/>
+<property name="ResWidth" value="142"/>
+<property name="ResHeight" value="192"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_back" gid="10" x="51" y="117">
+<properties>
+<property name="ID" value="ui03_back"/>
+<property name="ResWidth" value="86"/>
+<property name="ResHeight" value="76"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_back_h" gid="11" x="46" y="120">
+<properties>
+<property name="ID" value="ui03_back_h"/>
+<property name="ResWidth" value="96"/>
+<property name="ResHeight" value="86"/>
+</properties>
+</object>
+</objectgroup>
+</map>

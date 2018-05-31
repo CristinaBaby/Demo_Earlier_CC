@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+ <tileset firstgid="1" name="L05_bg" tilewidth="1024" tileheight="768">
+  <image source="L05_bg.jpg" trans="ffffff" width="1024" height="768"/>
+ </tileset>
+ <tileset firstgid="2" name="L05_01_w" tilewidth="133" tileheight="117">
+  <image source="L05_01_w.png" trans="ffffff" width="133" height="117"/>
+ </tileset>
+ <tileset firstgid="3" name="L05_02_w" tilewidth="125" tileheight="91">
+  <image source="L05_02_w.png" trans="ffffff" width="125" height="91"/>
+ </tileset>
+ <tileset firstgid="4" name="L05_03_w" tilewidth="80" tileheight="79">
+  <image source="L05_03_w.png" trans="ffffff" width="80" height="79"/>
+ </tileset>
+ <tileset firstgid="5" name="L05_04_w" tilewidth="80" tileheight="79">
+  <image source="L05_04_w.png" trans="ffffff" width="80" height="79"/>
+ </tileset>
+ <tileset firstgid="6" name="L05_05_w" tilewidth="112" tileheight="92">
+  <image source="L05_05_w.png" trans="ffffff" width="112" height="92"/>
+ </tileset>
+ <tileset firstgid="7" name="L05_06_w" tilewidth="76" tileheight="75">
+  <image source="L05_06_w.png" trans="ffffff" width="76" height="75"/>
+ </tileset>
+ <tileset firstgid="8" name="L05_07_w" tilewidth="86" tileheight="98">
+  <image source="L05_07_w.png" trans="ffffff" width="86" height="98"/>
+ </tileset>
+ <tileset firstgid="9" name="L05_08_w" tilewidth="123" tileheight="123">
+  <image source="L05_08_w.png" trans="ffffff" width="123" height="123"/>
+ </tileset>
+ <tileset firstgid="10" name="L05_09_w" tilewidth="75" tileheight="112">
+  <image source="L05_09_w.png" trans="ffffff" width="75" height="112"/>
+ </tileset>
+ <tileset firstgid="11" name="L05_10_w" tilewidth="125" tileheight="98">
+  <image source="L05_10_w.png" trans="ffffff" width="125" height="98"/>
+ </tileset>
+ <tileset firstgid="12" name="L05_11_w" tilewidth="175" tileheight="88">
+  <image source="L05_11_w.png" trans="ffffff" width="175" height="88"/>
+ </tileset>
+ <tileset firstgid="13" name="L05_12_w" tilewidth="76" tileheight="159">
+  <image source="L05_12_w.png" trans="ffffff" width="76" height="159"/>
+ </tileset>
+ <tileset firstgid="14" name="L05_13_w" tilewidth="87" tileheight="134">
+  <image source="L05_13_w.png" trans="ffffff" width="87" height="134"/>
+ </tileset>
+ <tileset firstgid="15" name="L05_14_w" tilewidth="107" tileheight="122">
+  <image source="L05_14_w.png" trans="ffffff" width="107" height="122"/>
+ </tileset>
+ <tileset firstgid="16" name="L05_16_w" tilewidth="88" tileheight="126">
+  <image source="L05_16_w.png" trans="ffffff" width="88" height="126"/>
+ </tileset>
+ <tileset firstgid="17" name="L05_17_w" tilewidth="76" tileheight="79">
+  <image source="L05_17_w.png" trans="ffffff" width="76" height="79"/>
+ </tileset>
+ <tileset firstgid="18" name="L05_18_w" tilewidth="77" tileheight="80">
+  <image source="L05_18_w.png" trans="ffffff" width="77" height="80"/>
+ </tileset>
+ <tileset firstgid="19" name="L05_20_w" tilewidth="112" tileheight="109">
+  <image source="L05_20_w.png" trans="ffffff" width="112" height="109"/>
+ </tileset>
+ <tileset firstgid="20" name="L05_21_w" tilewidth="79" tileheight="75">
+  <image source="L05_21_w.png" trans="ffffff" width="79" height="75"/>
+ </tileset>
+ <tileset firstgid="21" name="L05_22_w" tilewidth="79" tileheight="98">
+  <image source="L05_22_w.png" trans="ffffff" width="79" height="98"/>
+ </tileset>
+ <tileset firstgid="22" name="L05_23_w" tilewidth="79" tileheight="136">
+  <image source="L05_23_w.png" trans="ffffff" width="79" height="136"/>
+ </tileset>
+ <tileset firstgid="23" name="L05_24_w" tilewidth="125" tileheight="89">
+  <image source="L05_24_w.png" trans="ffffff" width="125" height="89"/>
+ </tileset>
+ <tileset firstgid="24" name="L05_25_w" tilewidth="89" tileheight="110">
+  <image source="L05_25_w.png" trans="ffffff" width="89" height="110"/>
+ </tileset>
+ <tileset firstgid="25" name="L05_26_w" tilewidth="76" tileheight="88">
+  <image source="L05_26_w.png" trans="ffffff" width="76" height="88"/>
+ </tileset>
+ <tileset firstgid="26" name="L05_27_w" tilewidth="78" tileheight="76">
+  <image source="L05_27_w.png" trans="ffffff" width="78" height="76"/>
+ </tileset>
+ <tileset firstgid="27" name="L05_28_w" tilewidth="125" tileheight="85">
+  <image source="L05_28_w.png" trans="ffffff" width="125" height="85"/>
+ </tileset>
+ <tileset firstgid="28" name="L05_29_w" tilewidth="75" tileheight="101">
+  <image source="L05_29_w.png" trans="ffffff" width="75" height="101"/>
+ </tileset>
+ <tileset firstgid="29" name="L05_30_w" tilewidth="77" tileheight="76">
+  <image source="L05_30_w.png" trans="ffffff" width="77" height="76"/>
+ </tileset>
+ <tileset firstgid="30" name="L05_31_w" tilewidth="88" tileheight="79">
+  <image source="L05_31_w.png" trans="ffffff" width="88" height="79"/>
+ </tileset>
+ <tileset firstgid="31" name="L05_32_w" tilewidth="77" tileheight="79">
+  <image source="L05_32_w.png" trans="ffffff" width="77" height="79"/>
+ </tileset>
+ <tileset firstgid="32" name="L05_candle_left_00001" tilewidth="125" tileheight="125">
+  <image source="../L05_animation/candle_left/L05_candle_left_00001.png" trans="ffffff" width="125" height="125"/>
+ </tileset>
+ <tileset firstgid="33" name="L05_candle_mid_00001" tilewidth="325" tileheight="325">
+  <image source="../L05_animation/candle_mid/L05_candle_mid_00001.png" trans="ffffff" width="325" height="325"/>
+ </tileset>
+ <tileset firstgid="34" name="L05_candle_right_00001" tilewidth="125" tileheight="125">
+  <image source="../L05_animation/candle_right/L05_candle_right_00001.png" trans="ffffff" width="125" height="125"/>
+ </tileset>
+ <objectgroup name="BGObject" width="1" height="1">
+  <object gid="1" x="0" y="768">
+   <properties>
+    <property name="Name" value="L05_bg"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Objects" width="1" height="1">
+  <object gid="2" x="133" y="602">
+   <properties>
+    <property name="ID" value="L05_01"/>
+   </properties>
+  </object>
+  <object gid="3" x="328" y="633">
+   <properties>
+    <property name="ID" value="L05_02"/>
+   </properties>
+  </object>
+  <object gid="4" x="767" y="327">
+   <properties>
+    <property name="ID" value="L05_03"/>
+   </properties>
+  </object>
+  <object gid="5" x="578" y="229">
+   <properties>
+    <property name="ID" value="L05_04"/>
+   </properties>
+  </object>
+  <object gid="6" x="904" y="634">
+   <properties>
+    <property name="ID" value="L05_05"/>
+   </properties>
+  </object>
+  <object gid="7" x="114" y="76">
+   <properties>
+    <property name="ID" value="L05_06"/>
+   </properties>
+  </object>
+  <object gid="8" x="800" y="102">
+   <properties>
+    <property name="ID" value="L05_07"/>
+   </properties>
+  </object>
+  <object gid="9" x="394" y="410">
+   <properties>
+    <property name="ID" value="L05_08"/>
+   </properties>
+  </object>
+  <object gid="10" x="846" y="510">
+   <properties>
+    <property name="ID" value="L05_09"/>
+   </properties>
+  </object>
+  <object gid="11" x="6" y="589">
+   <properties>
+    <property name="ID" value="L05_10"/>
+   </properties>
+  </object>
+  <object gid="12" x="24" y="359">
+   <properties>
+    <property name="ID" value="L05_11"/>
+   </properties>
+  </object>
+  <object gid="13" x="222" y="242">
+   <properties>
+    <property name="ID" value="L05_12"/>
+   </properties>
+  </object>
+  <object gid="14" x="521" y="458">
+   <properties>
+    <property name="ID" value="L05_13"/>
+   </properties>
+  </object>
+  <object gid="15" x="647" y="592">
+   <properties>
+    <property name="ID" value="L05_14"/>
+   </properties>
+  </object>
+  <object gid="16" x="672" y="291">
+   <properties>
+    <property name="ID" value="L05_16"/>
+   </properties>
+  </object>
+  <object gid="17" x="892" y="217">
+   <properties>
+    <property name="ID" value="L05_17"/>
+   </properties>
+  </object>
+  <object gid="18" x="588" y="323">
+   <properties>
+    <property name="ID" value="L05_18"/>
+   </properties>
+  </object>
+  <object gid="19" x="732" y="458">
+   <properties>
+    <property name="ID" value="L05_20"/>
+   </properties>
+  </object>
+  <object gid="20" x="947" y="399">
+   <properties>
+    <property name="ID" value="L05_21"/>
+   </properties>
+  </object>
+  <object gid="21" x="295" y="373">
+   <properties>
+    <property name="ID" value="L05_22"/>
+   </properties>
+  </object>
+  <object gid="22" x="447" y="183">
+   <properties>
+    <property name="ID" value="L05_23"/>
+   </properties>
+  </object>
+  <object gid="23" x="248" y="466">
+   <properties>
+    <property name="ID" value="L05_24"/>
+   </properties>
+  </object>
+  <object gid="24" x="83" y="484">
+   <properties>
+    <property name="ID" value="L05_25"/>
+   </properties>
+  </object>
+  <object gid="25" x="0" y="136">
+   <properties>
+    <property name="ID" value="L05_26"/>
+   </properties>
+  </object>
+  <object gid="26" x="380" y="267">
+   <properties>
+    <property name="ID" value="L05_27"/>
+   </properties>
+  </object>
+  <object gid="27" x="512" y="631">
+   <properties>
+    <property name="ID" value="L05_28"/>
+   </properties>
+  </object>
+  <object gid="28" x="208" y="376">
+   <properties>
+    <property name="ID" value="L05_29"/>
+   </properties>
+  </object>
+  <object gid="29" x="198" y="77">
+   <properties>
+    <property name="ID" value="L05_30"/>
+   </properties>
+  </object>
+  <object gid="30" x="595" y="79">
+   <properties>
+    <property name="ID" value="L05_31"/>
+   </properties>
+  </object>
+  <object gid="31" x="923" y="481">
+   <properties>
+    <property name="ID" value="L05_32"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Animation" width="1" height="1">
+  <object gid="32" x="242" y="278">
+   <properties>
+    <property name="FirstFrame" value="L05_candle_left_00001.png"/>
+    <property name="Name" value="candle_left"/>
+    <property name="TargetFile" value="L05_animation.xml"/>
+   </properties>
+  </object>
+  <object gid="33" x="240" y="618">
+   <properties>
+    <property name="FirstFrame" value="L05_candle_mid_00001.png"/>
+    <property name="Name" value="candle_mid"/>
+    <property name="TargetFile" value="L05_animation.xml"/>
+   </properties>
+  </object>
+  <object gid="34" x="769" y="282">
+   <properties>
+    <property name="FirstFrame" value="L05_candle_right_00001.png"/>
+    <property name="Name" value="candle_right"/>
+    <property name="TargetFile" value="L05_animation.xml"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

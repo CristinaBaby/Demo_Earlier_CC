@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+<tileset firstgid="1" name="L07" tilewidth="1024" tileheight="768">
+<image source="L07.jpg" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="2" name="ui05_box" tilewidth="836" tileheight="578">
+<image source="ui05_box.png" trans="ff00ff" width="836" height="578"/>
+</tileset>
+<tileset firstgid="3" name="ui05_text_bg" tilewidth="695" tileheight="281">
+<image source="ui05_text_bg.png" trans="ff00ff" width="695" height="281"/>
+</tileset>
+<tileset firstgid="4" name="ui05_game_over" tilewidth="569" tileheight="97">
+<image source="ui05_game_over.png" trans="ff00ff" width="569" height="97"/>
+</tileset>
+<tileset firstgid="5" name="ui05_score" tilewidth="100" tileheight="32">
+<image source="ui05_score.png" trans="ff00ff" width="100" height="32"/>
+</tileset>
+<tileset firstgid="6" name="ui05_score_value" tilewidth="149" tileheight="32">
+<image source="ui05_score_value.png" trans="ff00ff" width="149" height="32"/>
+</tileset>
+<tileset firstgid="7" name="ui06_menu" tilewidth="104" tileheight="83">
+<image source="ui06_menu.png" trans="ff00ff" width="104" height="83"/>
+</tileset>
+<tileset firstgid="8" name="ui06_menu_h" tilewidth="118" tileheight="97">
+<image source="ui06_menu_h.png" trans="ff00ff" width="118" height="97"/>
+</tileset>
+<tileset firstgid="9" name="ui05_replay" tilewidth="106" tileheight="96">
+<image source="ui05_replay.png" trans="ff00ff" width="106" height="96"/>
+</tileset>
+<tileset firstgid="10" name="ui05_replay_h" tilewidth="120" tileheight="110">
+<image source="ui05_replay_h.png" trans="ff00ff" width="120" height="110"/>
+</tileset>
+<objectgroup name="BGObject" width="1" height="1">
+<object name="L07" gid="1" x="0" y="768">
+<properties>
+<property name="Name" value="L07"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui05_box" gid="2" x="95" y="695">
+<properties>
+<property name="ID" value="ui05_box"/>
+<property name="ResWidth" value="836"/>
+<property name="ResHeight" value="578"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui05_text_bg" gid="3" x="166" y="523">
+<properties>
+<property name="ID" value="ui05_text_bg"/>
+<property name="ResWidth" value="695"/>
+<property name="ResHeight" value="281"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui05_game_over" gid="4" x="228" y="183">
+<properties>
+<property name="ID" value="ui05_game_over"/>
+<property name="ResWidth" value="569"/>
+<property name="ResHeight" value="97"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui05_score" gid="5" x="462" y="345">
+<properties>
+<property name="ID" value="ui05_score"/>
+<property name="ResWidth" value="100"/>
+<property name="ResHeight" value="32"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui05_score_value" gid="6" x="443" y="418">
+<properties>
+<property name="ID" value="ui05_score_value"/>
+<property name="ResWidth" value="149"/>
+<property name="ResHeight" value="32"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_menu" gid="7" x="218" y="642">
+<properties>
+<property name="ID" value="ui06_menu"/>
+<property name="ResWidth" value="104"/>
+<property name="ResHeight" value="83"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui06_menu_h" gid="8" x="212" y="649">
+<properties>
+<property name="ID" value="ui06_menu_h"/>
+<property name="ResWidth" value="118"/>
+<property name="ResHeight" value="97"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui05_replay" gid="9" x="693" y="646">
+<properties>
+<property name="ID" value="ui05_replay"/>
+<property name="ResWidth" value="106"/>
+<property name="ResHeight" value="96"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui05_replay_h" gid="10" x="686" y="653">
+<properties>
+<property name="ID" value="ui05_replay_h"/>
+<property name="ResWidth" value="120"/>
+<property name="ResHeight" value="110"/>
+</properties>
+</object>
+</objectgroup>
+</map>

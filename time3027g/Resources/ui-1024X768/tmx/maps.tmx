@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+<tileset firstgid="1" name="ui03_bg" tilewidth="1024" tileheight="768">
+<image source="ui03_bg.jpg" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="2" name="ui03_map_thumb" tilewidth="204" tileheight="153">
+<image source="ui03_map_thumb.png" trans="ff00ff" width="204" height="153"/>
+</tileset>
+<tileset firstgid="3" name="ui03_frame_1" tilewidth="232" tileheight="185">
+<image source="ui03_frame_1.png" trans="ff00ff" width="232" height="185"/>
+</tileset>
+<tileset firstgid="4" name="ui03_frame_2" tilewidth="232" tileheight="185">
+<image source="ui03_frame_2.png" trans="ff00ff" width="232" height="185"/>
+</tileset>
+<tileset firstgid="5" name="ui03_frame_3" tilewidth="232" tileheight="185">
+<image source="ui03_frame_3.png" trans="ff00ff" width="232" height="185"/>
+</tileset>
+<tileset firstgid="6" name="ui03_frame_4" tilewidth="232" tileheight="185">
+<image source="ui03_frame_4.png" trans="ff00ff" width="232" height="185"/>
+</tileset>
+<tileset firstgid="7" name="ui03_frame_5" tilewidth="232" tileheight="185">
+<image source="ui03_frame_5.png" trans="ff00ff" width="232" height="185"/>
+</tileset>
+<tileset firstgid="8" name="ui03_frame_6" tilewidth="232" tileheight="185">
+<image source="ui03_frame_6.png" trans="ff00ff" width="232" height="185"/>
+</tileset>
+<tileset firstgid="9" name="ui03_frame_7" tilewidth="232" tileheight="185">
+<image source="ui03_frame_7.png" trans="ff00ff" width="232" height="185"/>
+</tileset>
+<tileset firstgid="10" name="ui03_frame_8" tilewidth="232" tileheight="185">
+<image source="ui03_frame_8.png" trans="ff00ff" width="232" height="185"/>
+</tileset>
+<tileset firstgid="11" name="ui03_frame" tilewidth="232" tileheight="185">
+<image source="ui03_frame.png" trans="ff00ff" width="232" height="185"/>
+</tileset>
+<tileset firstgid="12" name="ui03_star" tilewidth="38" tileheight="38">
+<image source="ui03_star.png" trans="ff00ff" width="38" height="38"/>
+</tileset>
+<tileset firstgid="13" name="ui03_star_2" tilewidth="38" tileheight="38">
+<image source="ui03_star_2.png" trans="ff00ff" width="38" height="38"/>
+</tileset>
+<tileset firstgid="14" name="ui03_star_u" tilewidth="38" tileheight="38">
+<image source="ui03_star_u.png" trans="ff00ff" width="38" height="38"/>
+</tileset>
+<tileset firstgid="15" name="dot_1" tilewidth="13" tileheight="12">
+<image source="dot_1.png" trans="ff00ff" width="13" height="12"/>
+</tileset>
+<tileset firstgid="16" name="dot_2" tilewidth="12" tileheight="12">
+<image source="dot_2.png" trans="ff00ff" width="12" height="12"/>
+</tileset>
+<tileset firstgid="17" name="ui03_back" tilewidth="86" tileheight="76">
+<image source="ui03_back.png" trans="ff00ff" width="86" height="76"/>
+</tileset>
+<tileset firstgid="18" name="ui03_back_h" tilewidth="96" tileheight="86">
+<image source="ui03_back_h.png" trans="ff00ff" width="96" height="86"/>
+</tileset>
+<tileset firstgid="19" name="ui03_lock" tilewidth="64" tileheight="86">
+<image source="ui03_lock.png" trans="ff00ff" width="64" height="86"/>
+</tileset>
+<objectgroup name="BGObject" width="1" height="1">
+<object name="ui03_bg" gid="1" x="0" y="768">
+<properties>
+<property name="Name" value="ui03_bg"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_map_thumb" gid="2" x="410" y="270">
+<properties>
+<property name="ID" value="ui03_map_thumb"/>
+<property name="ResWidth" value="204"/>
+<property name="ResHeight" value="153"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_frame_1" gid="3" x="78" y="286">
+<properties>
+<property name="ID" value="ui03_frame_1"/>
+<property name="ResWidth" value="232"/>
+<property name="ResHeight" value="185"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_frame_2" gid="4" x="396" y="286">
+<properties>
+<property name="ID" value="ui03_frame_2"/>
+<property name="ResWidth" value="232"/>
+<property name="ResHeight" value="185"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_frame_3" gid="5" x="716" y="286">
+<properties>
+<property name="ID" value="ui03_frame_3"/>
+<property name="ResWidth" value="232"/>
+<property name="ResHeight" value="185"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_frame_4" gid="6" x="78" y="491">
+<properties>
+<property name="ID" value="ui03_frame_4"/>
+<property name="ResWidth" value="232"/>
+<property name="ResHeight" value="185"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_frame_5" gid="7" x="396" y="491">
+<properties>
+<property name="ID" value="ui03_frame_5"/>
+<property name="ResWidth" value="232"/>
+<property name="ResHeight" value="185"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_frame_6" gid="8" x="716" y="491">
+<properties>
+<property name="ID" value="ui03_frame_6"/>
+<property name="ResWidth" value="232"/>
+<property name="ResHeight" value="185"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_frame_7" gid="9" x="78" y="695">
+<properties>
+<property name="ID" value="ui03_frame_7"/>
+<property name="ResWidth" value="232"/>
+<property name="ResHeight" value="185"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_frame_8" gid="10" x="396" y="695">
+<properties>
+<property name="ID" value="ui03_frame_8"/>
+<property name="ResWidth" value="232"/>
+<property name="ResHeight" value="185"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_frame" gid="11" x="716" y="695">
+<properties>
+<property name="ID" value="ui03_frame"/>
+<property name="ResWidth" value="232"/>
+<property name="ResHeight" value="185"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_star" gid="12" x="139" y="260">
+<properties>
+<property name="ID" value="ui03_star"/>
+<property name="ResWidth" value="38"/>
+<property name="ResHeight" value="38"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_star_2" gid="13" x="214" y="261">
+<properties>
+<property name="ID" value="ui03_star_2"/>
+<property name="ResWidth" value="38"/>
+<property name="ResHeight" value="38"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_star_u" gid="14" x="176" y="260">
+<properties>
+<property name="ID" value="ui03_star_u"/>
+<property name="ResWidth" value="38"/>
+<property name="ResHeight" value="38"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="dot_1" gid="15" x="490" y="738">
+<properties>
+<property name="ID" value="dot_1"/>
+<property name="ResWidth" value="13"/>
+<property name="ResHeight" value="12"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="dot_2" gid="16" x="518" y="738">
+<properties>
+<property name="ID" value="dot_2"/>
+<property name="ResWidth" value="12"/>
+<property name="ResHeight" value="12"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_back" gid="17" x="36" y="99">
+<properties>
+<property name="ID" value="ui03_back"/>
+<property name="ResWidth" value="86"/>
+<property name="ResHeight" value="76"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_back_h" gid="18" x="31" y="102">
+<properties>
+<property name="ID" value="ui03_back_h"/>
+<property name="ResWidth" value="96"/>
+<property name="ResHeight" value="86"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui03_lock" gid="19" x="161" y="217">
+<properties>
+<property name="ID" value="ui03_lock"/>
+<property name="ResWidth" value="64"/>
+<property name="ResHeight" value="86"/>
+</properties>
+</object>
+</objectgroup>
+</map>

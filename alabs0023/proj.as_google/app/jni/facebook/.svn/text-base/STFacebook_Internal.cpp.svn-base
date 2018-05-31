@@ -1,0 +1,64 @@
+#include "STFacebook.h"
+#include "..\widget\QZDialog.h"
+#include "..\include\StringValues.h"
+#include "STFacebookHelper_JNI_Helper.h"
+#include "..\bean\QZProgress.h"
+static STFacebook* sp_Facebook = NULL;
+STFacebook* STFacebook::getInstance() {
+	if(NULL == sp_Facebook) sp_Facebook = new STFacebook();
+	return sp_Facebook;
+}
+
+void STFacebook::purgeInstance() {
+	if(NULL != sp_Facebook)
+	{
+		delete sp_Facebook;
+		sp_Facebook = NULL;
+	}
+}
+
+STFacebook::STFacebook()
+{
+
+}
+
+STFacebook::~STFacebook() {
+
+}
+
+
+void STFacebook::onPostStatus(int tag, bool bSuccess)
+{
+	// TODO
+}
+
+void STFacebook::onPostPhoto(int tag,bool bSuccess)
+{
+	// TODO
+}
+
+void STFacebook::onPostRichContent(int tag, bool bSuccess)
+{
+	//STAndroidUtility::getInstance()->log("C++:STFacebook","+++STFacebook::onPostRichContent()+++");
+	if (bSuccess)
+	{
+		QZDialog* dialog = QZDialog::create(450,210);
+		dialog->setContent(FACEBOOK_SUCCEED_MESSAGE,kCCTextAlignmentCenter,kCCVerticalTextAlignmentTop);
+		dialog->addOneButton(STRING_OK,NULL,NULL);
+		dialog->show(true);
+	}else
+	{
+		QZDialog* dialog = QZDialog::create(450,210);
+		dialog->setContent(FACEBOOK_FAILED_MESSAGE,kCCTextAlignmentCenter,kCCVerticalTextAlignmentTop);
+		dialog->addOneButton(STRING_OK,NULL,NULL);
+		dialog->show(true);
+	}
+}
+
+void STFacebook::onPostTimeOut(int tag)
+{
+	QZDialog* dialog = QZDialog::create(450,210);
+	dialog->setContent(FACEBOOK_TIME_OUT_MESSAGE,kCCTextAlignmentCenter,kCCVerticalTextAlignmentTop);
+	dialog->addOneButton(STRING_OK,NULL,NULL);
+	dialog->show(true);
+}

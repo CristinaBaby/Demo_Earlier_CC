@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+<tileset firstgid="1" name="l03_Jigsaw_bg" tilewidth="1024" tileheight="768">
+<image source="l03_Jigsaw_bg.jpg" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="2" name="l03_Jigsaw_back" tilewidth="624" tileheight="624">
+<image source="l03_Jigsaw_back.png" trans="ff00ff" width="624" height="624"/>
+</tileset>
+<tileset firstgid="3" name="l03_Jigsaw_frame" tilewidth="610" tileheight="636">
+<image source="l03_Jigsaw_frame.png" trans="ff00ff" width="610" height="636"/>
+</tileset>
+<tileset firstgid="4" name="l03_Jigsaw_bar" tilewidth="297" tileheight="27">
+<image source="l03_Jigsaw_bar.png" trans="ff00ff" width="297" height="27"/>
+</tileset>
+<tileset firstgid="5" name="6x6_36_shade" tilewidth="152" tileheight="127">
+<image source="6x6_36_shade.png" trans="ff00ff" width="152" height="127"/>
+</tileset>
+<tileset firstgid="6" name="6x6_35_shade" tilewidth="178" tileheight="140">
+<image source="6x6_35_shade.png" trans="ff00ff" width="178" height="140"/>
+</tileset>
+<tileset firstgid="7" name="6x6_34_shade" tilewidth="289" tileheight="122">
+<image source="6x6_34_shade.png" trans="ff00ff" width="289" height="122"/>
+</tileset>
+<tileset firstgid="8" name="6x6_33_shade" tilewidth="113" tileheight="105">
+<image source="6x6_33_shade.png" trans="ff00ff" width="113" height="105"/>
+</tileset>
+<tileset firstgid="9" name="6x6_32_shade" tilewidth="175" tileheight="112">
+<image source="6x6_32_shade.png" trans="ff00ff" width="175" height="112"/>
+</tileset>
+<tileset firstgid="10" name="6x6_31_shade" tilewidth="98" tileheight="112">
+<image source="6x6_31_shade.png" trans="ff00ff" width="98" height="112"/>
+</tileset>
+<tileset firstgid="11" name="6x6_30_shade" tilewidth="93" tileheight="178">
+<image source="6x6_30_shade.png" trans="ff00ff" width="93" height="178"/>
+</tileset>
+<tileset firstgid="12" name="6x6_29_shade" tilewidth="136" tileheight="143">
+<image source="6x6_29_shade.png" trans="ff00ff" width="136" height="143"/>
+</tileset>
+<tileset firstgid="13" name="6x6_28_shade" tilewidth="178" tileheight="128">
+<image source="6x6_28_shade.png" trans="ff00ff" width="178" height="128"/>
+</tileset>
+<tileset firstgid="14" name="6x6_27_shade" tilewidth="157" tileheight="198">
+<image source="6x6_27_shade.png" trans="ff00ff" width="157" height="198"/>
+</tileset>
+<tileset firstgid="15" name="6x6_26_shade" tilewidth="145" tileheight="138">
+<image source="6x6_26_shade.png" trans="ff00ff" width="145" height="138"/>
+</tileset>
+<tileset firstgid="16" name="6x6_25_shade" tilewidth="131" tileheight="141">
+<image source="6x6_25_shade.png" trans="ff00ff" width="131" height="141"/>
+</tileset>
+<tileset firstgid="17" name="6x6_24_shade" tilewidth="129" tileheight="129">
+<image source="6x6_24_shade.png" trans="ff00ff" width="129" height="129"/>
+</tileset>
+<tileset firstgid="18" name="6x6_23_shade" tilewidth="129" tileheight="124">
+<image source="6x6_23_shade.png" trans="ff00ff" width="129" height="124"/>
+</tileset>
+<tileset firstgid="19" name="6x6_22_shade" tilewidth="123" tileheight="129">
+<image source="6x6_22_shade.png" trans="ff00ff" width="123" height="129"/>
+</tileset>
+<tileset firstgid="20" name="6x6_21_shade" tilewidth="141" tileheight="147">
+<image source="6x6_21_shade.png" trans="ff00ff" width="141" height="147"/>
+</tileset>
+<tileset firstgid="21" name="6x6_20_shade" tilewidth="141" tileheight="137">
+<image source="6x6_20_shade.png" trans="ff00ff" width="141" height="137"/>
+</tileset>
+<tileset firstgid="22" name="6x6_19_shade" tilewidth="128" tileheight="139">
+<image source="6x6_19_shade.png" trans="ff00ff" width="128" height="139"/>
+</tileset>
+<tileset firstgid="23" name="6x6_18_shade" tilewidth="109" tileheight="226">
+<image source="6x6_18_shade.png" trans="ff00ff" width="109" height="226"/>
+</tileset>
+<tileset firstgid="24" name="6x6_17_shade" tilewidth="184" tileheight="137">
+<image source="6x6_17_shade.png" trans="ff00ff" width="184" height="137"/>
+</tileset>
+<tileset firstgid="25" name="6x6_16_shade" tilewidth="171" tileheight="133">
+<image source="6x6_16_shade.png" trans="ff00ff" width="171" height="133"/>
+</tileset>
+<tileset firstgid="26" name="6x6_15_shade" tilewidth="157" tileheight="116">
+<image source="6x6_15_shade.png" trans="ff00ff" width="157" height="116"/>
+</tileset>
+<tileset firstgid="27" name="6x6_14_shade" tilewidth="155" tileheight="152">
+<image source="6x6_14_shade.png" trans="ff00ff" width="155" height="152"/>
+</tileset>
+<tileset firstgid="28" name="6x6_13_shade" tilewidth="120" tileheight="155">
+<image source="6x6_13_shade.png" trans="ff00ff" width="120" height="155"/>
+</tileset>
+<tileset firstgid="29" name="6x6_12_shade" tilewidth="106" tileheight="107">
+<image source="6x6_12_shade.png" trans="ff00ff" width="106" height="107"/>
+</tileset>
+<tileset firstgid="30" name="6x6_11_shade" tilewidth="108" tileheight="130">
+<image source="6x6_11_shade.png" trans="ff00ff" width="108" height="130"/>
+</tileset>
+<tileset firstgid="31" name="6x6_10_shade" tilewidth="167" tileheight="153">
+<image source="6x6_10_shade.png" trans="ff00ff" width="167" height="153"/>
+</tileset>
+<tileset firstgid="32" name="6x6_09_shade" tilewidth="191" tileheight="124">
+<image source="6x6_09_shade.png" trans="ff00ff" width="191" height="124"/>
+</tileset>
+<tileset firstgid="33" name="6x6_08_shade" tilewidth="184" tileheight="139">
+<image source="6x6_08_shade.png" trans="ff00ff" width="184" height="139"/>
+</tileset>
+<tileset firstgid="34" name="6x6_07_shade" tilewidth="103" tileheight="174">
+<image source="6x6_07_shade.png" trans="ff00ff" width="103" height="174"/>
+</tileset>
+<tileset firstgid="35" name="6x6_06_shade" tilewidth="151" tileheight="184">
+<image source="6x6_06_shade.png" trans="ff00ff" width="151" height="184"/>
+</tileset>
+<tileset firstgid="36" name="6x6_05_shade" tilewidth="207" tileheight="130">
+<image source="6x6_05_shade.png" trans="ff00ff" width="207" height="130"/>
+</tileset>
+<tileset firstgid="37" name="6x6_04_shade" tilewidth="124" tileheight="129">
+<image source="6x6_04_shade.png" trans="ff00ff" width="124" height="129"/>
+</tileset>
+<tileset firstgid="38" name="6x6_03_shade" tilewidth="205" tileheight="133">
+<image source="6x6_03_shade.png" trans="ff00ff" width="205" height="133"/>
+</tileset>
+<tileset firstgid="39" name="6x6_02_shade" tilewidth="137" tileheight="106">
+<image source="6x6_02_shade.png" trans="ff00ff" width="137" height="106"/>
+</tileset>
+<tileset firstgid="40" name="6x6_01_shade" tilewidth="114" tileheight="112">
+<image source="6x6_01_shade.png" trans="ff00ff" width="114" height="112"/>
+</tileset>
+<tileset firstgid="41" name="6x6_36" tilewidth="134" tileheight="110">
+<image source="6x6_36.png" trans="ff00ff" width="134" height="110"/>
+</tileset>
+<tileset firstgid="42" name="6x6_35" tilewidth="161" tileheight="124">
+<image source="6x6_35.png" trans="ff00ff" width="161" height="124"/>
+</tileset>
+<tileset firstgid="43" name="6x6_34" tilewidth="272" tileheight="104">
+<image source="6x6_34.png" trans="ff00ff" width="272" height="104"/>
+</tileset>
+<tileset firstgid="44" name="6x6_33" tilewidth="95" tileheight="87">
+<image source="6x6_33.png" trans="ff00ff" width="95" height="87"/>
+</tileset>
+<tileset firstgid="45" name="6x6_32" tilewidth="158" tileheight="95">
+<image source="6x6_32.png" trans="ff00ff" width="158" height="95"/>
+</tileset>
+<tileset firstgid="46" name="6x6_31" tilewidth="80" tileheight="94">
+<image source="6x6_31.png" trans="ff00ff" width="80" height="94"/>
+</tileset>
+<tileset firstgid="47" name="6x6_30" tilewidth="75" tileheight="161">
+<image source="6x6_30.png" trans="ff00ff" width="75" height="161"/>
+</tileset>
+<tileset firstgid="48" name="6x6_29" tilewidth="119" tileheight="126">
+<image source="6x6_29.png" trans="ff00ff" width="119" height="126"/>
+</tileset>
+<tileset firstgid="49" name="6x6_28" tilewidth="161" tileheight="111">
+<image source="6x6_28.png" trans="ff00ff" width="161" height="111"/>
+</tileset>
+<tileset firstgid="50" name="6x6_27" tilewidth="141" tileheight="181">
+<image source="6x6_27.png" trans="ff00ff" width="141" height="181"/>
+</tileset>
+<tileset firstgid="51" name="6x6_26" tilewidth="128" tileheight="121">
+<image source="6x6_26.png" trans="ff00ff" width="128" height="121"/>
+</tileset>
+<tileset firstgid="52" name="6x6_25" tilewidth="112" tileheight="123">
+<image source="6x6_25.png" trans="ff00ff" width="112" height="123"/>
+</tileset>
+<tileset firstgid="53" name="6x6_24" tilewidth="111" tileheight="112">
+<image source="6x6_24.png" trans="ff00ff" width="111" height="112"/>
+</tileset>
+<tileset firstgid="54" name="6x6_23" tilewidth="111" tileheight="108">
+<image source="6x6_23.png" trans="ff00ff" width="111" height="108"/>
+</tileset>
+<tileset firstgid="55" name="6x6_22" tilewidth="105" tileheight="112">
+<image source="6x6_22.png" trans="ff00ff" width="105" height="112"/>
+</tileset>
+<tileset firstgid="56" name="6x6_21" tilewidth="123" tileheight="129">
+<image source="6x6_21.png" trans="ff00ff" width="123" height="129"/>
+</tileset>
+<tileset firstgid="57" name="6x6_20" tilewidth="125" tileheight="119">
+<image source="6x6_20.png" trans="ff00ff" width="125" height="119"/>
+</tileset>
+<tileset firstgid="58" name="6x6_19" tilewidth="109" tileheight="122">
+<image source="6x6_19.png" trans="ff00ff" width="109" height="122"/>
+</tileset>
+<tileset firstgid="59" name="6x6_18" tilewidth="91" tileheight="210">
+<image source="6x6_18.png" trans="ff00ff" width="91" height="210"/>
+</tileset>
+<tileset firstgid="60" name="6x6_17" tilewidth="168" tileheight="120">
+<image source="6x6_17.png" trans="ff00ff" width="168" height="120"/>
+</tileset>
+<tileset firstgid="61" name="6x6_16" tilewidth="153" tileheight="116">
+<image source="6x6_16.png" trans="ff00ff" width="153" height="116"/>
+</tileset>
+<tileset firstgid="62" name="6x6_15" tilewidth="140" tileheight="98">
+<image source="6x6_15.png" trans="ff00ff" width="140" height="98"/>
+</tileset>
+<tileset firstgid="63" name="6x6_14" tilewidth="137" tileheight="135">
+<image source="6x6_14.png" trans="ff00ff" width="137" height="135"/>
+</tileset>
+<tileset firstgid="64" name="6x6_13" tilewidth="102" tileheight="138">
+<image source="6x6_13.png" trans="ff00ff" width="102" height="138"/>
+</tileset>
+<tileset firstgid="65" name="6x6_12" tilewidth="88" tileheight="90">
+<image source="6x6_12.png" trans="ff00ff" width="88" height="90"/>
+</tileset>
+<tileset firstgid="66" name="6x6_11" tilewidth="92" tileheight="113">
+<image source="6x6_11.png" trans="ff00ff" width="92" height="113"/>
+</tileset>
+<tileset firstgid="67" name="6x6_10" tilewidth="150" tileheight="135">
+<image source="6x6_10.png" trans="ff00ff" width="150" height="135"/>
+</tileset>
+<tileset firstgid="68" name="6x6_09" tilewidth="174" tileheight="106">
+<image source="6x6_09.png" trans="ff00ff" width="174" height="106"/>
+</tileset>
+<tileset firstgid="69" name="6x6_08" tilewidth="166" tileheight="121">
+<image source="6x6_08.png" trans="ff00ff" width="166" height="121"/>
+</tileset>
+<tileset firstgid="70" name="6x6_07" tilewidth="84" tileheight="156">
+<image source="6x6_07.png" trans="ff00ff" width="84" height="156"/>
+</tileset>
+<tileset firstgid="71" name="6x6_06" tilewidth="133" tileheight="166">
+<image source="6x6_06.png" trans="ff00ff" width="133" height="166"/>
+</tileset>
+<tileset firstgid="72" name="6x6_05" tilewidth="190" tileheight="111">
+<image source="6x6_05.png" trans="ff00ff" width="190" height="111"/>
+</tileset>
+<tileset firstgid="73" name="6x6_04" tilewidth="106" tileheight="112">
+<image source="6x6_04.png" trans="ff00ff" width="106" height="112"/>
+</tileset>
+<tileset firstgid="74" name="6x6_03" tilewidth="188" tileheight="115">
+<image source="6x6_03.png" trans="ff00ff" width="188" height="115"/>
+</tileset>
+<tileset firstgid="75" name="6x6_02" tilewidth="120" tileheight="87">
+<image source="6x6_02.png" trans="ff00ff" width="120" height="87"/>
+</tileset>
+<tileset firstgid="76" name="6x6_01" tilewidth="96" tileheight="94">
+<image source="6x6_01.png" trans="ff00ff" width="96" height="94"/>
+</tileset>
+<tileset firstgid="77" name="pause" tilewidth="84" tileheight="86">
+<image source="pause.png" trans="ff00ff" width="84" height="86"/>
+</tileset>
+<tileset firstgid="78" name="ads" tilewidth="1024" tileheight="94">
+<image source="ads.png" trans="ff00ff" width="1024" height="94"/>
+</tileset>
+<objectgroup name="BGObject" width="1" height="1">
+<object name="l03_Jigsaw_bg" gid="1" x="0" y="768">
+<properties>
+<property name="Name" value="l03_Jigsaw_bg"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="l03_Jigsaw_back" gid="2" x="200" y="727">
+<properties>
+<property name="ID" value="l03_Jigsaw_back"/>
+<property name="ResWidth" value="624"/>
+<property name="ResHeight" value="624"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="l03_Jigsaw_frame" gid="3" x="207" y="749">
+<properties>
+<property name="ID" value="l03_Jigsaw_frame"/>
+<property name="ResWidth" value="610"/>
+<property name="ResHeight" value="636"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="l03_Jigsaw_bar" gid="4" x="364" y="737">
+<properties>
+<property name="ID" value="l03_Jigsaw_bar"/>
+<property name="ResWidth" value="297"/>
+<property name="ResHeight" value="27"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_36_shade" gid="5" x="656" y="715">
+<properties>
+<property name="ID" value="6x6_36_shade"/>
+<property name="ResWidth" value="152"/>
+<property name="ResHeight" value="127"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_35_shade" gid="6" x="546" y="708">
+<properties>
+<property name="ID" value="6x6_35_shade"/>
+<property name="ResWidth" value="178"/>
+<property name="ResHeight" value="140"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_34_shade" gid="7" x="389" y="715">
+<properties>
+<property name="ID" value="6x6_34_shade"/>
+<property name="ResWidth" value="289"/>
+<property name="ResHeight" value="122"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_33_shade" gid="8" x="329" y="708">
+<properties>
+<property name="ID" value="6x6_33_shade"/>
+<property name="ResWidth" value="113"/>
+<property name="ResHeight" value="105"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_32_shade" gid="9" x="234" y="715">
+<properties>
+<property name="ID" value="6x6_32_shade"/>
+<property name="ResWidth" value="175"/>
+<property name="ResHeight" value="112"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_31_shade" gid="10" x="216" y="715">
+<properties>
+<property name="ID" value="6x6_31_shade"/>
+<property name="ResWidth" value="98"/>
+<property name="ResHeight" value="112"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_30_shade" gid="11" x="714" y="687">
+<properties>
+<property name="ID" value="6x6_30_shade"/>
+<property name="ResWidth" value="93"/>
+<property name="ResHeight" value="178"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_29_shade" gid="12" x="615" y="634">
+<properties>
+<property name="ID" value="6x6_29_shade"/>
+<property name="ResWidth" value="136"/>
+<property name="ResHeight" value="143"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_28_shade" gid="13" x="498" y="626">
+<properties>
+<property name="ID" value="6x6_28_shade"/>
+<property name="ResWidth" value="178"/>
+<property name="ResHeight" value="128"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_27_shade" gid="14" x="396" y="690">
+<properties>
+<property name="ID" value="6x6_27_shade"/>
+<property name="ResWidth" value="157"/>
+<property name="ResHeight" value="198"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_26_shade" gid="15" x="289" y="632">
+<properties>
+<property name="ID" value="6x6_26_shade"/>
+<property name="ResWidth" value="145"/>
+<property name="ResHeight" value="138"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_25_shade" gid="16" x="216" y="630">
+<properties>
+<property name="ID" value="6x6_25_shade"/>
+<property name="ResWidth" value="131"/>
+<property name="ResHeight" value="141"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_24_shade" gid="17" x="678" y="542">
+<properties>
+<property name="ID" value="6x6_24_shade"/>
+<property name="ResWidth" value="129"/>
+<property name="ResHeight" value="129"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_23_shade" gid="18" x="591" y="536">
+<properties>
+<property name="ID" value="6x6_23_shade"/>
+<property name="ResWidth" value="129"/>
+<property name="ResHeight" value="124"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_22_shade" gid="19" x="498" y="536">
+<properties>
+<property name="ID" value="6x6_22_shade"/>
+<property name="ResWidth" value="123"/>
+<property name="ResHeight" value="129"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_21_shade" gid="20" x="402" y="534">
+<properties>
+<property name="ID" value="6x6_21_shade"/>
+<property name="ResWidth" value="141"/>
+<property name="ResHeight" value="147"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_20_shade" gid="21" x="297" y="539">
+<properties>
+<property name="ID" value="6x6_20_shade"/>
+<property name="ResWidth" value="141"/>
+<property name="ResHeight" value="137"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_19_shade" gid="22" x="216" y="543">
+<properties>
+<property name="ID" value="6x6_19_shade"/>
+<property name="ResWidth" value="128"/>
+<property name="ResHeight" value="139"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_18_shade" gid="23" x="699" y="500">
+<properties>
+<property name="ID" value="6x6_18_shade"/>
+<property name="ResWidth" value="109"/>
+<property name="ResHeight" value="226"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_17_shade" gid="24" x="601" y="456">
+<properties>
+<property name="ID" value="6x6_17_shade"/>
+<property name="ResWidth" value="184"/>
+<property name="ResHeight" value="137"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_16_shade" gid="25" x="498" y="438">
+<properties>
+<property name="ID" value="6x6_16_shade"/>
+<property name="ResWidth" value="171"/>
+<property name="ResHeight" value="133"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_15_shade" gid="26" x="399" y="435">
+<properties>
+<property name="ID" value="6x6_15_shade"/>
+<property name="ResWidth" value="157"/>
+<property name="ResHeight" value="116"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_14_shade" gid="27" x="300" y="440">
+<properties>
+<property name="ID" value="6x6_14_shade"/>
+<property name="ResWidth" value="155"/>
+<property name="ResHeight" value="152"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_13_shade" gid="28" x="216" y="441">
+<properties>
+<property name="ID" value="6x6_13_shade"/>
+<property name="ResWidth" value="120"/>
+<property name="ResHeight" value="155"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_12_shade" gid="29" x="689" y="329">
+<properties>
+<property name="ID" value="6x6_12_shade"/>
+<property name="ResWidth" value="106"/>
+<property name="ResHeight" value="107"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_11_shade" gid="30" x="623" y="355">
+<properties>
+<property name="ID" value="6x6_11_shade"/>
+<property name="ResWidth" value="108"/>
+<property name="ResHeight" value="130"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_10_shade" gid="31" x="500" y="341">
+<properties>
+<property name="ID" value="6x6_10_shade"/>
+<property name="ResWidth" value="167"/>
+<property name="ResHeight" value="153"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_09_shade" gid="32" x="392" y="340">
+<properties>
+<property name="ID" value="6x6_09_shade"/>
+<property name="ResWidth" value="191"/>
+<property name="ResHeight" value="124"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_08_shade" gid="33" x="282" y="326">
+<properties>
+<property name="ID" value="6x6_08_shade"/>
+<property name="ResWidth" value="184"/>
+<property name="ResHeight" value="139"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_07_shade" gid="34" x="216" y="342">
+<properties>
+<property name="ID" value="6x6_07_shade"/>
+<property name="ResWidth" value="103"/>
+<property name="ResHeight" value="174"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_06_shade" gid="35" x="656" y="307">
+<properties>
+<property name="ID" value="6x6_06_shade"/>
+<property name="ResWidth" value="151"/>
+<property name="ResHeight" value="184"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_05_shade" gid="36" x="547" y="253">
+<properties>
+<property name="ID" value="6x6_05_shade"/>
+<property name="ResWidth" value="207"/>
+<property name="ResHeight" value="130"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_04_shade" gid="37" x="486" y="259">
+<properties>
+<property name="ID" value="6x6_04_shade"/>
+<property name="ResWidth" value="124"/>
+<property name="ResHeight" value="129"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_03_shade" gid="38" x="371" y="256">
+<properties>
+<property name="ID" value="6x6_03_shade"/>
+<property name="ResWidth" value="205"/>
+<property name="ResHeight" value="133"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_02_shade" gid="39" x="293" y="229">
+<properties>
+<property name="ID" value="6x6_02_shade"/>
+<property name="ResWidth" value="137"/>
+<property name="ResHeight" value="106"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_01_shade" gid="40" x="216" y="235">
+<properties>
+<property name="ID" value="6x6_01_shade"/>
+<property name="ResWidth" value="114"/>
+<property name="ResHeight" value="112"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_36" gid="41" x="665" y="701">
+<properties>
+<property name="ID" value="6x6_36"/>
+<property name="ResWidth" value="134"/>
+<property name="ResHeight" value="110"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_35" gid="42" x="555" y="695">
+<properties>
+<property name="ID" value="6x6_35"/>
+<property name="ResWidth" value="161"/>
+<property name="ResHeight" value="124"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_34" gid="43" x="398" y="701">
+<properties>
+<property name="ID" value="6x6_34"/>
+<property name="ResWidth" value="272"/>
+<property name="ResHeight" value="104"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_33" gid="44" x="338" y="694">
+<properties>
+<property name="ID" value="6x6_33"/>
+<property name="ResWidth" value="95"/>
+<property name="ResHeight" value="87"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_32" gid="45" x="242" y="701">
+<properties>
+<property name="ID" value="6x6_32"/>
+<property name="ResWidth" value="158"/>
+<property name="ResHeight" value="95"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_31" gid="46" x="226" y="701">
+<properties>
+<property name="ID" value="6x6_31"/>
+<property name="ResWidth" value="80"/>
+<property name="ResHeight" value="94"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_30" gid="47" x="723" y="673">
+<properties>
+<property name="ID" value="6x6_30"/>
+<property name="ResWidth" value="75"/>
+<property name="ResHeight" value="161"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_29" gid="48" x="624" y="621">
+<properties>
+<property name="ID" value="6x6_29"/>
+<property name="ResWidth" value="119"/>
+<property name="ResHeight" value="126"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_28" gid="49" x="507" y="613">
+<properties>
+<property name="ID" value="6x6_28"/>
+<property name="ResWidth" value="161"/>
+<property name="ResHeight" value="111"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_27" gid="50" x="404" y="676">
+<properties>
+<property name="ID" value="6x6_27"/>
+<property name="ResWidth" value="141"/>
+<property name="ResHeight" value="181"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_26" gid="51" x="298" y="618">
+<properties>
+<property name="ID" value="6x6_26"/>
+<property name="ResWidth" value="128"/>
+<property name="ResHeight" value="121"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_25" gid="52" x="226" y="616">
+<properties>
+<property name="ID" value="6x6_25"/>
+<property name="ResWidth" value="112"/>
+<property name="ResHeight" value="123"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_24" gid="53" x="687" y="529">
+<properties>
+<property name="ID" value="6x6_24"/>
+<property name="ResWidth" value="111"/>
+<property name="ResHeight" value="112"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_23" gid="54" x="600" y="523">
+<properties>
+<property name="ID" value="6x6_23"/>
+<property name="ResWidth" value="111"/>
+<property name="ResHeight" value="108"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_22" gid="55" x="507" y="523">
+<properties>
+<property name="ID" value="6x6_22"/>
+<property name="ResWidth" value="105"/>
+<property name="ResHeight" value="112"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_21" gid="56" x="411" y="520">
+<properties>
+<property name="ID" value="6x6_21"/>
+<property name="ResWidth" value="123"/>
+<property name="ResHeight" value="129"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_20" gid="57" x="305" y="525">
+<properties>
+<property name="ID" value="6x6_20"/>
+<property name="ResWidth" value="125"/>
+<property name="ResHeight" value="119"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_19" gid="58" x="226" y="530">
+<properties>
+<property name="ID" value="6x6_19"/>
+<property name="ResWidth" value="109"/>
+<property name="ResHeight" value="122"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_18" gid="59" x="708" y="487">
+<properties>
+<property name="ID" value="6x6_18"/>
+<property name="ResWidth" value="91"/>
+<property name="ResHeight" value="210"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_17" gid="60" x="609" y="443">
+<properties>
+<property name="ID" value="6x6_17"/>
+<property name="ResWidth" value="168"/>
+<property name="ResHeight" value="120"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_16" gid="61" x="507" y="425">
+<properties>
+<property name="ID" value="6x6_16"/>
+<property name="ResWidth" value="153"/>
+<property name="ResHeight" value="116"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_15" gid="62" x="408" y="421">
+<properties>
+<property name="ID" value="6x6_15"/>
+<property name="ResWidth" value="140"/>
+<property name="ResHeight" value="98"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_14" gid="63" x="309" y="427">
+<properties>
+<property name="ID" value="6x6_14"/>
+<property name="ResWidth" value="137"/>
+<property name="ResHeight" value="135"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_13" gid="64" x="226" y="427">
+<properties>
+<property name="ID" value="6x6_13"/>
+<property name="ResWidth" value="102"/>
+<property name="ResHeight" value="138"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_12" gid="65" x="698" y="315">
+<properties>
+<property name="ID" value="6x6_12"/>
+<property name="ResWidth" value="88"/>
+<property name="ResHeight" value="90"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_11" gid="66" x="631" y="342">
+<properties>
+<property name="ID" value="6x6_11"/>
+<property name="ResWidth" value="92"/>
+<property name="ResHeight" value="113"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_10" gid="67" x="509" y="327">
+<properties>
+<property name="ID" value="6x6_10"/>
+<property name="ResWidth" value="150"/>
+<property name="ResHeight" value="135"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_09" gid="68" x="401" y="326">
+<properties>
+<property name="ID" value="6x6_09"/>
+<property name="ResWidth" value="174"/>
+<property name="ResHeight" value="106"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_08" gid="69" x="291" y="312">
+<properties>
+<property name="ID" value="6x6_08"/>
+<property name="ResWidth" value="166"/>
+<property name="ResHeight" value="121"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_07" gid="70" x="226" y="328">
+<properties>
+<property name="ID" value="6x6_07"/>
+<property name="ResWidth" value="84"/>
+<property name="ResHeight" value="156"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_06" gid="71" x="665" y="294">
+<properties>
+<property name="ID" value="6x6_06"/>
+<property name="ResWidth" value="133"/>
+<property name="ResHeight" value="166"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_05" gid="72" x="556" y="239">
+<properties>
+<property name="ID" value="6x6_05"/>
+<property name="ResWidth" value="190"/>
+<property name="ResHeight" value="111"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_04" gid="73" x="495" y="245">
+<properties>
+<property name="ID" value="6x6_04"/>
+<property name="ResWidth" value="106"/>
+<property name="ResHeight" value="112"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_03" gid="74" x="379" y="243">
+<properties>
+<property name="ID" value="6x6_03"/>
+<property name="ResWidth" value="188"/>
+<property name="ResHeight" value="115"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_02" gid="75" x="302" y="215">
+<properties>
+<property name="ID" value="6x6_02"/>
+<property name="ResWidth" value="120"/>
+<property name="ResHeight" value="87"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="6x6_01" gid="76" x="226" y="222">
+<properties>
+<property name="ID" value="6x6_01"/>
+<property name="ResWidth" value="96"/>
+<property name="ResHeight" value="94"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="pause" gid="77" x="27" y="745">
+<properties>
+<property name="ID" value="pause"/>
+<property name="ResWidth" value="84"/>
+<property name="ResHeight" value="86"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ads" gid="78" x="0" y="94">
+<properties>
+<property name="ID" value="ads"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="94"/>
+</properties>
+</object>
+</objectgroup>
+</map>

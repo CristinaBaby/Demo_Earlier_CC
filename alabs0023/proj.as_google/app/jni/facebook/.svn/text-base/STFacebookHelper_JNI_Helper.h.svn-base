@@ -1,0 +1,43 @@
+/*
+ * STFacebookHelper_JNI_Helper.h
+ *
+ *  Created on: 2013-7-8
+ *      Author: liujian
+ */
+ 
+#ifndef _STFACEBOOK_HELPER_H_
+#define _STFACEBOOK_HELPER_H_
+
+#include "../ST_JNI_Helper.h"
+//#include <string>
+//using namespace std;
+
+class STFacebookHelper
+{
+public:
+	virtual ~STFacebookHelper();
+	static STFacebookHelper* getInstance();
+	
+public:
+	// Cached Object
+	jobject STFacebookBridgeJava;
+	// Cached Classes.
+	jclass ClassSTFacebookBridge;
+	
+	// Cached Methods.
+	jmethodID MethodNativePostStatusUpdate;
+	jmethodID MethodNativePostPhotoFromAsset;
+	jmethodID MethodNativePostPhotoFromDrawable;
+	jmethodID MethodNativePostPhotoFromFile;
+	jmethodID MethodNativePostRichContentAsset;
+	jmethodID MethodNativePostRichContentDrawable;
+	jmethodID MethodNativePostRichContentFile;
+	
+public:
+	STFacebookHelper();
+	virtual void init(JNIEnv* pEnv, jobject pFacebookBridgeJava);
+	virtual void finalize();
+//	virtual void NativePostRichContentAsset(int tag, std::string message, std::string link, std::string filename);
+};
+
+#endif /* NEWSBLAST_JNI_HELPER_H_ */

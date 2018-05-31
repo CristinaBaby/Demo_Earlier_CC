@@ -1,0 +1,12 @@
+ID,ImageName,GalleryName,IsLock,Userdefault,Iap_ID,Iap_ID_A,IsNewImage,IsUsedNewImage
+1,Animals,Animals,FALSE,,,,,
+2,Animals,Animals,FALSE,,,,,
+3,Animals,Animals,FALSE,,,,,
+4,Animals,Animals,FALSE,,,,,
+5,Animals,Animals,FALSE,,,,,
+6,Animals,Animals,TRUE,purchase_animals,com.imagineappsltd.colorfree.unlockanimalspack,com.imagineappsltd.android_colorfree.unlockanimalspack,,
+7,Animals,Animals,TRUE,purchase_animals,com.imagineappsltd.colorfree.unlockanimalspack,com.imagineappsltd.android_colorfree.unlockanimalspack,,
+8,Animals,Animals,TRUE,purchase_animals,com.imagineappsltd.colorfree.unlockanimalspack,com.imagineappsltd.android_colorfree.unlockanimalspack,,
+9,Animals,Animals,TRUE,purchase_animals,com.imagineappsltd.colorfree.unlockanimalspack,com.imagineappsltd.android_colorfree.unlockanimalspack,,
+10,Animals,Animals,TRUE,purchase_animals,com.imagineappsltd.colorfree.unlockanimalspack,com.imagineappsltd.android_colorfree.unlockanimalspack,,
+11,Animals,Animals,TRUE,purchase_animals,com.imagineappsltd.colorfree.unlockanimalspack,com.imagineappsltd.android_colorfree.unlockanimalspack,,

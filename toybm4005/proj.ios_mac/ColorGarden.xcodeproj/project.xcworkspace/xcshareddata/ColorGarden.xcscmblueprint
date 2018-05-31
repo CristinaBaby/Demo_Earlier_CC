@@ -1,0 +1,205 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CA1AAD630933F035B3BDB11FD4DCA1C4BBCB917E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "954BEA439AA220A5C99EA0C7E5C4936602765038" : 0,
+    "90E61F0BF39BA0CF0C0334B139ED21750E143985" : 0,
+    "6DCED42059FB87FD6CAD46C685096FF0B0411F43" : 0,
+    "BBF27F814CDB42F06E757EF2616685D971D82008" : 0,
+    "CA1AAD630933F035B3BDB11FD4DCA1C4BBCB917E" : 0,
+    "DEAD899BFCDD6A65C5C2F114143D6AB12BE8F478" : 0,
+    "71535B655D02524635B1FC5E8042EC29483B4720" : 0,
+    "07D5A480A5379BF63673DB35BEBA9D7DAF2461A8" : 0,
+    "4292F9D6735E4EFE796ECBE8A15782B06057FD30" : 0,
+    "03476FE7973FD3CED93C84F896FDA5CE23059B3B" : 0,
+    "DF4FECEBB1EE5B93182E178F4CD1A4F0ADB79C26" : 0,
+    "B51FDC6B3D9950D818DBF659D167E537317A13D4" : 0,
+    "C1C11DC94C71352CDE91122570000DA6D7315D2B" : 0,
+    "3105C1D870888ABEFF1D0E05D5E08F5243793920" : 0,
+    "650B8DCF40B85030D9A9E4F09B7A4934E7F412BF" : 0,
+    "AD4E386BFB5A182639CF0FAE8112E961E0890DB5" : 0,
+    "EBEA048628EDEFF0D650CB20D5E06EAD014F6E21" : 0,
+    "638FBC0848579984B266E97A7D7A0CF3652FB837" : 0,
+    "E9D47B245716411F25FF781D50537050BCE18687" : 0,
+    "8BDB94148B981373EFB98A1B10FF7C7131214D9B" : 0,
+    "0EB9468C712671AECEEC628A325FB8C407086E5E" : 0,
+    "27688D1464EAAC34B940BEB732303E1B1EED65A6" : 0,
+    "7E73879CC30A265929EA9F1B325489EA3865FCCA" : 0,
+    "6FF92A685716C7A9FC2A389EEDC6B702D69BA967" : 0,
+    "08D05AEEB6F5D13C9B4B83FFCFD9899EF57EB7E0" : 0,
+    "F2CABC49E4024A438D784FD5F1E133CFDA656BEF" : 0,
+    "BE023096A3C75FFEB90283AF8C580D023C65E5FC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6D97998D-8DC3-4453-845A-748F76CBC07E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "954BEA439AA220A5C99EA0C7E5C4936602765038" : "alabs0008\/proj.ios_mac\/ios\/Depends\/adsdk\/ThirdAdsAdk\/inMobi\/",
+    "90E61F0BF39BA0CF0C0334B139ED21750E143985" : "ALABS0002G\/proj.ios_mac\/ios\/Depends\/iap\/",
+    "6DCED42059FB87FD6CAD46C685096FF0B0411F43" : "ALABS0002G\/proj.ios_mac\/ios\/Depends\/openUDID\/",
+    "BBF27F814CDB42F06E757EF2616685D971D82008" : "alabs0002\/proj.ios_mac\/ios\/Depends\/AnalysisManager",
+    "CA1AAD630933F035B3BDB11FD4DCA1C4BBCB917E" : "toybm4005\/",
+    "DEAD899BFCDD6A65C5C2F114143D6AB12BE8F478" : "alabs0008\/",
+    "71535B655D02524635B1FC5E8042EC29483B4720" : "alabs0002",
+    "07D5A480A5379BF63673DB35BEBA9D7DAF2461A8" : "alabs0002proj.ios_mac\/ios\/Depends\/Flurry",
+    "4292F9D6735E4EFE796ECBE8A15782B06057FD30" : "alabs0008\/proj.ios_mac\/ios\/Depends\/adsdk\/ThirdAdsAdk\/mMedia\/",
+    "03476FE7973FD3CED93C84F896FDA5CE23059B3B" : "alabs0002proj.ios_mac\/ios\/Depends\/AdmobSDK",
+    "DF4FECEBB1EE5B93182E178F4CD1A4F0ADB79C26" : "ALABS0002G\/proj.ios_mac\/ios\/Depends\/adsdk\/ThirdAdsAdk\/fyber\/",
+    "B51FDC6B3D9950D818DBF659D167E537317A13D4" : "alabs0002proj.ios_mac\/ios\/Depends\/MoPubSDK",
+    "C1C11DC94C71352CDE91122570000DA6D7315D2B" : "ALABS0002\/Classes\/crossplatformapi\/",
+    "3105C1D870888ABEFF1D0E05D5E08F5243793920" : "toybm4003\/",
+    "650B8DCF40B85030D9A9E4F09B7A4934E7F412BF" : "toybm4004\/",
+    "AD4E386BFB5A182639CF0FAE8112E961E0890DB5" : "alabs0002proj.ios_mac\/ios\/Depends\/Chartboost",
+    "EBEA048628EDEFF0D650CB20D5E06EAD014F6E21" : "ALABS0002G\/proj.ios_mac\/ios\/Depends\/adsdk\/",
+    "638FBC0848579984B266E97A7D7A0CF3652FB837" : "ALABS0002\/proj.ios_mac\/ios\/Depends\/AnalyticsSDK\/",
+    "E9D47B245716411F25FF781D50537050BCE18687" : "alabs0002proj.ios_mac\/ios\/Depends\/AdsPopup",
+    "8BDB94148B981373EFB98A1B10FF7C7131214D9B" : "alabs0008\/proj.ios_mac\/ios\/Depends\/Component\/",
+    "0EB9468C712671AECEEC628A325FB8C407086E5E" : "toybm4002\/",
+    "27688D1464EAAC34B940BEB732303E1B1EED65A6" : "alabs0002proj.ios_mac\/ios\/Depends\/AdColony",
+    "7E73879CC30A265929EA9F1B325489EA3865FCCA" : "alabs0009\/",
+    "6FF92A685716C7A9FC2A389EEDC6B702D69BA967" : "alabs0002proj.ios_mac\/ios\/Depends\/Analytics",
+    "08D05AEEB6F5D13C9B4B83FFCFD9899EF57EB7E0" : "ALABS0002G\/proj.ios_mac\/ios\/Depends\/aboutPage\/",
+    "F2CABC49E4024A438D784FD5F1E133CFDA656BEF" : "ALABS0002G\/proj.ios_mac\/ios\/Depends\/newblast\/",
+    "BE023096A3C75FFEB90283AF8C580D023C65E5FC" : "ALABS0002G\/proj.ios_mac\/ios\/Depends\/aboutPageSources\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ColorGarden",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "proj.ios_mac\/ColorGarden.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmf\/admob-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03476FE7973FD3CED93C84F896FDA5CE23059B3B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmf\/flurry-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "07D5A480A5379BF63673DB35BEBA9D7DAF2461A8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmc\/about-page-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "08D05AEEB6F5D13C9B4B83FFCFD9899EF57EB7E0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmfpg\/toybm4002.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0EB9468C712671AECEEC628A325FB8C407086E5E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmf\/adcolony-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "27688D1464EAAC34B940BEB732303E1B1EED65A6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmfpg\/toybm4003.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3105C1D870888ABEFF1D0E05D5E08F5243793920"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmf\/mmedia-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4292F9D6735E4EFE796ECBE8A15782B06057FD30"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmc\/analyticssdk-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "638FBC0848579984B266E97A7D7A0CF3652FB837"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmfpg\/toybm4004.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "650B8DCF40B85030D9A9E4F09B7A4934E7F412BF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmf\/openudid-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6DCED42059FB87FD6CAD46C685096FF0B0411F43"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmc\/analytics-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6FF92A685716C7A9FC2A389EEDC6B702D69BA967"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmfpg\/alabs0002.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "71535B655D02524635B1FC5E8042EC29483B4720"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmfpg\/alabs0009.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7E73879CC30A265929EA9F1B325489EA3865FCCA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmc\/component-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8BDB94148B981373EFB98A1B10FF7C7131214D9B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmc\/iapurchase-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "90E61F0BF39BA0CF0C0334B139ED21750E143985"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmf\/inmobi-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "954BEA439AA220A5C99EA0C7E5C4936602765038"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmf\/chartboost-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD4E386BFB5A182639CF0FAE8112E961E0890DB5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmf\/mopub-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B51FDC6B3D9950D818DBF659D167E537317A13D4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmc\/analysismanager-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BBF27F814CDB42F06E757EF2616685D971D82008"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmc\/studio-resources.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BE023096A3C75FFEB90283AF8C580D023C65E5FC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmc\/crossplatformapi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C1C11DC94C71352CDE91122570000DA6D7315D2B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmfpg\/toybm4005.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CA1AAD630933F035B3BDB11FD4DCA1C4BBCB917E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmfpg\/alabs0008.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DEAD899BFCDD6A65C5C2F114143D6AB12BE8F478"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmf\/fyber-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DF4FECEBB1EE5B93182E178F4CD1A4F0ADB79C26"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmc\/adspopup-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E9D47B245716411F25FF781D50537050BCE18687"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmc\/adssdk-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EBEA048628EDEFF0D650CB20D5E06EAD014F6E21"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.stm.com:7999\/cmc\/newsblast-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F2CABC49E4024A438D784FD5F1E133CFDA656BEF"
+    }
+  ]
+}

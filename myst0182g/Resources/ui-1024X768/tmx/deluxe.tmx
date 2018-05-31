@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="1024" tileheight="768">
+<tileset firstgid="1" name="bg" tilewidth="1024" tileheight="768">
+<image source="bg.jpg" trans="ff00ff" width="1024" height="768"/>
+</tileset>
+<tileset firstgid="2" name="ui05_box" tilewidth="850" tileheight="617">
+<image source="ui05_box.png" trans="ff00ff" width="850" height="617"/>
+</tileset>
+<tileset firstgid="3" name="ui08_btn_restore" tilewidth="293" tileheight="75">
+<image source="ui08_btn_restore.png" trans="ff00ff" width="293" height="75"/>
+</tileset>
+<tileset firstgid="4" name="ui08_btn_restore_h" tilewidth="293" tileheight="77">
+<image source="ui08_btn_restore_h.png" trans="ff00ff" width="293" height="77"/>
+</tileset>
+<tileset firstgid="5" name="ui07_close" tilewidth="62" tileheight="62">
+<image source="ui07_close.png" trans="ff00ff" width="62" height="62"/>
+</tileset>
+<tileset firstgid="6" name="ui07_close_h" tilewidth="74" tileheight="74">
+<image source="ui07_close_h.png" trans="ff00ff" width="74" height="74"/>
+</tileset>
+<tileset firstgid="7" name="ui08_hint" tilewidth="661" tileheight="149">
+<image source="ui08_hint.png" trans="ff00ff" width="661" height="149"/>
+</tileset>
+<tileset firstgid="8" name="ui08_pictures" tilewidth="661" tileheight="150">
+<image source="ui08_pictures.png" trans="ff00ff" width="661" height="150"/>
+</tileset>
+<tileset firstgid="9" name="ui08_noad" tilewidth="661" tileheight="150">
+<image source="ui08_noad.png" trans="ff00ff" width="661" height="150"/>
+</tileset>
+<tileset firstgid="10" name="ui08_btn_buy" tilewidth="115" tileheight="115">
+<image source="ui08_btn_buy.png" trans="ff00ff" width="115" height="115"/>
+</tileset>
+<tileset firstgid="11" name="ui08_btn_buy2" tilewidth="116" tileheight="115">
+<image source="ui08_btn_buy2.png" trans="ff00ff" width="116" height="115"/>
+</tileset>
+<tileset firstgid="12" name="ui08_btn_buy_h" tilewidth="120" tileheight="119">
+<image source="ui08_btn_buy_h.png" trans="ff00ff" width="120" height="119"/>
+</tileset>
+<tileset firstgid="13" name="ui08_deluxe" tilewidth="720" tileheight="124">
+<image source="ui08_deluxe.png" trans="ff00ff" width="720" height="124"/>
+</tileset>
+<objectgroup name="BGObject" width="1" height="1">
+<object name="bg" gid="1" x="0" y="768">
+<properties>
+<property name="Name" value="bg"/>
+<property name="ResWidth" value="1024"/>
+<property name="ResHeight" value="768"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui05_box" gid="2" x="89" y="670">
+<properties>
+<property name="ID" value="ui05_box"/>
+<property name="ResWidth" value="850"/>
+<property name="ResHeight" value="617"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui08_btn_restore" gid="3" x="365" y="639">
+<properties>
+<property name="ID" value="ui08_btn_restore"/>
+<property name="ResWidth" value="293"/>
+<property name="ResHeight" value="75"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui08_btn_restore_h" gid="4" x="365" y="639">
+<properties>
+<property name="ID" value="ui08_btn_restore_h"/>
+<property name="ResWidth" value="293"/>
+<property name="ResHeight" value="77"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_close" gid="5" x="876" y="153">
+<properties>
+<property name="ID" value="ui07_close"/>
+<property name="ResWidth" value="62"/>
+<property name="ResHeight" value="62"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui07_close_h" gid="6" x="870" y="158">
+<properties>
+<property name="ID" value="ui07_close_h"/>
+<property name="ResWidth" value="74"/>
+<property name="ResHeight" value="74"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui08_hint" gid="7" x="155" y="535">
+<properties>
+<property name="ID" value="ui08_hint"/>
+<property name="ResWidth" value="661"/>
+<property name="ResHeight" value="149"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui08_pictures" gid="8" x="155" y="370">
+<properties>
+<property name="ID" value="ui08_pictures"/>
+<property name="ResWidth" value="661"/>
+<property name="ResHeight" value="150"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui08_noad" gid="9" x="155" y="370">
+<properties>
+<property name="ID" value="ui08_noad"/>
+<property name="ResWidth" value="661"/>
+<property name="ResHeight" value="150"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui08_btn_buy" gid="10" x="752" y="507">
+<properties>
+<property name="ID" value="ui08_btn_buy"/>
+<property name="ResWidth" value="115"/>
+<property name="ResHeight" value="115"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui08_btn_buy2" gid="11" x="749" y="342">
+<properties>
+<property name="ID" value="ui08_btn_buy2"/>
+<property name="ResWidth" value="116"/>
+<property name="ResHeight" value="115"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui08_btn_buy_h" gid="12" x="747" y="344">
+<properties>
+<property name="ID" value="ui08_btn_buy_h"/>
+<property name="ResWidth" value="120"/>
+<property name="ResHeight" value="119"/>
+</properties>
+</object>
+</objectgroup>
+<objectgroup name="Object" width="1" height="1">
+<object name="ui08_deluxe" gid="13" x="154" y="171">
+<properties>
+<property name="ID" value="ui08_deluxe"/>
+<property name="ResWidth" value="720"/>
+<property name="ResHeight" value="124"/>
+</properties>
+</object>
+</objectgroup>
+</map>

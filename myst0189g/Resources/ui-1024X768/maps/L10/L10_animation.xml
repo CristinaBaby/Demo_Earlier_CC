@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>L10_animation.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>coin star</name>
+            <delay>0.06</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>L10_coin_star_01.png</spriteFrame>
+            <spriteFrame>L10_coin_star_02.png</spriteFrame>
+            <spriteFrame>L10_coin_star_03.png</spriteFrame>
+            <spriteFrame>L10_coin_star_04.png</spriteFrame>
+            <spriteFrame>L10_coin_star_05.png</spriteFrame>
+            <spriteFrame>L10_coin_star_06.png</spriteFrame>
+            <spriteFrame>L10_coin_star_07.png</spriteFrame>
+            <spriteFrame>L10_coin_star_08.png</spriteFrame>
+            <spriteFrame>L10_coin_star_09.png</spriteFrame>
+            <spriteFrame>L10_coin_star_10.png</spriteFrame>
+            <spriteFrame>L10_coin_star_11.png</spriteFrame>
+            <spriteFrame>L10_coin_star_12.png</spriteFrame>
+            <spriteFrame>L10_coin_star_13.png</spriteFrame>
+        </animation>
+    </animations>
+</root>
